@@ -1,0 +1,7 @@
+matplotlib==3.9.2
+numpy==2.1.0
+pandas==2.2.2
+PuLP==2.8.0
+Requests==2.32.3
+scikit_learn==1.5.1
+selenium==4.23.1
