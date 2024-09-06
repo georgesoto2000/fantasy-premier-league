@@ -23,7 +23,7 @@ class Transfer:
         self.squad = squad
         self.season_predictions = season_predictions
 
-    def transferrable_players(self, player: str) -> pd.DataFrame:
+    def transferrable_players(self, player: str, additional_budget=0) -> pd.DataFrame:
         """List the top transfer available for a player
 
         Args:
@@ -44,7 +44,7 @@ class Transfer:
         cost = self.squad.loc[self.squad["NAME"] == player, "COST"].values[0]
         potential_transfers = predicted_season[
             (predicted_season["POSITION"] == position)
-            & (predicted_season["COST"] <= cost)
+            & (predicted_season["COST"] <= (cost + additional_budget))
         ]
         return potential_transfers.sort_values(by="Predicted_Points", ascending=False)
 

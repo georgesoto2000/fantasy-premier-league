@@ -9,8 +9,10 @@ if __name__ == "__main__":
         ["NAME", "RK", "POSITION", "COST", "Predicted_Points"]
     ]
     transfer = Transfer(squad=squad, season_predictions=predictions)
-    print(transfer.transferrable_players("phil foden"))
+    print(
+        transfer.transferrable_players("dominic solanke-mitchell", additional_budget=24)
+    )
     transfer.confirm_transfer(
-        player_out="fabian schar", player_in="diogo dalot teixeira"
+        player_out="dominic solanke-mitchell", player_in="kai havertz"
     )
     transfer.squad.to_csv("data/squad.csv")
