@@ -1,13 +1,13 @@
-from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.model_selection import train_test_split
-from sklearn.impute import KNNImputer
-import pandas as pd
-from sklearn.metrics import mean_absolute_error
-import numpy as np
-from sklearn.model_selection import GridSearchCV
 import logging
-import matplotlib.pyplot as plt
 import pickle
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.impute import KNNImputer
+from sklearn.metrics import mean_absolute_error
+from sklearn.model_selection import GridSearchCV, train_test_split
 
 
 class Predictor:
