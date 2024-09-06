@@ -28,7 +28,7 @@ class FplApi:
         """gets data from api and creates players, positions and teams DFs"""
         self.log.info(f"Get request to {self.base_url + 'bootstrap-static/'}")
         r = requests.get(self.base_url + "bootstrap-static/").json()
-        self.players = pd.json_normalize(r["element"])
+        self.players = pd.json_normalize(r["elements"])
         self.positions = pd.json_normalize(r["element_types"])
         self.teams = pd.json_normalize(r["teams"])
 
