@@ -271,12 +271,17 @@ class Predictor:
         self.log.info("Prediction finished")
         return predicted_data
 
-    def save_model(self):
+    def save_model(self) -> None:
         """Saves model to 'models/season_model.sav'"""
         filename = "models/season_model.sav"
         self.log.info(f"Saving model to {filename}")
         pickle.dump(self.model, open(filename, "wb"))
 
-    def load_model(self, filename):
+    def load_model(self, filename: str) -> None:
+        """Loads model into self from file
+
+        Args:
+            filename (string): filename of model to load
+        """
         self.model = pickle.load(open(filename, "rb"))
         self.log.info(f"Model {filename} loaded in")
