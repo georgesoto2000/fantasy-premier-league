@@ -14,4 +14,3 @@ if __name__ == "__main__":
         player_out="fabian schar", player_in="diogo dalot teixeira"
     )
     transfer.squad.to_csv("data/squad.csv")
-#  TODO save model

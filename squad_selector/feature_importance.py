@@ -1,13 +1,13 @@
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.ensemble import GradientBoostingRegressor
 import shap
+from sklearn.ensemble import GradientBoostingRegressor
 
 
 class FeatureImportance:
     def plot_importance(
-        importances: np.array, feature_names: list, X: pd.DataFrame, fname: str
+        importances: np.array, feature_names: list, x_data: pd.DataFrame, fname: str
     ) -> None:
         """Display Factor Importances
 
@@ -21,8 +21,8 @@ class FeatureImportance:
         names = [feature_names[i] for i in indices]
         plt.figure(figsize=(10, 6))
         plt.title("Feature Importances")
-        plt.bar(range(X.shape[1]), importances[indices])
-        plt.xticks(range(X.shape[1]), names, rotation=90)
+        plt.bar(range(x_data.shape[1]), importances[indices])
+        plt.xticks(range(x_data.shape[1]), names, rotation=90)
         plt.xlabel("Features")
         plt.ylabel("Importance")
         plt.savefig(fname)

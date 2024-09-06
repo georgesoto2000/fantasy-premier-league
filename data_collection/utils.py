@@ -2,8 +2,12 @@ import unicodedata
 
 
 class StringsUtils:
+    """Utils for manipulating strings to
+    fix names scraped from the web
+    """
+
     def replace_special_character(name: str) -> str:
-        """Takes a player's name and replaces any special characters with their 
+        """Takes a player's name and replaces any special characters with their
         anglo-alphabetic equivalant
 
         Args:
@@ -15,15 +19,17 @@ class StringsUtils:
 
         if name is not None:
             name = name.lower()
-            normalized_text = unicodedata.normalize('NFKD', name)
-            ascii_text = ''.join(c for c in normalized_text if unicodedata.category(c) != 'Mn')
+            normalized_text = unicodedata.normalize("NFKD", name)
+            ascii_text = "".join(
+                c for c in normalized_text if unicodedata.category(c) != "Mn"
+            )
             return ascii_text
         else:
             return None
-        
+
     def remove_full_stop(name: str) -> str:
         """removes the fullstop from a name and returns the longest part
-        e.g. B.Fernandes -> Fernandes 
+        e.g. B.Fernandes -> Fernandes
 
         Args:
             name (str): name to remove fullstop
@@ -31,7 +37,7 @@ class StringsUtils:
         Returns:
             str: name without fullstop
         """
-        sections = name.split('.')
+        sections = name.split(".")
         sections = [section.strip() for section in sections]
         longest = max(sections, key=len)
         return longest
@@ -45,6 +51,6 @@ class StringsUtils:
         Returns:
             str: corrected name
         """
-        if name and name[-1] == ' ':
+        if name and name[-1] == " ":
             name = name[:-1]
         return name

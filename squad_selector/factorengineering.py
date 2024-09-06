@@ -1,9 +1,12 @@
-import pandas as pd
-import numpy as np
 import logging
+
+import numpy as np
+import pandas as pd
 
 
 class FactorEngineering:
+    """Add additional calculated factors to data"""
+
     def __init__(self, player_data: pd.DataFrame) -> None:
         self.player_data = player_data
         logger = logging.getLogger(self.__class__.__name__)
@@ -27,44 +30,55 @@ class FactorEngineering:
         self.player_data["POSITION"] = self.player_data["POSITION"].str[:2]
 
     def add_xg_difference(self) -> None:
+        """calculate difference between goals and xg"""
         self.player_data["xg_diff"] = self.player_data["GOALS"] - self.player_data["xG"]
 
     def add_xa_difference(self) -> None:
+        """calculate difference in assists and xa"""
         self.player_data["xa_diff"] = (
             self.player_data["ASSISTS"] - self.player_data["xA"]
         )
 
     def add_minutes_per_game(self) -> None:
+        """calculate minutes per game"""
         self.player_data["MINUTES_PER_GAME"] = self.player_data["MINUTES"].div(
             self.player_data["MATCHES_PLAYED"], axis=0
         )
 
     def add_minutes_xg(self) -> None:
+        """calculate minutes per xG"""
         self.player_data["MINUTES_PER_XG"] = self.player_data["MINUTES"].div(
             self.player_data["xG"], axis=0
         )
 
     def add_minutes_xa(self) -> None:
+        """calculate minutes per xa"""
         self.player_data["MINUTES_PER_XA"] = self.player_data["MINUTES"].div(
             self.player_data["xA"], axis=0
         )
 
     def add_minutes_goals(self) -> None:
+        """calculate minutes per goal"""
         self.player_data["MINUTES_PER_GOAL"] = self.player_data["MINUTES"].div(
             self.player_data["GOALS"], axis=0
         )
 
     def add_minutes_assist(self) -> None:
+        """calculate minutes per assist"""
         self.player_data["MINUTES_PER_ASSIST"] = self.player_data["MINUTES"].div(
             self.player_data["ASSISTS"], axis=0
         )
 
     def add_minutes_points(self) -> None:
+        """calculate minute per FPL point"""
         self.player_data["MINUTES_PER_POINT"] = self.player_data["MINUTES"].div(
             self.player_data["POINTS"], axis=0
         )
 
     def replace_inf_values(self) -> None:
+        """Engineered factors may contain infinite values
+        This replaces them with appropriate values
+        """
         self.player_data[["MINUTES_PER_ASSIST", "MINUTES_PER_GOAL"]] = self.player_data[
             ["MINUTES_PER_ASSIST", "MINUTES_PER_GOAL"]
         ].replace(np.inf, 3510)
@@ -79,6 +93,8 @@ class FactorEngineering:
         ].replace(np.inf, 270)
 
     def remove_incorrect_rows(self) -> None:
+        """Some data may be incorrect,
+        removes rows with over 38 games in a season"""
         before_len = len(self.player_data)
         self.player_data = self.player_data[self.player_data["MATCHES_PLAYED"] < 39]
         after_len = len(self.player_data)

@@ -1,16 +1,13 @@
 import pandas as pd
 from tqdm import tqdm
-import logging 
+import logging
 from selenium import webdriver
 from utils import StringsUtils
 from selenium.webdriver.common.by import By
 
 
 class Scraper:
-    def __init__(self,
-                 player_data: dict,
-                 xpath_dict: dict,
-                 base_path: str):
+    def __init__(self, player_data: dict, xpath_dict: dict, base_path: str):
         self.base_path = base_path
         self.player_data = player_data
         self.xpath_dict = xpath_dict
@@ -18,13 +15,12 @@ class Scraper:
         logger = logging.getLogger(self.__class__.__name__)
         logger.setLevel(10)
         console_handler = logging.StreamHandler()
-        format = logging.Formatter("{asctime} - {levelname} - {message}", 
-                                   style="{", datefmt="%Y-%m-%d %H:%M")
+        format = logging.Formatter(
+            "{asctime} - {levelname} - {message}", style="{", datefmt="%Y-%m-%d %H:%M"
+        )
         console_handler.setFormatter(format)
         console_handler.setLevel("INFO")
-        file_handler = logging.FileHandler("logs/app.log", 
-                                           mode="a", 
-                                           encoding='utf-8')
+        file_handler = logging.FileHandler("logs/app.log", mode="a", encoding="utf-8")
         file_handler.setLevel("INFO")
         file_handler.setFormatter(format)
         logger.addHandler(file_handler)
@@ -42,13 +38,13 @@ class Scraper:
             _type_: stat
         """
         try:
-            stat = self.driver.find_element(By.XPATH, path).text     
+            stat = self.driver.find_element(By.XPATH, path).text
         except:  # TODO specific exception
             stat = None
         return stat
-    
+
     def get_player_stats_from_xpath(self, path: str) -> None:
-        """Gets player data from xpath 
+        """Gets player data from xpath
 
         Args:
             path (str): xpath path to player
@@ -61,28 +57,28 @@ class Scraper:
         """
         for key, value in self.xpath_dict.items():
             stat = self.get_element(path + value)
-            if key == 'Name':
+            if key == "Name":
                 stat = StringsUtils.replace_special_character(stat)
-            elif key == 'Nationality':
+            elif key == "Nationality":
                 try:
                     stat = stat.split()[1]
                 except:  # TODO specific exception
                     pass
             self.player_data[key].append(stat)
-    
+
     def scrape(self, url: str, filename: str):
         """opens webdriver and extracts player data
 
         Args:
             url (str): url of website to scrape from
-            filename (str): filename to save data to 
+            filename (str): filename to save data to
         """
         self.logger.info(f"Scraping for {filename}")
         self.logger.info("Opening browser")
         self.driver = webdriver.Chrome()
         self.driver.get(url)
         table = self.driver.find_element(By.XPATH, self.base_path)
-        table_length = len(table.find_elements(By.TAG_NAME, 'tr'))
+        table_length = len(table.find_elements(By.TAG_NAME, "tr"))
         self.logger.info("Scraping started")
         for i in tqdm(range(1, table_length)):
             xpath = self.base_path + f"/tr[{i}]"
