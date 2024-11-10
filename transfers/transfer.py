@@ -66,6 +66,16 @@ class Transfer:
             ["NAME", "RK", "POSITION", "COST", "Predicted_Points"]
         ]
 
+    def update_squad(self, squad: list) -> None:
+        """Manually update squad with list of players
+
+        Args:
+            squad (list): list of player names to have in squad
+        """
+        self.squad = self.season_predictions[
+            self.season_predictions["NAME"].isin(squad)
+        ].sort_values(by="POSITION")
+
     def update_prices(self):
         """Update to current prices with API"""
         pass
