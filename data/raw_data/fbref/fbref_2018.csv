@@ -1,1640 +1,528 @@
 ,Name,Nationality,Position,Team,Age,Matches Played,Starts,Minutes,Goals,Assists,Penalties,Penalty Attempts,Yellow Cards,Red Cards,xG,xA
-0,patrick van aanholt,NED,"DF,MF",Crystal Palace,25,11,8,714,2,0,0,0,1,0,0.25,0.25
-1,patrick van aanholt,NED,"DF,MF",Sunderland,25,21,20,"1,784",3,1,0,0,2,0,0.15,0.20
-2,charlie adam,SCO,MF,Stoke City,30,24,17,"1,517",1,3,1,1,7,0,0.06,0.24
-3,albert adomah,GHA,MF,Middlesbrough,28,2,1,122,0,0,0,0,0,0,0.00,0.00
-4,adrian,ESP,GK,West Ham,29,16,16,"1,440",0,0,0,0,1,0,0.00,0.00
-5,ibrahim afellay,NED,MF,Stoke City,30,12,3,384,0,0,0,0,0,0,0.00,0.00
-6,benik afobe,COD,FW,Bournemouth,23,31,14,"1,461",6,3,0,1,1,0,0.37,0.55
-7,sergio aguero,ARG,FW,Manchester City,28,31,25,"2,403",20,4,4,5,4,1,0.75,0.90
-8,dan agyei,ENG,"FW,MF",Burnley,19,3,0,25,0,0,0,0,0,0,0.00,0.00
-9,ola aina,NGA,"DF,MF",Chelsea,19,3,0,26,0,0,0,0,0,0,0.00,0.00
-10,nathan ake,NED,DF,Bournemouth,21,10,8,735,3,0,0,0,0,0,0.37,0.37
-11,nathan ake,NED,DF,Chelsea,21,2,1,99,0,0,0,0,1,0,0.00,0.00
-12,marc albrighton,ENG,MF,Leicester City,26,33,29,"2,411",2,6,0,0,5,0,0.07,0.30
-13,toby alderweireld,BEL,DF,Tottenham,27,30,30,"2,601",1,0,0,0,1,0,0.03,0.03
-14,trent alexander-arnold,ENG,"MF,DF",Liverpool,17,7,2,167,0,0,0,0,0,0,0.00,0.00
-15,joe allen,WAL,MF,Stoke City,26,36,34,"2,930",6,2,0,0,9,0,0.18,0.25
-16,dele alli,ENG,MF,Tottenham,20,37,35,"3,034",18,7,1,1,4,0,0.53,0.74
-17,ryan allsop,ENG,GK,Bournemouth,24,1,1,90,0,0,0,0,0,0,0.00,0.00
-18,marcos alonso,ESP,MF,Chelsea,25,31,30,"2,693",6,3,0,0,2,0,0.20,0.30
-19,daniel amartey,GHA,MF,Leicester City,21,24,17,"1,673",1,1,0,0,3,0,0.05,0.11
-20,jordi amat,IDN,DF,Swansea City,24,17,15,"1,409",0,0,0,0,5,0,0.00,0.00
-21,nordin amrabat,MAR,"MF,FW",Watford,29,29,25,"2,091",0,3,0,0,4,0,0.00,0.13
-22,victor anichebe,NGA,"FW,MF",Sunderland,28,18,14,"1,219",3,0,0,0,2,0,0.22,0.22
-23,michail antonio,JAM,"MF,FW",West Ham,26,29,29,"2,434",9,3,0,0,5,2,0.33,0.44
-24,ikechi anya,SCO,"FW,MF",Watford,28,1,0,10,0,0,0,0,0,0,0.00,0.00
+0,patrick van aanholt,NED,DF,Crystal Palace,27,36,36,"3,195",3,2,0,0,3,0,2.6,4.4
+1,sergio aguero,ARG,FW,Manchester City,30,33,31,"2,459",21,8,2,2,4,0,18.1,5.0
+2,nathan ake,NED,DF,Bournemouth,23,38,38,"3,411",4,0,0,0,3,0,3.4,1.0
+3,marc albrighton,ENG,"FW,MF",Leicester City,28,27,18,"1,625",2,2,0,0,3,0,1.2,2.9
+4,toby alderweireld,BEL,DF,Tottenham,29,34,33,"2,922",0,0,0,0,3,0,1.1,0.6
+5,trent alexander-arnold,ENG,DF,Liverpool,19,29,27,"2,462",1,12,0,0,3,0,1.6,6.3
+6,alisson,BRA,GK,Liverpool,25,38,38,"3,420",0,0,0,0,1,0,0.0,0.0
+7,dele alli,ENG,MF,Tottenham,22,25,22,"1,825",5,3,0,0,4,0,4.8,3.1
+8,miguel almiron,PAR,MF,Newcastle Utd,24,10,9,759,0,0,0,0,0,0,1.5,0.6
+9,marcos alonso,ESP,DF,Chelsea,27,31,31,"2,759",2,4,0,0,6,0,3.4,3.4
+10,daniel amartey,GHA,DF,Leicester City,23,9,7,641,0,0,0,0,2,0,0.3,0.1
+11,luke amos,ENG,MF,Tottenham,21,1,0,3,0,0,0,0,0,0,0.0,0.0
+12,felipe anderson,BRA,"MF,FW",West Ham,25,36,36,"3,043",9,4,0,0,3,0,5.5,6.1
+13,florin andone,ROU,FW,Brighton,25,23,8,881,3,0,0,0,5,0,2.5,0.1
+14,michail antonio,JAM,"MF,FW",West Ham,28,33,22,"2,103",6,4,0,0,3,0,7.1,4.4
+15,stuart armstrong,SCO,MF,Southampton,26,29,16,"1,432",3,2,0,0,2,0,2.0,1.5
+16,marko arnautovic,AUT,FW,West Ham,29,28,24,"1,990",10,4,1,1,3,0,8.9,4.4
+17,kepa arrizabalaga,ESP,GK,Chelsea,23,36,36,"3,240",0,0,0,0,2,0,0.0,0.0
+18,harry arter,IRL,MF,Cardiff City,28,25,24,"1,997",0,1,0,0,10,0,0.9,0.5
+19,christian atsu,GHA,MF,Newcastle Utd,26,28,15,"1,493",1,0,0,0,2,0,2.1,1.6
+20,pierre-emerick aubameyang,GAB,FW,Arsenal,29,36,30,"2,726",22,5,4,5,0,0,22.5,4.2
+21,serge aurier,CIV,DF,Tottenham,25,8,6,564,0,2,0,0,1,0,0.1,1.0
+22,charlie austin,ENG,FW,Southampton,29,25,11,983,2,2,0,1,1,0,3.6,0.9
+23,jordan ayew,GHA,FW,Crystal Palace,26,20,14,"1,181",1,2,0,0,3,0,2.9,1.2
+24,floyd ayite,TOG,"FW,MF",Fulham,29,16,3,476,1,0,0,0,0,0,0.4,0.5
 25,,,,,,,,,,,,,,,,
-26,alvaro arbeloa,ESP,DF,West Ham,33,3,1,258,0,0,0,0,3,0,0.00,0.00
-27,scott arfield,CAN,MF,Burnley,27,31,23,"2,102",1,1,0,0,3,0,0.04,0.09
-28,marko arnautovic,AUT,"MF,FW",Stoke City,27,32,32,"2,714",6,5,0,1,9,1,0.20,0.36
-29,harry arter,IRL,MF,Bournemouth,26,35,33,"2,957",1,3,0,1,12,2,0.03,0.12
-30,joel asoro,SWE,FW,Sunderland,17,1,0,10,0,0,0,0,0,0,0.00,0.00
-31,charlie austin,ENG,FW,Southampton,27,15,11,934,6,1,2,2,1,0,0.58,0.67
-32,daniel ayala,ESP,DF,Middlesbrough,25,14,11,918,1,0,0,0,3,0,0.10,0.10
-33,andre ayew,GHA,"MF,FW",West Ham,26,25,16,"1,438",6,3,0,0,1,0,0.38,0.56
-34,jordan ayew,GHA,"FW,MF",Swansea City,24,14,9,866,1,2,0,0,1,0,0.10,0.31
-35,cesar azpilicueta,ESP,DF,Chelsea,26,38,38,"3,420",1,4,0,0,4,0,0.03,0.13
-36,eric bailly,CIV,DF,Manchester Utd,22,25,24,"2,058",0,0,0,0,4,0,0.00,0.00
-37,leighton baines,ENG,"DF,MF",Everton,31,32,32,"2,819",2,3,2,3,4,0,0.06,0.16
-38,patrick bamford,ENG,FW,Middlesbrough,22,8,2,287,1,0,0,0,1,0,0.31,0.31
-39,patrick bamford,ENG,"FW,MF",Burnley,22,6,0,39,0,0,0,0,0,0,0.00,0.00
-40,phil bardsley,SCO,DF,Stoke City,31,15,14,"1,168",0,0,0,0,5,2,0.00,0.00
-41,ross barkley,ENG,"MF,FW",Everton,22,36,32,"2,899",5,8,0,0,5,0,0.16,0.40
-42,ashley barnes,ENG,FW,Burnley,26,28,20,"1,773",6,2,2,2,7,2,0.30,0.41
-43,antonio barragan,ESP,DF,Middlesbrough,29,26,26,"2,193",0,0,0,0,5,0,0.00,0.00
-44,modou barrow,GAM,"MF,FW",Swansea City,23,18,12,"1,145",0,2,0,0,1,0,0.00,0.16
-45,gareth barry,ENG,MF,Everton,35,33,23,"2,108",2,1,0,0,10,0,0.09,0.13
-46,joey barton,ENG,MF,Burnley,33,14,12,"1,105",1,0,0,0,4,0,0.08,0.08
-47,borja baston,ESP,FW,Swansea City,23,18,4,561,1,0,0,0,0,0,0.16,0.16
-48,michy batshuayi,BEL,FW,Chelsea,22,20,1,254,5,1,0,0,0,0,1.77,2.13
-49,asmir begovic,BIH,GK,Chelsea,29,2,2,180,0,0,0,0,0,0,0.00,0.00
-50,valon behrami,SUI,MF,Watford,31,27,26,"2,030",0,2,0,0,7,0,0.00,0.09
+26,cesar azpilicueta,ESP,DF,Chelsea,28,38,38,"3,402",1,5,0,0,4,0,1.2,2.4
+27,ryan babel,NED,"FW,MF",Fulham,31,16,15,"1,251",5,3,0,0,3,0,5.7,2.2
+28,juninho bacuna,CUW,"MF,DF",Huddersfield,20,21,16,"1,412",1,0,0,0,4,0,0.7,1.4
+29,leandro bacuna,CUW,MF,Cardiff City,26,11,4,561,0,0,0,0,2,0,0.1,0.1
+30,eric bailly,CIV,DF,Manchester Utd,24,12,8,638,0,0,0,0,0,1,0.2,0.0
+31,leighton baines,ENG,DF,Everton,33,6,5,375,0,0,0,0,0,0,0.1,0.2
+32,fabian balbuena,PAR,DF,West Ham,26,23,23,"2,013",1,0,0,0,2,0,2.1,0.2
+33,leon balogun,NGA,DF,Brighton,30,8,5,594,1,0,0,0,2,0,0.1,0.0
+34,sol bamba,CIV,DF,Cardiff City,33,28,28,"2,474",4,1,0,0,7,0,4.0,0.2
+35,phil bardsley,SCO,DF,Burnley,33,19,19,"1,670",0,0,0,0,9,0,0.3,1.1
+36,ross barkley,ENG,MF,Chelsea,24,27,13,"1,245",3,5,0,0,1,0,4.0,2.1
+37,ashley barnes,ENG,FW,Burnley,28,37,26,"2,388",12,2,2,2,8,0,13.8,3.3
+38,harvey barnes,ENG,"MF,FW",Leicester City,20,16,11,"1,004",1,2,0,0,0,0,3.9,1.7
+39,antonio barreca,ITA,DF,Newcastle Utd,23,1,0,5,0,0,0,0,0,0,0.0,0.0
+40,michy batshuayi,BEL,FW,Crystal Palace,24,11,9,750,5,0,0,0,0,0,4.0,0.1
+41,jan bednarek,POL,DF,Southampton,22,25,24,"2,151",0,1,0,0,7,0,0.8,0.7
+42,asmir begovic,BIH,GK,Bournemouth,31,24,24,"2,160",0,0,0,0,0,0,0.0,0.0
+43,hector bellerin,ESP,DF,Arsenal,23,19,18,"1,533",0,5,0,0,3,0,0.9,2.2
+44,joe bennett,ENG,DF,Cardiff City,28,30,30,"2,639",0,1,0,0,5,0,0.5,0.9
+45,ryan bennett,ENG,DF,Wolves,28,34,34,"3,060",1,0,0,0,12,0,1.3,1.0
+46,christian benteke,BEL,FW,Crystal Palace,27,16,9,814,1,1,0,0,1,0,3.4,0.8
+47,johann berg guðmundsson,ISL,MF,Burnley,27,29,19,"1,752",3,6,0,0,2,0,2.8,4.3
+48,bernard,BRA,"FW,MF",Everton,25,34,25,"2,116",1,3,0,0,5,0,2.6,2.3
+49,bernardo,BRA,DF,Brighton,23,22,19,"1,752",0,1,0,0,4,0,0.4,0.6
+50,ryan bertrand,ENG,DF,Southampton,28,24,24,"2,160",1,0,0,0,8,0,1.2,1.7
 51,,,,,,,,,,,,,,,,
-52,hector bellerin,ESP,"DF,MF",Arsenal,21,33,27,"2,503",1,4,0,0,4,0,0.04,0.18
-53,yohan benalouane,TUN,DF,Leicester City,29,11,11,917,0,0,0,0,4,0,0.00,0.00
-54,christian benteke,BEL,FW,Crystal Palace,25,36,36,"3,131",15,2,2,4,10,0,0.43,0.49
-55,jonathan benteke,BEL,FW,Crystal Palace,21,1,0,7,0,0,0,0,0,0,0.00,0.00
-56,saido berahino,BDI,FW,Stoke City,22,13,8,720,0,0,0,0,0,0,0.00,0.00
-57,saido berahino,BDI,FW,West Brom,22,4,3,243,0,0,0,0,1,0,0.00,0.00
-58,johann berg guðmundsson,ISL,MF,Burnley,25,20,10,998,1,2,0,0,1,0,0.09,0.27
-59,ryan bertrand,ENG,DF,Southampton,26,28,28,"2,507",2,3,0,0,3,0,0.07,0.18
-60,mame biram diouf,SEN,"MF,FW",Stoke City,28,27,15,"1,385",1,2,0,0,3,0,0.06,0.19
-61,daley blind,NED,DF,Manchester Utd,26,23,20,"1,830",1,2,0,0,2,0,0.05,0.15
-62,yannick bolasie,COD,"FW,MF",Crystal Palace,27,1,0,25,0,0,0,0,1,0,0.00,0.00
-63,yannick bolasie,COD,"MF,FW",Everton,27,13,12,"1,023",1,4,0,0,2,0,0.09,0.44
-64,wilfried bony,CIV,FW,Stoke City,27,10,9,684,2,0,0,0,1,0,0.26,0.26
-65,fabio borini,ITA,"FW,MF",Sunderland,25,24,19,"1,741",2,0,0,0,5,0,0.10,0.10
-66,artur boruc,POL,GK,Bournemouth,36,35,35,"3,150",0,0,0,0,2,0,0.00,0.00
-67,sofiane boufal,MAR,"FW,MF",Southampton,22,24,12,"1,104",1,1,0,0,5,0,0.08,0.16
-68,jarrod bowen,ENG,MF,Hull City,19,7,1,181,0,0,0,0,0,0,0.00,0.00
-69,george boyd,SCO,MF,Burnley,30,36,33,"2,836",2,1,0,0,3,0,0.06,0.10
-70,robbie brady,IRL,MF,Burnley,24,14,7,719,1,2,0,0,1,0,0.13,0.38
-71,claudio bravo,CHI,GK,Manchester City,33,22,22,"1,968",0,0,0,0,0,0,0.00,0.00
-72,miguel britos,URU,DF,Watford,31,27,27,"2,282",1,2,0,0,8,4,0.04,0.12
-73,leon britton,ENG,MF,Swansea City,33,16,16,"1,163",0,0,0,0,3,0,0.00,0.00
-74,chris brunt,NIR,"MF,DF",West Brom,31,31,27,"2,477",3,4,0,0,5,0,0.11,0.25
-75,jack butland,ENG,GK,Stoke City,23,5,5,450,0,0,0,0,0,0,0.00,0.00
-76,sam byram,ENG,"DF,MF",West Ham,22,18,13,"1,249",0,1,0,0,6,2,0.00,0.07
+52,marcus bettinelli,ENG,GK,Fulham,26,7,7,630,0,0,0,0,1,0,0.0,0.0
+53,philip billing,DEN,MF,Huddersfield,22,27,25,"2,188",2,0,0,0,7,0,1.8,1.7
+54,yves bissouma,MLI,MF,Brighton,21,28,17,"1,774",0,0,0,0,5,0,1.8,1.0
+55,willy boly,CIV,DF,Wolves,27,36,36,"3,167",4,0,0,0,2,1,3.6,2.1
+56,leo bonatini,BRA,FW,Wolves,24,7,0,135,0,1,0,0,0,0,1.3,0.1
+57,gaetan bong,CMR,DF,Brighton,30,22,19,"1,808",0,0,0,0,0,0,0.1,0.5
+58,artur boruc,POL,GK,Bournemouth,38,12,12,"1,080",0,0,0,0,2,0,0.0,0.0
+59,robbie brady,IRL,MF,Burnley,26,16,6,720,0,1,0,0,3,1,0.6,1.4
+60,miguel britos,URU,DF,Watford,33,3,2,185,0,0,0,0,0,0,0.0,0.0
+61,david brooks,WAL,"MF,FW",Bournemouth,21,30,29,"2,261",7,5,0,0,3,0,6.0,5.0
+62,bruno,ESP,DF,Brighton,37,14,14,"1,131",0,1,0,0,2,0,0.1,0.6
+63,joe bryan,ENG,"DF,MF",Fulham,24,28,27,"2,345",0,1,0,0,5,0,0.7,3.5
+64,david button,ENG,GK,Brighton,29,4,4,360,0,0,0,0,0,0,0.0,0.0
+65,willy caballero,ARG,GK,Chelsea,36,2,2,180,0,0,0,0,0,0,0.0,0.0
+66,gary cahill,ENG,DF,Chelsea,32,2,0,24,0,0,0,0,0,0,0.0,0.0
+67,tom cairney,SCO,"MF,FW",Fulham,27,31,24,"2,194",1,1,0,0,0,0,1.1,2.6
+68,dominic calvert-lewin,ENG,FW,Everton,21,35,19,"1,784",6,2,0,0,3,0,5.5,1.4
+69,rafael camacho,POR,DF,Liverpool,18,1,0,1,0,0,0,0,0,0,0.0,0.0
+70,victor camarasa,ESP,MF,Cardiff City,24,32,31,"2,569",5,4,1,1,6,0,4.0,3.8
+71,etienne capoue,FRA,MF,Watford,30,33,33,"2,944",1,3,0,0,14,1,1.4,1.0
+72,andy carroll,ENG,FW,West Ham,29,12,3,461,0,0,0,0,2,0,2.2,0.4
+73,jonny castro,ESP,"DF,MF",Wolves,24,33,32,"2,771",1,1,0,0,6,0,2.0,1.6
+74,craig cathcart,NIR,DF,Watford,29,36,35,"3,096",3,0,0,0,2,0,1.5,0.2
+75,ivan cavaleiro,POR,"FW,MF",Wolves,24,23,6,693,3,1,0,0,1,0,2.2,1.5
+76,petr cech,CZE,GK,Arsenal,36,7,7,584,0,0,0,0,0,0,0.0,0.0
 77,,,,,,,,,,,,,,,,
-78,willy caballero,ARG,GK,Manchester City,34,17,16,"1,452",0,0,0,0,0,0,0.00,0.00
-79,yohan cabaye,FRA,MF,Crystal Palace,30,32,25,"2,125",4,2,0,1,7,0,0.17,0.25
-80,martin caceres,URU,DF,Southampton,29,1,1,90,0,0,0,0,0,0,0.00,0.00
-81,gary cahill,ENG,DF,Chelsea,30,37,36,"3,296",6,0,0,0,5,0,0.16,0.16
-82,jonathan calleri,ARG,FW,West Ham,22,16,4,540,1,0,0,0,0,0,0.17,0.17
-83,dominic calvert-lewin,ENG,"MF,FW",Everton,19,11,5,347,1,0,0,0,1,0,0.26,0.26
-84,geoff cameron,USA,"MF,DF",Stoke City,31,19,18,"1,629",0,2,0,0,1,0,0.00,0.11
-85,fraizer campbell,ENG,FW,Crystal Palace,28,12,0,165,1,0,0,0,0,0,0.55,0.55
-86,emre can,GER,MF,Liverpool,22,32,26,"2,371",5,2,0,0,6,0,0.19,0.27
-87,etienne capoue,FRA,MF,Watford,28,37,37,"3,203",7,1,0,0,5,0,0.20,0.22
-88,baily cargill,ENG,DF,Bournemouth,21,1,0,13,0,0,0,0,0,0,0.00,0.00
-89,michael carrick,ENG,MF,Manchester Utd,35,23,18,"1,600",0,0,0,0,2,0,0.00,0.00
-90,andy carroll,ENG,FW,West Ham,27,18,15,"1,311",7,1,0,0,3,0,0.48,0.55
-91,tom carroll,ENG,MF,Tottenham,24,1,0,1,0,0,0,0,0,0,0.00,0.00
-92,tom carroll,ENG,MF,Swansea City,24,17,16,"1,387",1,2,0,0,1,0,0.06,0.19
-93,joel castro pereira,POR,GK,Manchester Utd,20,1,1,90,0,0,0,0,0,0,0.00,0.00
-94,craig cathcart,NIR,DF,Watford,27,15,13,"1,162",0,1,0,0,3,0,0.00,0.08
-95,lee cattermole,ENG,MF,Sunderland,28,8,8,633,0,0,0,0,4,0,0.00,0.00
-96,santi cazorla,ESP,MF,Arsenal,31,8,7,618,2,1,2,2,2,0,0.29,0.44
-97,petr cech,CZE,GK,Arsenal,34,35,35,"3,097",0,0,0,0,2,0,0.00,0.00
-98,nacer chadli,BEL,"MF,FW",West Brom,26,31,27,"2,134",5,4,1,1,2,0,0.21,0.38
-99,nathaniel chalobah,ENG,MF,Chelsea,21,10,1,167,0,0,0,0,2,0,0.00,0.00
-100,calum chambers,ENG,DF,Arsenal,21,1,1,90,1,0,0,0,0,0,1.00,1.00
-101,calum chambers,ENG,DF,Middlesbrough,21,24,24,"2,160",1,1,0,0,4,0,0.04,0.08
-102,ben chilwell,ENG,"DF,MF",Leicester City,19,12,7,699,1,0,0,0,2,0,0.13,0.13
+78,nathaniel chalobah,ENG,MF,Watford,23,9,3,270,0,0,0,0,2,0,0.1,0.3
+79,calum chambers,ENG,"MF,DF",Fulham,23,31,29,"2,588",2,0,0,0,9,0,2.3,0.9
+80,ben chilwell,ENG,DF,Leicester City,21,36,36,"3,240",0,4,0,0,4,0,1.1,2.9
+81,tahith chong,NED,FW,Manchester Utd,18,2,0,38,0,0,0,0,0,0,0.4,0.0
+82,hamza choudhury,ENG,MF,Leicester City,20,9,7,595,0,0,0,0,0,0,0.5,0.4
+83,andreas christensen,DEN,DF,Chelsea,22,8,6,617,0,0,0,0,1,0,0.0,0.0
+84,cyrus christie,IRL,"DF,MF",Fulham,25,28,19,"1,948",0,1,0,0,7,0,0.4,1.2
+85,ibrahima cisse,GUI,MF,Fulham,24,3,1,88,0,0,0,0,0,0,0.0,0.0
+86,ciaran clark,IRL,DF,Newcastle Utd,28,11,9,858,3,0,0,0,1,0,0.5,0.1
+87,tom cleverley,ENG,MF,Watford,28,13,4,478,1,0,0,0,2,0,0.2,0.1
+88,nathaniel clyne,ENG,DF,Bournemouth,27,14,13,"1,143",0,1,0,0,2,0,0.1,0.1
+89,nathaniel clyne,ENG,DF,Liverpool,27,4,1,111,0,0,0,0,0,0,0.1,0.0
+90,conor coady,ENG,DF,Wolves,25,38,38,"3,420",0,0,0,0,5,0,0.0,0.0
+91,joel coleman,ENG,GK,Huddersfield,22,1,1,90,0,0,0,0,0,0,0.0,0.0
+92,seamus coleman,IRL,DF,Everton,29,29,29,"2,558",2,2,0,0,1,0,1.6,3.6
+93,lewis cook,ENG,MF,Bournemouth,21,13,8,723,0,0,0,0,2,0,0.1,0.1
+94,steve cook,ENG,DF,Bournemouth,27,31,31,"2,786",1,1,0,0,3,0,1.3,0.9
+95,jack cork,ENG,MF,Burnley,29,37,37,"3,312",1,2,0,0,6,0,1.4,2.2
+96,helder costa,ANG,"FW,MF",Wolves,24,25,16,"1,341",1,2,0,0,3,0,2.4,2.2
+97,aaron cresswell,ENG,DF,West Ham,28,20,18,"1,589",0,1,0,0,1,0,0.5,1.1
+98,peter crouch,ENG,FW,Burnley,37,6,0,92,0,0,0,0,1,0,0.6,0.0
+99,greg cunningham,IRL,DF,Cardiff City,27,7,7,630,0,0,0,0,3,0,0.1,0.2
+100,diogo dalot,POR,"DF,FW",Manchester Utd,19,16,12,"1,013",0,2,0,0,3,0,0.7,2.3
+101,matty daly,ENG,MF,Huddersfield,17,2,0,75,0,0,0,0,0,0,0.0,0.0
+102,loic damour,FRA,MF,Cardiff City,27,2,0,23,0,0,0,0,0,0,0.0,0.0
 103,,,,,,,,,,,,,,,,
-104,lee chung-yong,KOR,MF,Crystal Palace,28,15,4,471,0,0,0,0,0,0,0.00,0.00
-105,jordy clasie,NED,MF,Southampton,25,16,12,"1,021",1,1,0,0,3,0,0.09,0.18
-106,adam clayton,ENG,MF,Middlesbrough,27,34,32,"2,804",0,2,0,0,10,0,0.00,0.06
-107,tom cleverley,ENG,MF,Watford,26,17,16,"1,441",0,2,0,0,3,0,0.00,0.12
-108,tom cleverley,ENG,MF,Everton,26,10,4,406,0,0,0,0,1,0,0.00,0.00
-109,gael clichy,FRA,DF,Manchester City,31,25,24,"2,123",1,0,0,0,2,0,0.04,0.04
-110,sam clucas,ENG,MF,Hull City,25,37,36,"3,185",3,1,0,0,9,1,0.08,0.11
-111,nathaniel clyne,ENG,DF,Liverpool,25,37,37,"3,323",0,2,0,0,0,0,0.00,0.05
-112,seamus coleman,IRL,"DF,MF",Everton,27,26,26,"2,316",4,3,0,0,3,0,0.16,0.27
-113,james collins,WAL,DF,West Ham,32,22,19,"1,655",2,0,0,0,3,0,0.11,0.11
-114,lewis cook,ENG,MF,Bournemouth,19,6,4,432,0,1,0,0,1,0,0.00,0.21
-115,steve cook,ENG,DF,Bournemouth,25,38,38,"3,420",2,0,0,0,5,0,0.05,0.05
-116,francis coquelin,FRA,MF,Arsenal,25,29,22,"1,779",0,0,0,0,5,0,0.00,0.00
-117,jack cork,ENG,MF,Swansea City,27,30,25,"2,232",0,0,0,0,7,0,0.00,0.00
-118,diego costa,ESP,FW,Chelsea,27,35,35,"3,082",20,7,0,1,10,0,0.58,0.79
-119,thibaut courtois,BEL,GK,Chelsea,24,36,36,"3,240",0,0,0,0,1,0,0.00,0.00
-120,philippe coutinho,BRA,"FW,MF",Liverpool,24,31,28,"2,227",13,8,0,0,2,0,0.53,0.85
-121,aaron cresswell,ENG,"DF,MF",West Ham,26,26,24,"2,116",0,2,0,0,3,2,0.00,0.09
-122,peter crouch,ENG,FW,Stoke City,35,27,13,"1,343",7,2,0,0,3,0,0.47,0.60
-123,charlie daniels,ENG,DF,Bournemouth,29,34,34,"3,060",4,3,0,0,1,0,0.12,0.21
-124,scott dann,ENG,DF,Crystal Palace,29,23,19,"1,797",3,1,0,0,2,0,0.15,0.20
-125,matteo darmian,ITA,DF,Manchester Utd,26,18,15,"1,333",0,0,0,0,3,0,0.00,0.00
-126,ben davies,WAL,"DF,MF",Tottenham,23,23,18,"1,739",1,3,0,0,1,0,0.05,0.21
-127,curtis davies,SLE,DF,Hull City,31,26,25,"2,135",0,2,0,0,4,0,0.00,0.08
-128,tom davies,ENG,MF,Everton,18,24,18,"1,544",2,3,0,0,4,0,0.12,0.29
+104,charlie daniels,ENG,DF,Bournemouth,31,21,17,"1,585",1,0,0,0,4,0,0.4,0.6
+105,danilo,BRA,DF,Manchester City,27,11,9,807,1,0,0,0,1,0,0.4,0.2
+106,scott dann,ENG,DF,Crystal Palace,31,10,7,663,0,1,0,0,1,0,0.2,0.7
+107,matteo darmian,ITA,DF,Manchester Utd,28,6,5,443,0,0,0,0,0,0,0.0,0.1
+108,ben davies,WAL,DF,Tottenham,25,27,20,"1,844",0,0,0,0,2,0,0.5,2.1
+109,tom davies,ENG,MF,Everton,20,16,10,980,0,0,0,0,3,0,0.3,0.5
+110,steven davis,NIR,MF,Southampton,33,3,1,98,0,1,0,0,0,0,0.0,0.5
+111,kevin de bruyne,BEL,MF,Manchester City,27,19,11,975,2,2,0,0,2,0,1.4,5.7
+112,troy deeney,ENG,FW,Watford,30,32,28,"2,545",9,5,1,1,4,1,9.5,4.6
+113,jermain defoe,ENG,FW,Bournemouth,35,4,0,25,0,0,0,0,0,0,0.1,0.0
+114,steven defour,BEL,MF,Burnley,30,6,6,448,0,0,0,0,0,0,0.0,0.1
+115,fabian delph,ENG,DF,Manchester City,28,11,8,725,0,1,0,0,1,1,0.1,0.3
+116,mousa dembele,BEL,MF,Tottenham,31,10,7,515,0,0,0,0,1,0,0.0,0.0
+117,leander dendoncker,BEL,MF,Wolves,23,19,17,"1,467",2,0,0,0,1,0,3.4,1.2
+118,laurent depoitre,BEL,FW,Huddersfield,29,23,10,"1,068",0,1,0,0,1,0,2.5,0.7
+119,gerard deulofeu,ESP,"FW,MF",Watford,24,30,26,"2,066",10,5,0,0,3,0,8.0,4.1
+120,fousseni diabate,MLI,FW,Leicester City,22,1,1,54,0,0,0,0,0,0,0.0,0.1
+121,adama diakhaby,FRA,"FW,MF",Huddersfield,22,12,6,552,0,0,0,0,1,0,0.6,0.5
+122,mohamed diame,SEN,MF,Newcastle Utd,31,29,24,"2,166",0,0,0,0,3,0,1.0,0.1
+123,grady diangana,COD,"MF,FW",West Ham,20,17,6,609,0,1,0,0,0,0,0.5,1.2
+124,eric dier,ENG,"MF,DF",Tottenham,24,20,18,"1,506",3,0,0,0,4,0,1.0,1.0
+125,lucas digne,FRA,DF,Everton,25,35,33,"2,965",4,4,0,0,5,1,1.3,7.1
+126,issa diop,FRA,DF,West Ham,21,33,33,"2,970",1,0,0,0,4,0,1.2,0.2
+127,matt doherty,IRL,"DF,MF",Wolves,26,38,35,"3,144",4,5,0,0,5,0,4.4,5.1
+128,abdoulaye doucoure,MLI,MF,Watford,25,35,34,"3,062",5,6,0,0,7,0,6.2,4.7
 129,,,,,,,,,,,,,,,,
-130,steven davis,NIR,MF,Southampton,31,32,29,"2,643",0,3,0,0,3,0,0.00,0.10
-131,craig dawson,ENG,DF,West Brom,26,37,37,"3,276",4,0,0,0,10,0,0.11,0.11
-132,michael dawson,ENG,DF,Hull City,32,22,19,"1,722",3,0,0,0,4,0,0.16,0.16
-133,kevin de bruyne,BEL,MF,Manchester City,25,36,33,"2,877",6,17,0,1,4,0,0.19,0.72
-134,mathieu debuchy,FRA,DF,Arsenal,31,1,1,15,0,0,0,0,0,0,0.00,0.00
-135,troy deeney,ENG,FW,Watford,28,37,31,"2,944",10,4,3,3,7,0,0.31,0.43
-136,jermain defoe,ENG,FW,Sunderland,33,37,37,"3,321",15,2,5,5,1,0,0.41,0.46
-137,steven defour,BEL,MF,Burnley,28,21,16,"1,068",1,3,0,0,1,0,0.08,0.34
-138,damien delaney,IRL,DF,Crystal Palace,35,30,21,"2,014",0,2,0,0,8,0,0.00,0.09
-139,fabian delph,ENG,MF,Manchester City,26,7,2,224,1,0,0,0,1,0,0.40,0.40
-140,mousa dembele,BEL,MF,Tottenham,29,30,24,"2,056",1,1,0,0,5,0,0.04,0.09
-141,jason denayer,BEL,"MF,DF",Sunderland,21,24,22,"1,877",0,0,0,0,2,0,0.00,0.00
-142,mike van der hoorn,NED,DF,Swansea City,23,8,7,662,1,0,0,0,1,0,0.14,0.14
-143,gerard deulofeu,ESP,"FW,MF",Everton,22,11,4,460,0,0,0,0,1,0,0.00,0.00
-144,eric dier,ENG,"DF,MF",Tottenham,22,36,34,"3,043",2,1,0,0,6,0,0.06,0.09
-145,adama diomande,NOR,"FW,MF",Hull City,26,22,13,"1,171",2,0,0,0,1,0,0.15,0.15
-146,papy djilobodji,SEN,DF,Sunderland,27,18,17,"1,578",0,0,0,0,5,2,0.00,0.00
-147,abdoulaye doucoure,MLI,MF,Watford,23,20,14,"1,361",1,0,0,0,4,0,0.07,0.07
-148,stewart downing,ENG,"MF,FW",Middlesbrough,32,30,24,"2,214",1,3,0,0,1,0,0.04,0.16
-149,danny drinkwater,ENG,MF,Leicester City,26,29,27,"2,466",1,2,0,0,6,0,0.04,0.11
-150,nathan dyer,ENG,"MF,FW",Swansea City,28,8,3,214,0,1,0,0,0,0,0.00,0.42
-151,ovie ejaria,ENG,"FW,MF",Liverpool,18,2,0,8,0,0,0,0,0,0,0.00,0.00
-152,omar elabdellaoui,NOR,"DF,MF",Hull City,24,8,7,615,0,0,0,0,0,0,0.00,0.00
-153,andrew eleftheriou,ENG,DF,Watford,18,1,0,52,0,0,0,0,0,0,0.00,0.00
-154,ahmed elmohamady,EGY,"DF,MF",Hull City,28,33,28,"2,524",0,2,0,0,3,1,0.00,0.07
+130,luke dreher,ENG,FW,Crystal Palace,19,1,0,1,0,0,0,0,0,0,0.0,0.0
+131,martin dubravka,SVK,GK,Newcastle Utd,29,38,38,"3,420",0,0,0,0,1,0,0.0,0.0
+132,shane duffy,IRL,DF,Brighton,26,35,35,"3,087",5,1,0,0,4,1,3.1,0.3
+133,demeaco duhaney,ENG,DF,Huddersfield,19,1,1,45,0,0,0,0,0,0,0.0,0.0
+134,paul dummett,WAL,DF,Newcastle Utd,26,26,21,"1,990",0,0,0,0,1,0,0.3,0.7
+135,lewis dunk,ENG,DF,Brighton,26,36,36,"3,151",2,1,0,0,6,1,1.8,0.8
+136,erik durm,GER,DF,Huddersfield,26,28,21,"2,055",0,1,0,0,0,0,0.4,0.6
+137,bruno ecuele manga,GAB,DF,Cardiff City,30,38,37,"3,376",0,1,0,0,0,0,1.1,0.4
+138,ederson,BRA,GK,Manchester City,24,38,38,"3,420",0,1,0,0,2,0,0.0,0.1
+139,harvey elliott,ENG,MF,Fulham,15,2,0,20,0,0,0,0,0,0,0.1,0.0
+140,mohamed elneny,EGY,MF,Arsenal,26,8,5,380,0,0,0,0,0,0,0.4,0.2
+141,mohamed elyounoussi,NOR,MF,Southampton,23,16,8,793,0,0,0,0,0,0,2.1,1.1
+142,christian eriksen,DEN,MF,Tottenham,26,35,30,"2,774",8,12,0,0,3,0,5.4,7.4
+143,neil etheridge,PHI,GK,Cardiff City,28,38,38,"3,420",0,0,0,0,2,0,0.0,0.1
+144,jonny evans,NIR,DF,Leicester City,30,24,21,"1,996",1,0,0,0,2,0,0.9,0.3
+145,łukasz fabianski,POL,GK,West Ham,33,38,38,"3,420",0,0,0,0,0,0,0.0,0.1
+146,fabinho,BRA,MF,Liverpool,24,28,21,"2,017",1,2,0,0,6,0,1.0,1.8
+147,cesc fabregas,ESP,MF,Chelsea,31,6,1,180,0,0,0,0,1,0,0.1,0.2
+148,fabricio,ESP,GK,Fulham,30,2,2,180,0,0,0,0,0,0,0.0,0.0
+149,marouane fellaini,BEL,MF,Manchester Utd,30,14,6,752,0,1,0,0,1,0,0.4,0.4
+150,kiko femenia,ESP,DF,Watford,27,29,22,"2,049",1,1,0,0,1,0,0.4,1.6
+151,federico fernandez,ARG,DF,Newcastle Utd,29,19,17,"1,484",0,1,0,0,2,0,0.2,0.5
+152,fernandinho,BRA,MF,Manchester City,33,29,27,"2,377",1,3,0,0,5,0,1.6,3.0
+153,roberto firmino,BRA,"FW,MF",Liverpool,26,34,31,"2,607",12,6,1,1,0,0,13.6,5.5
+154,phil foden,ENG,MF,Manchester City,18,13,3,335,1,0,0,0,0,0,2.1,0.9
 155,,,,,,,,,,,,,,,,
-156,mohamed elneny,EGY,MF,Arsenal,24,14,8,694,0,1,0,0,1,0,0.00,0.13
-157,christian eriksen,DEN,MF,Tottenham,24,36,36,"3,157",8,15,0,0,0,0,0.23,0.66
-158,bernardo espinosa,COL,DF,Middlesbrough,27,11,10,975,0,0,0,0,2,0,0.00,0.00
-159,jonny evans,NIR,DF,West Brom,28,31,30,"2,637",2,2,0,0,8,0,0.07,0.14
-160,łukasz fabianski,POL,GK,Swansea City,31,37,37,"3,330",0,0,0,0,1,0,0.00,0.00
-161,fabio,BRA,DF,Middlesbrough,26,24,21,"1,847",0,0,0,0,8,0,0.00,0.00
-162,cesc fabregas,ESP,MF,Chelsea,29,29,13,"1,339",5,12,0,0,8,0,0.34,1.14
-163,adam federici,AUS,GK,Bournemouth,31,2,2,180,0,0,0,0,1,0,0.00,0.00
-164,sofiane feghouli,ALG,"MF,FW",West Ham,26,21,11,"1,041",3,2,0,0,1,1,0.26,0.43
-165,marouane fellaini,BEL,MF,Manchester Utd,28,28,18,"1,605",1,0,0,0,9,1,0.06,0.06
-166,leroy fer,NED,MF,Swansea City,26,34,27,"2,404",6,2,0,0,9,0,0.22,0.30
-167,edimilson fernandes,SUI,MF,West Ham,20,28,8,"1,001",0,1,0,0,4,0,0.00,0.09
-168,federico fernandez,ARG,DF,Swansea City,27,27,27,"2,430",0,2,0,0,7,0,0.00,0.07
-169,fernandinho,BRA,"MF,DF",Manchester City,31,32,31,"2,756",2,1,0,0,4,2,0.07,0.10
-170,fernando,BRA,"MF,DF",Manchester City,29,15,5,568,0,0,0,0,3,0,0.00,0.00
-171,sam field,ENG,MF,West Brom,18,8,4,275,0,0,0,0,2,0,0.00,0.00
-172,roberto firmino,BRA,FW,Liverpool,24,35,34,"3,062",11,7,0,0,5,0,0.32,0.53
-173,viktor fischer,DEN,"FW,MF",Middlesbrough,22,13,6,438,0,3,0,0,0,0,0.00,0.62
-174,mathieu flamini,FRA,MF,Crystal Palace,32,10,3,274,0,0,0,0,0,0,0.00,0.00
-175,jon flanagan,ENG,DF,Burnley,23,6,3,360,0,0,0,0,2,0,0.00,0.00
-176,ashley fletcher,ENG,FW,West Ham,20,16,2,367,0,0,0,0,2,0,0.00,0.00
-177,darren fletcher,SCO,MF,West Brom,32,38,37,"3,231",2,3,0,0,0,0,0.06,0.14
-178,michael folivi,ENG,FW,Watford,18,1,0,10,0,0,0,0,0,0,0.00,0.00
-179,jose fonte,POR,DF,Southampton,32,17,17,"1,530",0,0,0,0,2,0,0.00,0.00
-180,jose fonte,POR,DF,West Ham,32,16,16,"1,404",0,0,0,0,2,0,0.00,0.00
+156,fraser forster,ENG,GK,Southampton,30,1,1,90,0,0,0,0,0,0,0.0,0.0
+157,ben foster,ENG,GK,Watford,35,38,38,"3,420",0,0,0,0,1,0,0.0,0.2
+158,timothy fosu-mensah,NED,DF,Fulham,20,12,10,793,0,0,0,0,3,0,0.1,0.4
+159,juan foyth,ARG,DF,Tottenham,20,12,10,888,1,0,0,0,3,1,0.7,0.8
+160,simon francis,ENG,DF,Bournemouth,33,17,13,"1,229",0,2,0,0,1,0,0.1,0.6
+161,ryan fraser,SCO,"MF,FW",Bournemouth,24,38,35,"3,166",7,14,0,0,2,0,4.7,13.4
+162,fred,BRA,MF,Manchester Utd,25,17,13,"1,041",1,1,0,0,2,0,0.8,1.0
+163,ryan fredericks,ENG,DF,West Ham,25,15,12,"1,086",1,0,0,0,5,0,0.5,0.5
+164,christian fuchs,AUT,DF,Leicester City,32,3,2,207,0,0,0,0,0,0,0.1,0.2
+165,manolo gabbiadini,ITA,"FW,MF",Southampton,26,12,4,476,1,0,0,0,0,0,1.2,0.4
+166,sam gallagher,ENG,FW,Southampton,22,4,0,34,0,0,0,0,0,0,0.0,0.0
+167,idrissa gana gueye,SEN,MF,Everton,28,33,32,"2,822",0,2,0,0,6,0,0.6,0.8
+168,james garner,ENG,MF,Manchester Utd,17,1,0,1,0,0,0,0,0,0,0.0,0.0
+169,paulo gazzaniga,ARG,GK,Tottenham,26,3,3,270,0,0,0,0,0,0,0.0,0.0
+170,david de gea,ESP,GK,Manchester Utd,27,38,38,"3,420",0,0,0,0,1,0,0.0,0.0
+171,rachid ghezzal,ALG,"FW,MF",Leicester City,26,19,8,743,1,0,0,0,3,0,1.4,1.7
+172,morgan gibbs-white,ENG,"MF,FW",Wolves,18,26,5,663,0,1,0,0,1,0,1.1,1.3
+173,ben gibson,ENG,DF,Burnley,25,1,1,62,1,0,0,0,1,0,0.7,0.0
+174,olivier giroud,FRA,FW,Chelsea,31,27,7,847,2,4,0,0,1,0,4.6,2.2
+175,andre gomes,POR,MF,Everton,25,27,24,"1,980",1,1,0,0,7,0,1.6,0.6
+176,angel gomes,ENG,"MF,FW",Manchester Utd,17,2,0,27,0,0,0,0,0,0,0.1,0.0
+177,joe gomez,ENG,DF,Liverpool,21,16,12,"1,063",0,0,0,0,2,0,0.3,0.4
+178,jon gorenc stankovic,SVN,"MF,DF",Huddersfield,22,11,9,715,1,0,0,0,2,0,1.0,0.1
+179,dan gosling,ENG,MF,Bournemouth,28,25,19,"1,739",2,1,0,0,8,0,1.9,1.5
+180,karlan grant,ENG,FW,Huddersfield,20,13,9,877,4,0,0,0,0,0,3.6,0.3
 181,,,,,,,,,,,,,,,,
-182,adam forshaw,ENG,MF,Middlesbrough,24,34,30,"2,695",0,1,0,0,4,0,0.00,0.03
-183,fraser forster,ENG,GK,Southampton,28,38,38,"3,420",0,0,0,0,3,0,0.00,0.00
-184,ben foster,ENG,GK,West Brom,33,38,38,"3,420",0,0,0,0,2,0,0.00,0.00
-185,timothy fosu-mensah,NED,DF,Manchester Utd,18,4,1,97,0,0,0,0,0,0,0.00,0.00
-186,simon francis,ENG,DF,Bournemouth,31,34,34,"2,939",0,1,0,0,4,1,0.00,0.03
-187,ryan fraser,SCO,MF,Bournemouth,22,28,19,"1,764",3,5,0,0,3,0,0.15,0.41
-188,george friend,ENG,DF,Middlesbrough,28,24,20,"1,964",0,2,0,0,4,0,0.00,0.09
-189,zeki fryers,ENG,DF,Crystal Palace,23,8,0,188,0,0,0,0,0,0,0.00,0.00
-190,christian fuchs,AUT,DF,Leicester City,30,36,35,"3,103",2,3,0,0,10,0,0.06,0.15
-191,jay fulton,SCO,MF,Swansea City,22,11,9,690,0,0,0,0,2,0,0.00,0.00
-192,ramiro funes mori,ARG,DF,Everton,25,23,16,"1,543",0,1,0,0,0,0,0.00,0.06
-193,manolo gabbiadini,ITA,FW,Southampton,24,11,10,724,4,0,0,1,1,0,0.50,0.50
-194,brendan galloway,ZIM,DF,West Brom,20,3,3,247,0,0,0,0,0,0,0.00,0.00
-195,idrissa gana gueye,SEN,MF,Everton,26,33,32,"2,681",1,1,0,0,11,0,0.03,0.07
-196,aleix garcia,ESP,MF,Manchester City,19,4,1,77,0,0,0,0,0,0,0.00,0.00
-197,craig gardner,ENG,MF,West Brom,29,9,2,218,0,1,0,0,1,0,0.00,0.41
-198,david de gea,ESP,GK,Manchester Utd,25,35,35,"3,150",0,0,0,0,2,0,0.00,0.00
-199,rudy gestede,BEN,FW,Middlesbrough,27,16,4,533,1,0,0,0,3,0,0.17,0.17
-200,kieran gibbs,ENG,"MF,DF",Arsenal,26,11,8,702,0,1,0,0,3,0,0.00,0.13
-201,ben gibson,ENG,DF,Middlesbrough,23,38,38,"3,420",1,1,0,0,4,0,0.03,0.05
-202,darron gibson,IRL,MF,Sunderland,28,12,7,640,0,0,0,0,4,0,0.00,0.00
-203,olivier giroud,FRA,FW,Arsenal,29,29,11,"1,206",12,3,0,0,2,0,0.90,1.12
-204,shay given,IRL,GK,Stoke City,40,5,5,450,0,0,0,0,1,0,0.00,0.00
-205,evandro goebel,BRA,MF,Hull City,29,11,7,576,0,0,0,0,1,0,0.00,0.00
-206,angel gomes,ENG,"FW,MF",Manchester Utd,15,1,0,3,0,0,0,0,0,0,0.00,0.00
+182,andre gray,JAM,FW,Watford,27,29,13,"1,366",7,2,0,0,2,0,5.0,1.9
+183,demarai gray,JAM,"FW,MF",Leicester City,22,34,23,"1,985",4,1,0,0,2,0,4.5,1.3
+184,mason greenwood,ENG,FW,Manchester Utd,16,3,1,117,0,0,0,0,0,0,0.7,0.1
+185,pascal groß,GER,"MF,FW",Brighton,27,25,24,"1,864",3,3,1,2,1,0,4.4,5.5
+186,vicente guaita,ESP,GK,Crystal Palace,31,20,20,"1,754",0,0,0,0,2,0,0.0,0.0
+187,matteo guendouzi,FRA,MF,Arsenal,19,33,23,"2,149",0,0,0,0,9,0,0.6,1.8
+188,ilkay gundogan,GER,MF,Manchester City,27,31,23,"2,137",6,3,0,0,3,0,4.1,4.3
+189,angus gunn,SCO,GK,Southampton,22,12,12,"1,080",0,0,0,0,0,0,0.0,0.0
+190,aron gunnarsson,ISL,MF,Cardiff City,29,28,27,"2,266",1,1,0,0,5,0,2.0,1.6
+191,florent hadergjonaj,KVX,"DF,MF",Huddersfield,24,24,19,"1,842",0,0,0,0,1,0,0.2,1.5
+192,ben hamer,ENG,GK,Huddersfield,30,7,7,552,0,0,0,0,0,0,0.0,0.0
+193,kadeem harris,ENG,MF,Cardiff City,25,13,3,375,1,0,0,0,1,0,0.5,0.4
+194,joe hart,ENG,GK,Burnley,31,19,19,"1,710",0,0,0,0,0,0,0.0,0.1
+195,isaac hayden,ENG,MF,Newcastle Utd,23,25,21,"1,859",1,4,0,0,3,1,0.9,2.3
+196,eden hazard,BEL,FW,Chelsea,27,37,32,"2,923",16,15,4,4,2,0,10.5,10.0
+197,rhys healey,WAL,FW,Cardiff City,23,3,0,52,0,0,0,0,0,0,0.0,0.1
+198,tom heaton,ENG,GK,Burnley,32,19,19,"1,710",0,0,0,0,3,0,0.0,0.1
+199,jordan henderson,ENG,MF,Liverpool,28,32,21,"1,987",1,3,0,0,2,1,1.5,1.8
+200,jeff hendrick,IRL,"MF,FW",Burnley,26,32,25,"2,063",3,0,0,0,4,0,1.8,0.8
+201,wayne hennessey,WAL,GK,Crystal Palace,31,18,17,"1,576",0,0,0,0,0,0,0.0,0.0
+202,javier hernandez,MEX,FW,West Ham,30,25,14,"1,334",7,1,0,0,2,0,6.6,1.4
+203,ander herrera,ESP,MF,Manchester Utd,28,22,16,"1,403",2,3,0,0,4,0,1.3,1.6
+204,son heung-min,KOR,"FW,MF",Tottenham,26,31,23,"2,039",12,6,0,0,2,1,7.5,3.6
+205,gonzalo higuain,ARG,FW,Chelsea,30,14,13,"1,085",5,0,0,0,0,0,4.9,1.3
+206,wesley hoedt,NED,DF,Southampton,24,13,13,"1,170",0,0,0,0,2,0,0.4,0.0
 207,,,,,,,,,,,,,,,,
-208,heurelho gomes,BRA,GK,Watford,35,38,38,"3,337",0,0,0,0,1,0,0.00,0.00
-209,lynden gooch,USA,MF,Sunderland,20,11,4,366,0,0,0,0,3,0,0.00,0.00
-210,dan gosling,ENG,MF,Bournemouth,26,27,14,"1,366",2,0,0,0,6,0,0.13,0.13
-211,lewis grabban,ENG,"FW,MF",Bournemouth,28,3,0,60,0,0,0,0,0,0,0.00,0.00
-212,max gradel,CIV,"FW,MF",Bournemouth,28,11,0,134,0,0,0,0,3,0,0.00,0.00
-213,lee grant,ENG,GK,Stoke City,33,28,28,"2,520",0,0,0,0,1,0,0.00,0.00
-214,andre gray,JAM,FW,Burnley,25,32,26,"2,259",9,3,2,2,2,0,0.36,0.48
-215,demarai gray,JAM,"MF,FW",Leicester City,20,30,9,"1,049",1,3,0,0,2,0,0.09,0.34
-216,kamil grosicki,POL,MF,Hull City,28,15,12,"1,143",0,3,0,0,1,0,0.00,0.24
-217,marko grujic,SRB,MF,Liverpool,20,5,0,43,0,0,0,0,1,0,0.00,0.00
-218,adlene guedioura,ALG,MF,Watford,30,12,9,721,0,0,0,0,2,0,0.00,0.00
-219,adlene guedioura,ALG,MF,Middlesbrough,30,5,0,140,0,0,0,0,0,0,0.00,0.00
-220,ilkay gundogan,GER,MF,Manchester City,25,10,9,704,3,1,0,0,0,0,0.38,0.51
-221,brad guzan,USA,GK,Middlesbrough,31,10,10,900,0,0,0,0,0,0,0.00,0.00
-222,josh harrop,ENG,FW,Manchester Utd,20,1,1,90,1,0,0,0,0,0,1.00,1.00
-223,eden hazard,BEL,"FW,MF",Chelsea,25,36,36,"2,982",16,5,2,3,3,0,0.48,0.63
-224,tom heaton,ENG,GK,Burnley,30,35,35,"3,150",0,0,0,0,1,0,0.00,0.00
-225,jordan henderson,ENG,MF,Liverpool,26,24,24,"2,116",1,4,0,0,8,0,0.04,0.21
-226,jeff hendrick,IRL,MF,Burnley,24,32,31,"2,692",2,1,0,0,6,1,0.07,0.10
-227,wayne hennessey,WAL,GK,Crystal Palace,29,29,29,"2,610",0,0,0,0,1,0,0.00,0.00
-228,markus henriksen,NOR,MF,Hull City,24,15,6,638,0,0,0,0,1,0,0.00,0.00
-229,abel hernandez,URU,FW,Hull City,25,24,16,"1,425",4,3,0,0,0,0,0.25,0.44
-230,luis hernandez,ESP,DF,Leicester City,27,4,3,327,0,0,0,0,1,0,0.00,0.00
-231,ander herrera,ESP,MF,Manchester Utd,26,31,27,"2,464",1,5,0,0,6,2,0.04,0.22
-232,son heung-min,KOR,"MF,FW",Tottenham,24,34,23,"2,062",14,6,0,0,2,0,0.61,0.87
+208,jonathan hogg,ENG,MF,Huddersfield,29,29,29,"2,367",0,1,0,0,8,1,0.3,0.8
+209,junior hoilett,CAN,"MF,FW",Cardiff City,28,32,23,"2,141",3,1,0,0,4,0,3.4,1.5
+210,rob holding,ENG,DF,Arsenal,22,10,9,807,0,0,0,0,1,0,0.1,0.2
+211,jose holebas,GRE,DF,Watford,34,28,27,"2,393",3,6,0,0,12,1,1.0,4.1
+212,mason holgate,ENG,DF,Everton,21,5,4,408,0,0,0,0,1,0,0.0,0.0
+213,callum hudson-odoi,ENG,FW,Chelsea,17,10,4,393,0,1,0,0,0,0,0.7,1.4
+214,will hughes,ENG,MF,Watford,23,32,31,"2,418",2,4,0,0,5,0,2.5,2.6
+215,emerson hyndman,USA,MF,Bournemouth,22,1,0,38,0,0,0,0,0,0,0.0,0.0
+216,pierre højbjerg,DEN,MF,Southampton,22,31,31,"2,760",4,3,0,0,8,2,2.6,2.4
+217,jordon ibe,ENG,"MF,DF",Bournemouth,22,19,9,797,1,1,0,0,1,0,0.8,0.6
+218,vicente iborra,ESP,MF,Leicester City,30,8,3,229,0,0,0,0,0,0,0.1,0.1
+219,kelechi iheanacho,NGA,"FW,MF",Leicester City,21,30,9,941,1,3,0,0,2,0,2.1,1.6
+220,danny ings,ENG,FW,Southampton,26,24,23,"1,651",7,3,3,3,1,0,9.4,3.1
+221,alex iwobi,NGA,"FW,MF",Arsenal,22,35,22,"1,970",3,6,0,0,0,0,3.5,7.0
+222,jose izquierdo,COL,"MF,FW",Brighton,26,15,9,795,0,1,0,0,1,0,0.6,0.4
+223,phil jagielka,ENG,DF,Everton,35,7,4,331,1,0,0,0,0,1,0.6,0.3
+224,alireza jahanbakhsh,IRN,"FW,MF",Brighton,24,19,12,"1,020",0,0,0,0,2,0,0.8,0.2
+225,daryl janmaat,NED,DF,Watford,29,18,17,"1,520",0,2,0,0,3,0,0.5,0.8
+226,vincent janssen,NED,FW,Tottenham,24,3,0,39,0,0,0,0,0,0,0.4,0.0
+227,carl jenkinson,ENG,DF,Arsenal,26,3,2,166,0,0,0,0,0,0,0.0,0.0
+228,gabriel jesus,BRA,FW,Manchester City,21,29,8,"1,036",7,3,1,1,1,0,11.2,2.3
+229,raul jimenez,MEX,FW,Wolves,27,38,36,"3,111",13,7,2,2,4,0,15.1,6.3
+230,stefan johansen,NOR,MF,Fulham,27,12,4,417,0,0,0,0,4,0,0.1,0.1
+231,ben johnson,ENG,DF,West Ham,18,1,1,62,0,0,0,0,0,0,0.0,0.0
+232,tyreke johnson,ENG,MF,Southampton,19,1,0,1,0,0,0,0,0,0,0.0,0.0
 233,,,,,,,,,,,,,,,,
-234,rob holding,ENG,DF,Arsenal,20,9,9,810,0,0,0,0,3,0,0.00,0.00
-235,jose holebas,GRE,"DF,MF",Watford,32,33,33,"2,905",2,4,0,0,14,0,0.06,0.19
-236,mason holgate,ENG,DF,Everton,19,18,16,"1,372",0,1,0,0,2,0,0.00,0.07
-237,george honeyman,ENG,MF,Sunderland,21,5,2,235,0,0,0,0,1,0,0.00,0.00
-238,tom huddlestone,ENG,MF,Hull City,29,31,23,"2,026",1,0,1,1,5,1,0.04,0.04
-239,james husband,ENG,DF,Middlesbrough,22,1,1,58,0,0,0,0,0,0,0.00,0.00
-240,robert huth,GER,DF,Leicester City,31,33,33,"2,926",2,1,0,0,9,0,0.06,0.09
-241,pierre højbjerg,DEN,MF,Southampton,20,22,14,"1,301",0,0,0,0,2,0,0.00,0.00
-242,jordon ibe,ENG,"MF,FW",Bournemouth,20,25,13,"1,055",0,0,0,0,0,0,0.00,0.00
-243,didier ibrahim ndong,GAB,MF,Sunderland,22,31,27,"2,520",1,0,0,0,5,0,0.04,0.04
-244,zlatan ibrahimovic,SWE,FW,Manchester Utd,34,28,27,"2,438",17,5,2,3,7,0,0.63,0.81
-245,odion ighalo,NGA,FW,Watford,27,18,14,"1,291",1,0,0,0,1,0,0.07,0.07
-246,kelechi iheanacho,NGA,FW,Manchester City,19,20,5,537,4,3,0,0,0,0,0.67,1.17
-247,giannelli imbula,COD,MF,Stoke City,23,12,9,796,0,0,0,0,1,0,0.00,0.00
-248,branislav ivanovic,SRB,DF,Chelsea,32,13,6,589,0,0,0,0,2,0,0.00,0.00
-249,alex iwobi,NGA,MF,Arsenal,20,26,18,"1,456",3,4,0,0,1,0,0.19,0.43
-250,phil jagielka,ENG,DF,Everton,33,27,25,"2,250",3,2,0,0,5,2,0.12,0.20
-251,eldin jakupovic,SUI,GK,Hull City,31,22,22,"1,980",0,0,0,0,0,0,0.00,0.00
-252,matty james,ENG,MF,Leicester City,25,1,0,1,0,0,0,0,0,0,0.00,0.00
-253,daryl janmaat,NED,"MF,DF",Watford,27,27,18,"1,617",2,1,0,0,2,0,0.11,0.17
-254,vincent janssen,NED,FW,Tottenham,22,27,7,845,2,2,1,1,0,0,0.21,0.43
-255,adnan januzaj,BEL,"MF,FW",Sunderland,21,25,18,"1,629",0,2,0,0,4,2,0.00,0.11
-256,mile jedinak,AUS,MF,Crystal Palace,31,1,1,90,0,0,0,0,0,0,0.00,0.00
-257,carl jenkinson,ENG,DF,Arsenal,24,1,1,82,0,0,0,0,0,0,0.00,0.00
-258,gabriel jesus,BRA,"FW,MF",Manchester City,19,10,8,650,7,4,1,1,2,0,0.97,1.52
+234,phil jones,ENG,DF,Manchester Utd,26,18,15,"1,263",0,1,0,0,1,0,0.4,0.5
+235,jorginho,ITA,MF,Chelsea,26,37,37,"3,156",2,0,1,1,8,0,1.4,3.2
+236,joselu,ESP,FW,Newcastle Utd,28,16,5,596,2,0,0,0,1,0,1.6,0.0
+237,diogo jota,POR,"FW,MF",Wolves,21,33,29,"2,355",9,5,0,0,11,0,8.8,5.3
+238,mathias jørgensen,DEN,DF,Huddersfield,28,24,24,"2,147",3,1,0,0,6,0,1.4,0.3
+239,christian kabasele,BEL,DF,Watford,27,21,19,"1,586",0,0,0,0,4,1,1.5,0.6
+240,elias kachunga,COD,"FW,MF",Huddersfield,26,20,13,"1,182",0,0,0,0,2,0,0.9,0.2
+241,aboubakar kamara,MTN,FW,Fulham,23,13,5,693,3,0,1,2,2,0,3.7,0.7
+242,harry kane,ENG,FW,Tottenham,25,28,27,"2,424",17,4,4,4,5,0,14.4,4.0
+243,n'golo kante,FRA,MF,Chelsea,27,36,36,"3,092",4,4,0,0,3,0,2.9,3.5
+244,beram kayal,ISR,MF,Brighton,30,18,9,940,1,1,0,0,4,0,0.4,1.1
+245,michael keane,ENG,DF,Everton,25,33,33,"2,969",1,2,0,0,2,0,2.3,1.4
+246,neeskens kebano,COD,"FW,MF",Fulham,26,7,0,108,0,0,0,0,0,0,0.1,0.0
+247,naby keita,GUI,"MF,FW",Liverpool,23,25,16,"1,390",2,1,0,0,0,0,2.0,1.0
+248,martin kelly,ENG,DF,Crystal Palace,28,13,12,"1,111",0,0,0,0,2,0,0.4,0.0
+249,kenedy,BRA,"MF,DF",Newcastle Utd,22,25,14,"1,348",1,1,0,1,1,0,2.2,0.7
+250,jonjoe kenny,ENG,DF,Everton,21,10,8,791,0,1,0,0,1,0,0.1,0.6
+251,max kilman,ENG,DF,Wolves,21,1,0,1,0,0,0,0,0,0,0.0,0.0
+252,joshua king,NOR,"FW,MF",Bournemouth,26,35,34,"2,961",12,3,5,6,3,0,13.5,3.8
+253,anthony knockaert,FRA,"MF,FW",Brighton,26,30,18,"1,837",2,6,0,0,4,1,2.1,3.6
+254,sead kolasinac,BIH,"DF,MF",Arsenal,25,24,22,"1,887",0,5,0,0,5,0,0.4,6.0
+255,vincent kompany,BEL,DF,Manchester City,32,17,13,"1,224",1,0,0,0,6,0,0.3,0.0
+256,terence kongolo,NED,DF,Huddersfield,24,32,32,"2,716",1,1,0,0,4,0,1.3,1.1
+257,laurent koscielny,FRA,DF,Arsenal,32,17,13,"1,331",3,0,0,0,1,0,1.4,0.2
+258,cheikhou kouyate,SEN,MF,Crystal Palace,28,31,21,"1,899",0,2,0,0,3,0,1.1,1.1
 259,,,,,,,,,,,,,,,,
-260,glen johnson,ENG,DF,Stoke City,31,23,21,"1,957",0,0,0,0,1,0,0.00,0.00
-261,billy jones,ENG,"DF,MF",Sunderland,29,27,25,"2,270",1,0,0,0,8,0,0.04,0.04
-262,david jones,ENG,MF,Burnley,31,1,1,86,0,0,0,0,1,0,0.00,0.00
-263,phil jones,ENG,DF,Manchester Utd,24,18,18,"1,584",0,0,0,0,2,0,0.00,0.00
-264,lukas jutkiewicz,ENG,FW,Burnley,27,2,0,13,0,0,0,0,0,0,0.00,0.00
-265,christian kabasele,BEL,"DF,MF",Watford,25,16,7,771,2,0,0,0,1,0,0.23,0.23
-266,younes kaboul,FRA,DF,Watford,30,22,22,"1,820",2,0,0,0,2,0,0.10,0.10
-267,younes kaboul,FRA,DF,Sunderland,30,1,1,90,0,0,0,0,0,0,0.00,0.00
-268,sullay kaikai,SLE,"FW,MF",Crystal Palace,20,1,0,24,0,0,0,0,0,0,0.00,0.00
-269,harry kane,ENG,FW,Tottenham,23,30,29,"2,521",29,5,5,6,3,0,1.04,1.21
-270,n'golo kante,FRA,MF,Chelsea,25,35,35,"3,138",1,1,0,0,9,0,0.03,0.06
-271,loris karius,GER,GK,Liverpool,23,10,10,900,0,0,0,0,0,0,0.00,0.00
-272,michael keane,ENG,DF,Burnley,23,35,35,"3,150",2,1,0,0,4,0,0.06,0.09
-273,will keane,IRL,FW,Hull City,23,5,4,280,0,0,0,0,0,0,0.00,0.00
-274,martin kelly,ENG,DF,Crystal Palace,26,29,25,"2,123",0,2,0,0,4,0,0.00,0.08
-275,kenedy,BRA,"FW,MF",Watford,20,1,0,16,0,0,0,0,0,0,0.00,0.00
-276,kenedy,BRA,MF,Chelsea,20,1,1,74,0,0,0,0,0,0,0.00,0.00
-277,jonjoe kenny,ENG,"DF,FW",Everton,19,1,0,13,0,0,0,0,0,0,0.00,0.00
-278,wahbi khazri,TUN,"MF,FW",Sunderland,25,21,7,849,1,0,0,0,6,0,0.11,0.11
-279,michael kightly,ENG,MF,Burnley,30,5,1,104,0,0,0,0,0,0,0.00,0.00
-280,andy king,WAL,MF,Leicester City,27,23,15,"1,446",1,0,0,0,4,0,0.06,0.06
-281,joshua king,NOR,"MF,FW",Bournemouth,24,36,31,"2,713",16,2,2,3,1,0,0.53,0.60
-282,stephen kingsley,SCO,DF,Swansea City,22,13,12,"1,036",0,1,0,0,0,0,0.00,0.09
-283,jan kirchhoff,GER,MF,Sunderland,25,7,5,433,0,0,0,0,1,0,0.00,0.00
-284,ragnar klavan,EST,DF,Liverpool,30,20,15,"1,410",0,0,0,0,3,0,0.00,0.00
+260,mateo kovacic,CRO,MF,Chelsea,24,32,21,"1,735",0,2,0,0,3,0,2.2,1.7
+261,rajiv van la parra,NED,"FW,MF",Huddersfield,27,5,5,405,0,0,0,0,0,0,0.2,0.1
+262,alexandre lacazette,FRA,FW,Arsenal,27,35,27,"2,502",13,8,0,0,2,0,11.7,3.7
+263,adam lallana,ENG,"MF,FW",Liverpool,30,13,5,468,0,0,0,0,1,0,0.3,0.5
+264,erik lamela,ARG,"MF,FW",Tottenham,26,19,9,974,4,2,0,0,2,0,3.3,1.8
+265,manuel lanzini,ARG,MF,West Ham,25,10,8,686,1,1,0,0,2,0,1.1,0.8
+266,aymeric laporte,ESP,DF,Manchester City,24,35,34,"3,057",3,3,0,0,3,0,3.0,0.8
+267,jamaal lascelles,ENG,DF,Newcastle Utd,24,32,32,"2,745",0,1,0,0,4,0,0.6,0.9
+268,maxime le marchand,FRA,DF,Fulham,28,26,25,"2,250",0,1,0,0,5,0,0.3,0.7
+269,florian lejeune,FRA,DF,Newcastle Utd,27,12,12,"1,054",0,0,0,0,0,0,0.4,0.4
+270,mario lemina,GAB,MF,Southampton,24,21,18,"1,613",1,1,0,0,5,0,1.1,1.1
+271,aaron lennon,ENG,MF,Burnley,31,16,14,"1,215",1,1,0,0,1,0,0.8,0.7
+272,bernd leno,GER,GK,Arsenal,26,32,31,"2,836",0,0,0,0,0,0,0.0,0.0
+273,jefferson lerma,COL,MF,Bournemouth,23,30,29,"2,506",2,0,0,0,12,0,1.3,1.1
+274,stephan lichtsteiner,SUI,DF,Arsenal,34,14,10,938,0,0,0,0,3,0,0.0,0.1
+275,victor lindelof,SWE,DF,Manchester Utd,24,30,29,"2,601",1,1,0,0,1,0,0.7,1.2
+276,jesse lingard,ENG,"FW,MF",Manchester Utd,25,27,19,"1,663",4,2,1,1,3,0,4.7,2.7
+277,fernando llorente,ESP,FW,Tottenham,33,20,6,694,1,4,0,0,2,0,3.4,1.6
+278,hugo lloris,FRA,GK,Tottenham,31,33,33,"2,970",0,0,0,0,0,0,0.0,0.0
+279,jurgen locadia,CUW,"FW,MF",Brighton,24,26,12,"1,236",2,0,0,0,1,0,2.7,1.0
+280,ruben loftus-cheek,ENG,"MF,FW",Chelsea,22,24,6,998,6,2,0,0,0,0,2.8,0.8
+281,kevin long,IRL,DF,Burnley,27,6,5,514,0,1,0,0,0,0,0.1,0.5
+282,shane long,IRL,"FW,MF",Southampton,31,26,12,"1,272",5,1,0,0,3,0,4.6,1.6
+283,sean longstaff,ENG,MF,Newcastle Utd,20,9,8,687,1,0,0,0,2,0,0.7,0.5
+284,ademola lookman,NGA,"FW,MF",Everton,20,21,3,618,0,2,0,0,0,0,1.4,1.4
 285,,,,,,,,,,,,,,,,
-286,aleksandar kolarov,SRB,DF,Manchester City,30,29,27,"2,535",1,2,0,0,6,0,0.04,0.11
-287,vincent kompany,BEL,DF,Manchester City,30,11,10,820,3,0,0,0,5,0,0.33,0.33
-288,arouna kone,CIV,FW,Everton,32,5,0,70,0,0,0,0,0,0,0.00,0.00
-289,lamine kone,CIV,DF,Sunderland,27,30,29,"2,545",1,0,0,0,4,0,0.04,0.04
-290,laurent koscielny,FRA,DF,Arsenal,30,33,33,"2,822",2,0,0,0,4,1,0.06,0.06
-291,cheikhou kouyate,SEN,"MF,DF",West Ham,26,31,31,"2,722",1,0,0,0,3,0,0.03,0.03
-292,bojan krkic,ESP,"MF,FW",Stoke City,25,9,5,475,3,0,2,3,1,0,0.57,0.57
-293,adam lallana,ENG,"MF,FW",Liverpool,28,31,27,"2,348",8,6,0,0,3,0,0.31,0.54
-294,rickie lambert,ENG,FW,West Brom,34,1,0,13,0,0,0,0,0,0,0.00,0.00
-295,erik lamela,ARG,MF,Tottenham,24,9,6,594,1,3,0,1,1,0,0.15,0.61
-296,manuel lanzini,ARG,MF,West Ham,23,35,31,"2,706",8,2,2,2,9,0,0.27,0.33
-297,sebastian larsson,SWE,MF,Sunderland,31,21,17,"1,469",0,1,0,0,4,1,0.00,0.06
-298,grant leadbitter,ENG,MF,Middlesbrough,30,13,7,710,1,0,0,0,1,0,0.13,0.13
-299,joe ledley,WAL,MF,Crystal Palace,29,18,13,"1,160",1,1,0,0,1,0,0.08,0.16
-300,lucas leiva,BRA,"MF,DF",Liverpool,29,24,12,"1,112",0,2,0,0,4,0,0.00,0.16
-301,jonathan leko,ENG,"FW,MF",West Brom,17,9,0,181,0,1,0,0,0,0,0.00,0.50
-302,aaron lennon,ENG,"MF,FW",Everton,29,11,6,509,0,1,0,0,0,0,0.00,0.18
-303,jeremain lens,NED,"FW,MF",Sunderland,28,2,0,69,0,0,0,0,0,0,0.00,0.00
-304,joleon lescott,ENG,DF,Sunderland,33,2,1,124,0,0,0,0,0,0,0.00,0.00
-305,filip lesniak,SVK,MF,Tottenham,20,1,0,5,0,0,0,0,0,0,0.00,0.00
-306,jesse lingard,ENG,"MF,FW",Manchester Utd,23,25,18,"1,360",1,1,0,0,3,0,0.07,0.13
-307,jake livermore,ENG,MF,West Brom,26,16,15,"1,301",0,0,0,0,2,0,0.00,0.00
-308,jake livermore,ENG,"MF,DF",Hull City,26,21,20,"1,670",1,0,0,0,3,1,0.05,0.05
-309,fernando llorente,ESP,FW,Swansea City,31,33,28,"2,442",15,1,0,0,2,0,0.55,0.59
-310,hugo lloris,FRA,GK,Tottenham,29,34,34,"3,004",0,0,0,0,0,0,0.00,0.00
+286,jonas lossl,DEN,GK,Huddersfield,29,31,30,"2,778",0,1,0,0,1,0,0.0,0.5
+287,dejan lovren,CRO,DF,Liverpool,29,13,11,986,1,0,0,0,1,0,0.7,0.1
+288,chris lowe,GER,"DF,MF",Huddersfield,29,29,23,"2,057",0,2,0,0,2,0,0.6,1.7
+289,matthew lowton,ENG,DF,Burnley,29,21,19,"1,750",0,0,0,0,7,0,0.6,0.7
+290,david luiz,BRA,DF,Chelsea,31,36,36,"3,238",3,2,0,0,3,0,2.6,2.9
+291,romelu lukaku,BEL,FW,Manchester Utd,25,32,22,"2,136",12,0,0,0,4,0,10.5,2.2
+292,james maddison,ENG,"MF,FW",Leicester City,21,36,35,"2,831",7,7,1,2,4,1,7.4,8.2
+293,gary madine,ENG,"FW,MF",Cardiff City,27,5,0,37,0,0,0,0,0,0,0.0,0.0
+294,harry maguire,ENG,DF,Leicester City,25,31,31,"2,596",3,0,0,0,6,1,2.4,0.8
+295,riyad mahrez,ALG,"FW,MF",Manchester City,27,27,14,"1,343",7,4,0,1,0,0,5.5,4.6
+296,ainsley maitland-niles,ENG,DF,Arsenal,20,16,11,987,1,1,0,0,2,1,0.9,0.9
+297,sadio mane,SEN,FW,Liverpool,26,36,35,"3,077",22,1,0,0,2,0,15.1,4.5
+298,javier manquillo,ESP,DF,Newcastle Utd,24,18,12,"1,101",0,3,0,0,2,0,0.1,0.7
+299,solly march,ENG,"FW,MF",Brighton,24,35,30,"2,463",1,5,0,0,1,0,2.5,4.3
+300,adrian mariappa,JAM,DF,Watford,31,26,20,"1,927",0,0,0,0,3,0,0.7,0.6
+301,lazar markovic,SRB,MF,Fulham,24,1,0,45,0,0,0,0,0,0,0.0,0.0
+302,anthony martial,FRA,FW,Manchester Utd,22,27,18,"1,621",10,2,1,1,2,0,6.2,2.9
+303,adam masina,MAR,DF,Watford,24,14,11,"1,004",0,1,0,0,5,0,0.1,0.8
+304,arthur masuaku,COD,DF,West Ham,24,23,19,"1,759",0,1,0,0,2,0,0.1,0.8
+305,juan mata,ESP,"FW,MF",Manchester Utd,30,22,16,"1,289",3,2,0,0,3,0,1.6,2.9
+306,nemanja matic,SRB,MF,Manchester Utd,29,28,28,"2,436",1,0,0,0,7,1,1.3,0.5
+307,joel matip,CMR,DF,Liverpool,26,22,17,"1,537",1,0,0,0,3,0,0.7,0.2
+308,konstantinos mavropanos,GRE,DF,Arsenal,20,4,3,148,0,0,0,0,1,0,0.1,0.3
+309,alfie mawson,ENG,DF,Fulham,24,15,13,"1,131",0,0,0,0,2,0,0.1,0.1
+310,isaac mbenza,BEL,"FW,MF",Huddersfield,22,22,10,986,1,1,0,0,1,0,1.0,0.9
 311,,,,,,,,,,,,,,,,
-312,ruben loftus-cheek,ENG,MF,Chelsea,20,6,0,35,0,0,0,0,0,0,0.00,0.00
-313,kevin long,IRL,DF,Burnley,25,3,3,270,0,0,0,0,0,0,0.00,0.00
-314,shane long,IRL,FW,Southampton,29,32,10,"1,321",3,2,0,1,2,0,0.20,0.34
-315,ademola lookman,NGA,FW,Everton,18,8,3,289,1,0,0,0,0,0,0.31,0.31
-316,donald love,SCO,DF,Sunderland,21,12,6,611,0,1,0,0,1,0,0.00,0.15
-317,dejan lovren,CRO,DF,Liverpool,27,29,29,"2,553",2,1,0,0,6,0,0.07,0.11
-318,matthew lowton,ENG,DF,Burnley,27,36,36,"3,240",0,2,0,0,9,0,0.00,0.06
-319,david luiz,BRA,DF,Chelsea,29,33,33,"2,954",1,0,0,0,6,0,0.03,0.03
-320,romelu lukaku,BEL,FW,Everton,23,37,36,"3,266",25,6,1,1,3,0,0.69,0.85
-321,harry maguire,ENG,DF,Hull City,23,29,25,"2,307",2,1,0,0,5,0,0.08,0.12
-322,riyad mahrez,ALG,MF,Leicester City,25,36,33,"2,825",6,4,3,5,4,0,0.19,0.32
-323,ainsley maitland-niles,ENG,"DF,FW",Arsenal,18,1,0,2,0,0,0,0,0,0,0.00,0.00
-324,shaun maloney,SCO,MF,Hull City,33,9,2,283,1,2,0,0,0,0,0.32,0.95
-325,steve mandanda,FRA,GK,Crystal Palace,31,9,9,810,0,0,0,0,0,0,0.00,0.00
-326,sadio mane,SEN,FW,Liverpool,24,27,26,"2,235",13,5,0,0,4,0,0.52,0.72
-327,vito mannone,ITA,GK,Sunderland,28,9,9,810,0,0,0,0,0,0,0.00,0.00
-328,javier manquillo,ESP,"DF,MF",Sunderland,22,20,15,"1,430",1,0,0,0,2,0,0.06,0.06
-329,adrian mariappa,JAM,DF,Watford,29,7,6,562,0,0,0,0,0,0,0.00,0.00
-330,lazar markovic,SRB,MF,Hull City,22,12,12,"1,005",2,0,0,0,4,0,0.18,0.18
-331,dean marney,ENG,MF,Burnley,32,21,21,"1,764",1,2,0,0,7,0,0.05,0.15
-332,david marshall,SCO,GK,Hull City,31,16,16,"1,440",0,0,0,0,0,0,0.00,0.00
-333,anthony martial,FRA,"MF,FW",Manchester Utd,20,25,18,"1,554",4,5,0,0,2,0,0.23,0.52
-334,cuco martina,CUW,DF,Southampton,26,9,6,592,0,0,0,0,0,0,0.00,0.00
-335,emiliano martinez,ARG,GK,Arsenal,23,2,2,180,0,0,0,0,0,0,0.00,0.00
-336,bruno martins indi,NED,DF,Stoke City,24,35,35,"3,146",1,0,0,0,4,0,0.03,0.03
+312,james mcarthur,SCO,MF,Crystal Palace,30,38,36,"3,058",3,6,0,0,7,0,4.1,3.3
+313,alex mccarthy,ENG,GK,Southampton,28,25,25,"2,250",0,0,0,0,1,0,0.0,0.0
+314,james mccarthy,IRL,MF,Everton,27,1,0,15,0,0,0,0,0,0,0.0,0.0
+315,kevin mcdonald,SCO,MF,Fulham,29,15,10,841,0,0,0,0,5,1,0.1,0.1
+316,dwight mcneil,ENG,MF,Burnley,18,21,19,"1,591",3,5,0,0,2,0,2.0,3.4
+317,scott mctominay,SCO,"MF,DF",Manchester Utd,21,16,9,867,2,0,0,0,1,0,1.5,0.0
+318,ben mee,ENG,DF,Burnley,28,38,38,"3,420",0,2,0,0,9,0,1.6,1.1
+319,nathaniel mendez-laing,GUA,"MF,FW",Cardiff City,26,20,11,985,4,1,1,1,0,0,2.3,1.5
+320,benjamin mendy,FRA,DF,Manchester City,24,10,10,900,0,5,0,0,1,0,0.2,1.6
+321,nampalys mendy,SEN,MF,Leicester City,26,31,23,"2,092",0,0,0,0,5,0,0.1,0.2
+322,chris mepham,WAL,DF,Bournemouth,20,13,10,850,0,1,0,0,1,0,0.1,0.5
+323,max meyer,GER,MF,Crystal Palace,22,29,15,"1,416",1,2,0,0,3,0,1.8,1.2
+324,luka milivojevic,SRB,MF,Crystal Palace,27,38,38,"3,420",12,2,10,11,10,0,10.9,3.0
+325,james milner,ENG,"MF,DF",Liverpool,32,31,19,"1,789",5,4,3,3,6,1,3.4,5.3
+326,yerry mina,COL,DF,Everton,23,13,10,892,1,0,0,0,3,0,0.3,0.1
+327,tyrone mings,ENG,DF,Bournemouth,25,5,2,143,0,0,0,0,0,0,0.0,0.1
+328,aleksandar mitrovic,SRB,FW,Fulham,23,37,37,"3,280",11,3,1,1,7,0,14.1,3.2
+329,henrikh mkhitaryan,ARM,"FW,MF",Arsenal,29,25,19,"1,641",6,4,0,0,1,0,5.0,6.2
+330,nacho monreal,ESP,DF,Arsenal,32,22,21,"1,861",1,3,0,0,5,0,1.3,1.7
+331,martin montoya,ESP,DF,Brighton,27,25,24,"2,167",0,1,0,0,4,0,0.2,1.2
+332,aaron mooy,AUS,"MF,FW",Huddersfield,27,29,25,"2,330",3,1,1,1,4,0,2.8,2.6
+333,alvaro morata,ESP,FW,Chelsea,25,16,11,941,5,0,0,0,3,0,6.1,0.2
+334,alberto moreno,ESP,DF,Liverpool,26,2,2,154,0,0,0,0,0,0,0.0,0.1
+335,wes morgan,JAM,DF,Leicester City,34,22,21,"1,925",3,0,0,0,3,2,1.8,0.2
+336,sean morrison,ENG,DF,Cardiff City,27,34,34,"3,039",1,3,0,0,6,0,5.0,3.7
 337,,,,,,,,,,,,,,,,
-338,brandon mason,ENG,DF,Watford,18,2,1,113,0,0,0,0,0,0,0.00,0.00
-339,ryan mason,ENG,MF,Hull City,25,16,11,927,1,1,0,0,4,0,0.10,0.19
-340,arthur masuaku,COD,"DF,MF",West Ham,22,13,11,972,0,1,0,0,1,0,0.00,0.09
-341,juan mata,ESP,"MF,FW",Manchester Utd,28,25,19,"1,614",6,3,0,0,3,0,0.33,0.50
-342,nemanja matic,SRB,MF,Chelsea,27,35,30,"2,694",1,7,0,0,4,0,0.03,0.27
-343,joel matip,CMR,DF,Liverpool,24,29,27,"2,457",1,0,0,0,3,0,0.04,0.04
-344,alfie mawson,ENG,DF,Swansea City,22,27,27,"2,430",4,0,0,0,1,0,0.15,0.15
-345,dieumerci mbokani,COD,FW,Hull City,30,12,8,764,0,1,0,0,0,0,0.00,0.12
-346,james mcarthur,SCO,MF,Crystal Palace,28,29,24,"1,999",5,3,0,0,5,0,0.23,0.36
-347,gareth mcauley,NIR,DF,West Brom,36,36,36,"3,140",6,1,0,0,5,0,0.17,0.20
-348,oliver mcburnie,SCO,FW,Swansea City,20,5,0,82,0,0,0,0,0,0,0.00,0.00
-349,james mccarthy,IRL,MF,Everton,25,12,7,613,1,1,0,0,2,0,0.15,0.29
-350,james mcclean,IRL,"MF,FW",West Brom,27,34,13,"1,477",1,2,0,0,9,0,0.06,0.18
-351,paddy mcnair,NIR,MF,Sunderland,21,9,5,353,0,0,0,0,0,0,0.00,0.00
-352,sam mcqueen,ENG,DF,Southampton,21,13,5,616,0,0,0,0,0,0,0.00,0.00
-353,scott mctominay,SCO,MF,Manchester Utd,19,2,1,97,0,0,0,0,1,0,0.00,0.00
-354,ben mee,ENG,DF,Burnley,26,34,34,"3,015",1,0,0,0,5,0,0.03,0.03
-355,memphis,NED,"FW,MF",Manchester Utd,22,4,0,24,0,0,0,0,1,0,0.00,0.00
-356,nampalys mendy,SEN,MF,Leicester City,24,4,4,269,0,0,0,0,1,0,0.00,0.00
-357,per mertesacker,GER,DF,Arsenal,31,1,0,38,0,0,0,0,0,0,0.00,0.00
-358,david meyler,IRL,"MF,DF",Hull City,27,20,9,962,1,1,0,0,2,0,0.09,0.19
-359,simon mignolet,BEL,GK,Liverpool,28,28,28,"2,520",0,0,0,0,0,0,0.00,0.00
-360,luka milivojevic,SRB,MF,Crystal Palace,25,14,14,"1,224",2,1,2,2,4,0,0.15,0.22
-361,james milner,ENG,DF,Liverpool,30,36,36,"3,154",7,3,7,8,5,0,0.20,0.29
-362,tyrone mings,ENG,DF,Bournemouth,23,7,5,506,0,0,0,0,0,0,0.00,0.00
+338,victor moses,NGA,FW,Chelsea,27,2,0,28,0,0,0,0,0,0,0.0,0.1
+339,steve mounie,BEN,FW,Huddersfield,23,31,19,"1,778",2,3,0,0,1,1,5.8,1.9
+340,lucas moura,BRA,"FW,MF",Tottenham,25,32,25,"2,121",10,0,0,0,3,0,6.3,1.5
+341,lys mousset,FRA,FW,Bournemouth,22,24,1,368,1,0,0,0,1,0,1.4,0.3
+342,joao moutinho,POR,MF,Wolves,31,38,35,"3,032",1,8,0,0,4,0,0.7,6.5
+343,jacob murphy,ENG,"MF,DF",Newcastle Utd,23,9,3,302,0,1,0,0,0,0,0.1,0.6
+344,josh murphy,ENG,"MF,FW",Cardiff City,23,29,22,"1,817",3,2,0,0,2,0,4.1,3.9
+345,glenn murray,ENG,FW,Brighton,34,38,30,"2,508",13,1,4,4,5,0,11.4,1.3
+346,shkodran mustafi,GER,DF,Arsenal,26,31,31,"2,611",2,0,0,0,9,0,1.5,0.6
+347,yoshinori muto,JPN,"FW,MF",Newcastle Utd,26,17,5,524,1,0,0,0,1,0,0.9,0.8
+348,georges-kevin n'koudou,CMR,FW,Tottenham,23,1,0,5,0,1,0,0,0,0,0.0,0.5
+349,samir nasri,FRA,MF,West Ham,31,5,3,245,0,2,0,0,0,0,0.1,0.3
+350,marc navarro,ESP,DF,Watford,23,2,1,84,0,0,0,0,0,0,0.0,0.0
+351,wilfred ndidi,NGA,MF,Leicester City,21,38,37,"3,296",2,0,0,0,8,0,3.7,1.8
+352,ruben neves,POR,MF,Wolves,21,35,34,"3,007",4,3,2,2,8,0,4.0,1.9
+353,oumar niasse,SEN,FW,Cardiff City,28,13,12,931,0,0,0,0,0,0,3.4,0.6
+354,oumar niasse,SEN,FW,Everton,28,5,0,63,0,0,0,0,0,0,0.5,0.2
+355,eddie nketiah,ENG,"MF,FW",Arsenal,19,5,0,67,1,0,0,0,0,0,0.2,0.1
+356,mark noble,ENG,MF,West Ham,31,31,29,"2,291",5,5,4,4,6,1,3.7,1.9
+357,havard nordtveit,NOR,DF,Fulham,28,5,4,362,0,1,0,0,0,0,0.0,0.1
+358,will norris,ENG,GK,Wolves,24,1,0,1,0,0,0,0,0,0,0.0,0.0
+359,michael obafemi,IRL,FW,Southampton,18,6,1,137,1,1,0,0,1,0,1.7,0.4
+360,pedro obiang,EQG,MF,West Ham,26,24,12,"1,128",0,1,0,0,0,0,0.6,1.0
+361,denis odoi,GHA,DF,Fulham,30,31,29,"2,594",0,1,0,0,4,0,0.6,0.7
+362,angelo ogbonna,ITA,DF,West Ham,30,24,20,"1,874",1,1,0,0,2,0,1.8,0.9
 363,,,,,,,,,,,,,,,,
-364,kevin mirallas,BEL,"FW,MF",Everton,28,35,23,"2,074",4,7,0,0,2,0,0.17,0.48
-365,demetri mitchell,ENG,DF,Manchester Utd,19,1,1,90,0,0,0,0,0,0,0.00,0.00
-366,henrikh mkhitaryan,ARM,"FW,MF",Manchester Utd,27,24,15,"1,348",4,1,0,0,1,0,0.27,0.33
-367,nacho monreal,ESP,DF,Arsenal,30,36,35,"3,153",0,2,0,0,5,0,0.00,0.06
-368,jefferson montero,ECU,"MF,FW",Swansea City,26,13,2,489,0,1,0,0,0,0,0.00,0.18
-369,alberto moreno,ESP,DF,Liverpool,24,12,2,305,0,0,0,0,1,0,0.00,0.00
-370,wes morgan,JAM,DF,Leicester City,32,27,27,"2,430",1,0,0,0,3,0,0.04,0.04
-371,james morrison,SCO,MF,West Brom,30,31,17,"1,740",5,2,0,0,3,0,0.26,0.36
-372,victor moses,NGA,MF,Chelsea,25,34,29,"2,483",3,2,0,0,4,0,0.11,0.18
-373,lys mousset,FRA,FW,Bournemouth,20,11,3,270,0,0,0,0,0,0,0.00,0.00
-374,marc muniesa,ESP,DF,Stoke City,24,10,7,650,1,0,0,0,2,0,0.14,0.14
-375,ahmed musa,NGA,"MF,FW",Leicester City,23,21,7,761,2,1,0,0,1,0,0.24,0.35
-376,shkodran mustafi,GER,DF,Arsenal,24,26,26,"2,274",2,2,0,0,11,0,0.08,0.16
-377,jordon mutch,ENG,MF,Crystal Palace,24,4,0,53,0,0,0,0,0,0,0.00,0.00
-378,alfred n'diaye,SEN,MF,Hull City,26,15,15,"1,273",1,0,0,0,7,0,0.07,0.07
-379,georges-kevin n'koudou,CMR,"FW,MF",Tottenham,21,8,0,54,0,0,0,0,0,0,0.00,0.00
-380,luciano narsingh,NED,FW,Swansea City,25,13,3,416,0,2,0,0,0,0,0.00,0.43
-381,samir nasri,FRA,"FW,MF",Manchester City,29,1,0,16,0,0,0,0,0,0,0.00,0.00
-382,kyle naughton,ENG,DF,Swansea City,27,31,31,"2,714",1,0,0,0,5,0,0.03,0.03
-383,jesus navas,ESP,"MF,DF",Manchester City,30,24,12,"1,064",0,1,0,0,2,0,0.00,0.08
-384,wilfred ndidi,NGA,MF,Leicester City,19,17,17,"1,521",2,1,0,0,0,0,0.12,0.18
-385,alvaro negredo,ESP,FW,Middlesbrough,30,36,33,"2,870",9,5,2,2,5,0,0.28,0.44
-386,julien ngoy,BEL,"FW,MF",Stoke City,18,5,0,49,0,0,0,0,0,0,0.00,0.00
-387,m'baye niang,SEN,"MF,FW",Watford,21,16,15,"1,246",2,2,0,0,2,0,0.14,0.29
-388,oumar niasse,SEN,FW,Hull City,26,17,12,"1,097",4,1,0,0,3,1,0.33,0.41
+364,stefano okaka,ITA,"FW,MF",Watford,28,2,0,24,0,0,0,0,1,0,0.5,0.1
+365,shinji okazaki,JPN,"MF,FW",Leicester City,32,21,1,288,0,1,0,0,0,0,0.6,0.1
+366,divock origi,BEL,FW,Liverpool,23,12,4,371,3,1,0,0,0,0,2.2,0.2
+367,nicolas otamendi,ARG,DF,Manchester City,30,18,14,"1,236",0,0,0,0,1,0,1.3,0.2
+368,alex oxlade-chamberlain,ENG,MF,Liverpool,24,2,0,21,0,0,0,0,0,0,0.5,0.1
+369,mesut ozil,GER,"MF,FW",Arsenal,29,24,20,"1,735",5,2,0,0,2,0,1.7,4.1
+370,emerson palmieri,ITA,DF,Chelsea,23,10,7,663,0,0,0,0,0,0,0.3,0.3
+371,sokratis papastathopoulos,GRE,DF,Arsenal,30,25,25,"2,198",1,2,0,0,12,0,0.8,0.7
+372,callum paterson,SCO,"FW,MF",Cardiff City,23,27,21,"1,998",4,1,0,0,4,0,5.5,2.8
+373,rui patricio,POR,GK,Wolves,30,37,37,"3,329",0,0,0,0,1,0,0.0,0.0
+374,pedro,ESP,FW,Chelsea,31,31,21,"1,778",8,2,0,0,2,0,5.3,3.5
+375,lee peltier,ENG,DF,Cardiff City,31,20,17,"1,544",0,0,0,0,4,0,0.0,0.1
+376,andreas pereira,BRA,MF,Manchester Utd,22,15,6,599,1,1,0,0,5,0,0.3,0.9
+377,ricardo pereira,POR,"DF,FW",Leicester City,24,35,35,"3,123",2,6,0,0,7,0,1.2,5.2
+378,roberto pereyra,ARG,MF,Watford,27,33,33,"2,815",6,1,0,0,3,0,5.4,3.2
+379,ayoze perez,ESP,"MF,FW",Newcastle Utd,25,37,34,"2,917",12,2,0,0,2,0,7.5,3.6
+380,lucas perez,ESP,"FW,MF",West Ham,29,15,4,475,3,0,0,0,0,0,1.3,0.8
+381,jordan pickford,ENG,GK,Everton,24,38,38,"3,420",0,0,0,0,1,0,0.0,0.0
+382,paul pogba,FRA,MF,Manchester Utd,25,35,34,"3,006",13,9,7,10,6,0,15.0,4.7
+383,alex pritchard,ENG,"MF,FW",Huddersfield,25,30,26,"2,081",2,0,0,0,2,0,2.7,1.8
+384,sebastian prodl,AUT,DF,Watford,31,1,0,13,0,0,0,0,0,0,0.0,0.0
+385,davy propper,NED,MF,Brighton,26,30,30,"2,546",1,1,0,0,2,0,0.9,1.3
+386,jason puncheon,ENG,MF,Crystal Palace,32,5,0,13,0,0,0,0,0,0,0.0,0.0
+387,jason puncheon,ENG,MF,Huddersfield,32,6,5,382,0,0,0,0,1,0,0.3,0.5
+388,collin quaner,GER,FW,Huddersfield,27,2,0,39,0,0,0,0,0,0,0.0,0.1
 389,,,,,,,,,,,,,,,,
-390,mark noble,ENG,MF,West Ham,29,30,29,"2,389",3,0,1,2,10,0,0.11,0.11
-391,nolito,ESP,"MF,FW",Manchester City,29,19,9,778,4,2,0,0,3,1,0.46,0.69
-392,kristoffer nordfeldt,SWE,GK,Swansea City,27,1,1,90,0,0,0,0,0,0,0.00,0.00
-393,havard nordtveit,NOR,"DF,MF",West Ham,26,16,11,957,0,1,0,0,2,0,0.00,0.09
-394,emilio nsue,EQG,"DF,MF",Middlesbrough,26,4,4,320,0,0,0,0,0,0,0.00,0.00
-395,david nugent,ENG,FW,Middlesbrough,31,4,0,43,0,0,0,0,0,0,0.00,0.00
-396,allan nyom,CMR,DF,West Brom,28,32,29,"2,638",0,1,0,0,8,0,0.00,0.03
-397,aiden o'neill,AUS,MF,Burnley,18,3,0,85,0,0,0,0,0,0,0.00,0.00
-398,john o'shea,IRL,DF,Sunderland,35,28,26,"2,158",0,1,0,0,5,0,0.00,0.04
-399,pedro obiang,EQG,MF,West Ham,24,22,21,"1,763",1,1,0,0,7,0,0.05,0.10
-400,angelo ogbonna,ITA,DF,West Ham,28,20,20,"1,755",0,0,0,0,2,0,0.00,0.00
-401,stefano okaka,ITA,FW,Watford,26,19,10,958,4,1,0,0,5,0,0.38,0.47
-402,shinji okazaki,JPN,"FW,MF",Leicester City,30,30,21,"1,565",3,1,0,0,1,0,0.17,0.23
-403,jonas olsson,SWE,DF,West Brom,33,7,7,590,0,0,0,0,3,0,0.00,0.00
-404,martin olsson,SWE,DF,Swansea City,28,15,14,"1,252",2,0,0,0,2,0,0.14,0.14
-405,josh onomah,ENG,"FW,MF",Tottenham,19,5,0,22,0,0,0,0,0,0,0.00,0.00
-406,divock origi,BEL,FW,Liverpool,21,34,14,"1,468",7,3,0,0,0,0,0.43,0.61
-407,oscar,BRA,MF,Chelsea,24,9,5,455,0,1,0,0,1,0,0.00,0.20
-408,david ospina,COL,GK,Arsenal,27,2,1,143,0,0,0,0,0,0,0.00,0.00
-409,nicolas otamendi,ARG,DF,Manchester City,28,30,29,"2,592",1,0,0,0,9,0,0.03,0.03
-410,bryan oviedo,CRC,"DF,MF",Sunderland,26,10,10,848,0,0,0,0,1,0,0.00,0.00
-411,bryan oviedo,CRC,DF,Everton,26,6,6,475,0,0,0,0,3,0,0.00,0.00
-412,alex oxlade-chamberlain,ENG,MF,Arsenal,22,29,16,"1,628",2,7,0,0,1,0,0.11,0.50
-413,mesut ozil,GER,MF,Arsenal,27,33,32,"2,841",8,10,0,0,2,0,0.25,0.57
-414,costel pantilimon,ROU,GK,Watford,29,2,0,83,0,0,0,0,0,0,0.00,0.00
+390,domingos quina,POR,MF,Watford,18,8,3,338,1,0,0,0,0,0,0.2,0.1
+391,joe ralls,ENG,MF,Cardiff City,24,28,22,"1,959",0,0,0,1,4,1,1.6,3.2
+392,aaron ramsey,WAL,MF,Arsenal,27,28,14,"1,331",4,6,0,0,0,0,3.4,2.0
+393,kayne ramsey,ENG,DF,Southampton,17,1,1,90,0,0,0,0,0,0,0.0,0.0
+394,marcus rashford,ENG,FW,Manchester Utd,20,33,26,"2,334",10,6,0,0,3,1,10.7,5.0
+395,tim ream,USA,DF,Fulham,30,26,25,"2,047",0,0,0,0,1,0,0.0,0.1
+396,nathan redmond,ENG,"MF,FW",Southampton,24,38,36,"3,270",6,4,0,0,3,0,7.6,4.7
+397,bobby reid,JAM,"FW,MF",Cardiff City,25,27,16,"1,424",5,2,1,1,0,0,3.8,1.2
+398,declan rice,ENG,MF,West Ham,19,34,34,"3,003",2,0,0,0,4,0,1.2,0.4
+399,jazz richards,WAL,"DF,MF",Cardiff City,27,4,0,132,0,0,0,0,0,0,0.0,0.0
+400,richarlison,BRA,"FW,MF",Everton,21,35,32,"2,665",13,1,0,0,5,1,9.4,2.0
+401,diego rico,ESP,"DF,MF",Bournemouth,25,12,5,612,0,0,0,0,1,0,0.2,1.1
+402,sergio rico,ESP,GK,Fulham,24,29,29,"2,610",0,0,0,0,1,0,0.0,0.1
+403,matt ritchie,SCO,"DF,MF",Newcastle Utd,28,36,35,"2,928",2,8,1,2,9,0,5.1,5.3
+404,andrew robertson,SCO,DF,Liverpool,24,36,36,"3,216",0,11,0,0,4,0,0.7,7.2
+405,marcos rojo,ARG,DF,Manchester Utd,28,5,2,212,0,0,0,0,2,0,0.2,0.0
+406,oriol romeu,ESP,MF,Southampton,26,31,25,"2,136",1,0,0,0,11,0,0.9,1.0
+407,salomon rondon,VEN,FW,Newcastle Utd,28,32,30,"2,603",11,7,0,0,1,0,10.4,3.0
+408,danny rose,ENG,DF,Tottenham,28,26,20,"1,798",0,3,0,0,5,0,0.7,2.2
+409,aaron rowe,ENG,FW,Huddersfield,17,2,1,69,0,0,0,0,0,0,0.0,0.0
+410,john ruddy,ENG,GK,Wolves,31,1,1,90,0,0,0,0,0,0,0.0,0.0
+411,antonio rudiger,GER,DF,Chelsea,25,33,33,"2,871",1,0,0,0,7,0,2.5,0.6
+412,mathew ryan,AUS,GK,Brighton,26,34,34,"3,060",0,0,0,0,2,0,0.0,0.0
+413,abdelhamid sabiri,MAR,FW,Huddersfield,21,2,1,48,0,0,0,0,0,0,0.0,0.0
+414,romain saiss,MAR,"MF,DF",Wolves,28,19,12,"1,149",2,0,0,0,7,0,1.4,0.6
 415,,,,,,,,,,,,,,,,
-416,gabriel paulista,BRA,DF,Arsenal,25,19,15,"1,517",0,0,0,0,6,0,0.00,0.00
-417,dimitri payet,FRA,"MF,FW",West Ham,29,18,17,"1,511",2,6,0,0,2,0,0.12,0.48
-418,pedro,ESP,"FW,MF",Chelsea,29,35,26,"2,140",9,9,0,0,6,0,0.38,0.76
-419,matthew pennington,ENG,DF,Everton,21,3,2,180,1,0,0,0,0,0,0.50,0.50
-420,dion pereira,ATG,MF,Watford,17,2,0,25,0,0,0,0,0,0,0.00,0.00
-421,roberto pereyra,ARG,"MF,FW",Watford,25,13,12,"1,037",2,2,0,0,2,1,0.17,0.35
-422,lucas perez,ESP,"MF,FW",Arsenal,27,11,2,272,1,0,0,0,0,0,0.33,0.33
-423,matt phillips,SCO,MF,West Brom,25,27,26,"2,181",4,8,0,0,2,0,0.17,0.50
-424,jordan pickford,ENG,GK,Sunderland,22,29,29,"2,610",0,0,0,0,0,0,0.00,0.00
-425,jeremy pied,FRA,DF,Southampton,27,4,1,129,0,0,0,0,0,0,0.00,0.00
-426,steven pienaar,RSA,"MF,FW",Sunderland,34,15,10,803,0,0,0,0,6,2,0.00,0.00
-427,erik pieters,NED,"DF,MF",Stoke City,27,36,35,"3,151",0,1,0,0,5,0,0.00,0.03
-428,paul pogba,FRA,MF,Manchester Utd,23,30,29,"2,608",5,4,0,0,7,0,0.17,0.31
-429,sebastian prodl,AUT,DF,Watford,29,33,32,"2,769",1,1,0,0,11,2,0.03,0.07
-430,marc pugh,ENG,MF,Bournemouth,29,21,16,"1,328",2,2,0,0,1,0,0.14,0.27
-431,jason puncheon,ENG,MF,Crystal Palace,30,36,35,"3,091",0,5,0,0,9,0,0.00,0.15
-432,gaston ramirez,URU,"MF,FW",Middlesbrough,25,24,20,"1,540",2,3,0,0,9,2,0.12,0.29
-433,aaron ramsey,WAL,MF,Arsenal,25,23,13,"1,236",1,4,0,0,3,0,0.07,0.36
-434,darren randolph,IRL,GK,West Ham,29,22,22,"1,980",0,0,0,0,1,0,0.00,0.00
-435,angel rangel,ESP,DF,Swansea City,33,18,8,831,1,0,0,0,1,0,0.11,0.11
-436,andrea ranocchia,ITA,DF,Hull City,28,16,15,"1,330",2,2,0,0,2,0,0.14,0.27
-437,marcus rashford,ENG,"FW,MF",Manchester Utd,18,32,16,"1,710",5,1,0,0,3,0,0.26,0.32
-438,nathan redmond,ENG,"FW,MF",Southampton,22,37,32,"2,899",7,1,0,0,2,1,0.22,0.25
-439,harrison reed,ENG,MF,Southampton,21,3,1,64,0,0,0,0,0,0,0.00,0.00
-440,winston reid,NZL,DF,West Ham,28,30,30,"2,587",2,1,0,0,9,2,0.07,0.10
+416,bukayo saka,ENG,FW,Arsenal,16,1,0,8,0,0,0,0,0,0,0.0,0.0
+417,mamadou sakho,FRA,DF,Crystal Palace,28,27,27,"2,416",0,0,0,0,2,0,0.4,0.2
+418,bakary sako,MLI,FW,Crystal Palace,30,4,0,29,0,0,0,0,0,0,0.0,0.0
+419,mohamed salah,EGY,FW,Liverpool,26,38,37,"3,250",22,8,3,3,1,0,20.2,9.4
+420,alexis sanchez,CHI,"FW,MF",Manchester Utd,29,20,9,880,1,3,0,0,3,0,1.5,3.0
+421,carlos sanchez,COL,MF,West Ham,32,7,2,245,0,0,0,0,0,0,0.1,0.1
+422,davinson sanchez,COL,DF,Tottenham,22,23,22,"1,942",1,1,0,0,2,0,1.4,0.4
+423,leroy sane,GER,FW,Manchester City,22,31,21,"1,867",10,10,0,0,1,0,6.7,7.4
+424,fabian schar,SUI,DF,Newcastle Utd,26,24,22,"1,999",4,1,0,0,12,0,1.9,0.7
+425,christopher schindler,GER,DF,Huddersfield,28,37,37,"3,260",1,0,0,0,5,1,1.1,0.2
+426,jeffrey schlupp,GHA,"MF,FW",Crystal Palace,25,30,18,"1,670",4,1,0,0,1,0,3.2,1.2
+427,kasper schmeichel,DEN,GK,Leicester City,31,38,38,"3,420",0,0,0,0,3,0,0.1,0.4
+428,morgan schneiderlin,FRA,MF,Everton,28,14,10,834,0,1,0,0,2,0,0.1,0.4
+429,andre schurrle,GER,"FW,MF",Fulham,27,24,21,"1,641",6,0,0,0,2,0,3.6,1.9
+430,ken sema,SWE,"MF,FW",Watford,24,17,9,754,1,2,0,0,1,0,0.8,0.6
+431,jean seri,CIV,MF,Fulham,27,32,27,"2,244",1,2,0,0,6,0,0.9,4.8
+432,ryan sessegnon,ENG,"FW,DF",Fulham,18,35,26,"2,300",2,6,0,0,0,0,4.0,3.8
+433,xherdan shaqiri,SUI,"FW,MF",Liverpool,26,24,11,"1,064",6,3,0,0,2,0,3.9,1.6
+434,luke shaw,ENG,DF,Manchester Utd,23,29,29,"2,591",1,4,0,0,11,0,1.4,3.9
+435,jonjo shelvey,ENG,MF,Newcastle Utd,26,16,10,948,1,1,0,0,1,0,0.9,1.7
+436,gylfi sigurðsson,ISL,MF,Everton,28,38,36,"3,117",13,6,2,5,3,0,10.7,6.9
+437,adrien silva,POR,MF,Leicester City,29,2,1,88,0,0,0,0,0,0,0.0,0.0
+438,bernardo silva,POR,"MF,FW",Manchester City,23,36,31,"2,854",7,7,0,0,3,0,7.4,7.8
+439,david silva,ESP,MF,Manchester City,32,33,28,"2,401",6,8,0,0,2,0,7.8,8.5
+440,xande silva,POR,FW,West Ham,21,1,0,18,0,0,0,0,0,0,0.1,0.0
 441,,,,,,,,,,,,,,,,
-442,loic remy,FRA,FW,Crystal Palace,29,5,1,134,0,0,0,0,0,0,0.00,0.00
-443,jordan rhodes,SCO,FW,Middlesbrough,26,6,2,211,0,0,0,0,0,0,0.00,0.00
-444,declan rice,ENG,"DF,MF",West Ham,17,1,0,1,0,0,0,0,0,0,0.00,0.00
-445,andrew robertson,SCO,"DF,MF",Hull City,22,33,31,"2,736",1,2,0,0,5,0,0.03,0.10
-446,paul robinson,ENG,GK,Burnley,36,3,3,270,0,0,0,0,0,0,0.00,0.00
-447,joel robles,ESP,GK,Everton,26,20,19,"1,737",0,0,0,0,2,0,0.00,0.00
-448,hal robson-kanu,WAL,FW,West Brom,27,29,5,701,3,2,0,0,3,0,0.39,0.64
-449,jay rodriguez,ENG,FW,Southampton,27,24,9,892,5,2,0,0,0,0,0.50,0.71
-450,jack rodwell,ENG,MF,Sunderland,25,20,17,"1,492",0,1,0,0,4,0,0.00,0.06
-451,marcos rojo,ARG,DF,Manchester Utd,26,21,18,"1,663",1,0,0,0,5,0,0.05,0.05
-452,sergio romero,ARG,GK,Manchester Utd,29,2,2,180,0,0,0,0,0,0,0.00,0.00
-453,oriol romeu,ESP,MF,Southampton,24,35,35,"3,071",1,0,0,0,11,0,0.03,0.03
-454,salomon rondon,VEN,FW,West Brom,26,38,32,"2,891",8,2,0,0,2,0,0.25,0.31
-455,marten de roon,NED,MF,Middlesbrough,25,33,32,"2,773",4,0,0,0,8,0,0.13,0.13
-456,wayne rooney,ENG,"MF,FW",Manchester Utd,30,25,15,"1,539",5,5,1,1,8,0,0.29,0.58
-457,danny rose,ENG,"DF,MF",Tottenham,26,18,18,"1,530",2,2,0,0,8,0,0.12,0.24
-458,wayne routledge,ENG,"FW,MF",Swansea City,31,27,24,"1,922",3,1,0,0,1,0,0.14,0.19
-459,bacary sagna,FRA,DF,Manchester City,33,17,14,"1,346",0,1,0,0,2,0,0.00,0.07
-460,diafra sakho,SEN,FW,West Ham,26,4,2,181,1,0,0,0,0,0,0.50,0.50
-461,mamadou sakho,FRA,DF,Crystal Palace,26,8,8,686,0,0,0,0,0,0,0.00,0.00
-462,bakary sako,MLI,"FW,MF",Crystal Palace,28,7,0,142,0,0,0,0,0,0,0.00,0.00
-463,alexis sanchez,CHI,"FW,MF",Arsenal,27,38,36,"3,217",24,10,2,3,6,0,0.67,0.95
-464,leroy sane,GER,"MF,FW",Manchester City,20,26,20,"1,781",5,2,0,0,4,0,0.25,0.35
-465,jeffrey schlupp,GHA,DF,Crystal Palace,23,15,11,998,0,0,0,0,0,0,0.00,0.00
-466,jeffrey schlupp,GHA,MF,Leicester City,23,4,1,141,0,0,0,0,0,0,0.00,0.00
+442,danny simpson,ENG,DF,Leicester City,31,6,3,292,0,0,0,0,0,0,0.0,0.0
+443,jack simpson,ENG,DF,Bournemouth,21,6,4,403,0,0,0,0,0,0,0.1,0.0
+444,josh sims,ENG,MF,Southampton,21,7,2,212,0,1,0,0,0,0,0.6,0.7
+445,moussa sissoko,FRA,"MF,FW",Tottenham,28,29,27,"2,330",0,3,0,0,2,0,0.9,2.5
+446,oliver skipp,ENG,MF,Tottenham,17,8,2,220,0,0,0,0,0,0,0.1,0.0
+447,callum slattery,ENG,MF,Southampton,19,3,1,112,0,0,0,0,0,0,0.1,0.0
+448,chris smalling,ENG,DF,Manchester Utd,28,24,24,"2,127",1,0,0,0,1,0,1.2,0.2
+449,adam smith,ENG,"DF,MF",Bournemouth,27,25,25,"2,066",1,1,0,0,5,1,0.5,0.6
+450,tommy smith,ENG,DF,Huddersfield,26,15,13,"1,141",0,0,0,0,2,1,0.1,0.4
+451,robert snodgrass,SCO,MF,West Ham,30,33,25,"2,220",2,5,0,0,10,0,2.3,5.6
+452,cedric soares,POR,DF,Southampton,26,18,16,"1,495",1,2,0,0,4,0,0.3,1.0
+453,ramadan sobhi,EGY,"FW,MF",Huddersfield,21,4,0,79,0,0,0,0,0,0,0.0,0.2
+454,dominic solanke,ENG,"FW,MF",Bournemouth,20,10,2,347,0,1,0,0,0,0,1.0,0.4
+455,pape souare,SEN,DF,Crystal Palace,28,1,0,1,0,0,0,0,0,0,0.0,0.0
+456,caglar soyuncu,TUR,DF,Leicester City,22,6,4,372,0,0,0,0,1,0,0.1,0.0
+457,julian speroni,ARG,GK,Crystal Palace,39,1,1,90,0,0,0,0,0,0,0.0,0.0
+458,junior stanislas,ENG,"MF,FW",Bournemouth,28,23,11,"1,031",2,3,1,1,1,0,3.1,2.0
+459,dale stephens,ENG,MF,Brighton,29,30,29,"2,485",1,1,0,0,6,1,0.3,0.7
+460,jack stephens,ENG,DF,Southampton,24,24,19,"1,700",1,0,0,0,4,0,1.0,0.2
+461,raheem sterling,ENG,FW,Manchester City,23,34,31,"2,771",17,9,0,0,3,0,13.7,9.6
+462,john stones,ENG,DF,Manchester City,24,24,20,"1,764",0,0,0,0,1,0,0.3,0.2
+463,daniel sturridge,ENG,"FW,MF",Liverpool,28,18,4,509,2,1,0,0,1,0,1.2,0.8
+464,denis suarez,ESP,"MF,FW",Arsenal,24,4,0,71,0,0,0,0,0,0,0.0,0.0
+465,isaac success,NGA,"FW,MF",Watford,22,30,9,"1,052",1,1,0,0,4,0,3.5,2.8
+466,ki sung-yueng,KOR,MF,Newcastle Utd,29,18,14,"1,302",0,1,0,0,2,0,0.3,1.0
 467,,,,,,,,,,,,,,,,
-468,kasper schmeichel,DEN,GK,Leicester City,29,30,30,"2,666",0,0,0,0,1,0,0.00,0.00
-469,morgan schneiderlin,FRA,MF,Manchester Utd,26,3,0,14,0,0,0,0,0,0,0.00,0.00
-470,morgan schneiderlin,FRA,MF,Everton,26,14,12,"1,059",1,0,0,0,2,0,0.08,0.08
-471,xherdan shaqiri,SUI,MF,Stoke City,24,21,21,"1,698",4,2,0,0,2,0,0.21,0.32
-472,luke shaw,ENG,DF,Manchester Utd,21,11,9,688,0,1,0,0,1,0,0.00,0.13
-473,ryan shawcross,ENG,DF,Stoke City,28,35,35,"3,150",1,1,0,0,6,0,0.03,0.06
-474,gylfi sigurðsson,ISL,"FW,MF",Swansea City,26,38,37,"3,327",9,13,3,3,2,0,0.24,0.60
-475,david silva,ESP,MF,Manchester City,30,34,31,"2,759",4,7,0,0,6,0,0.13,0.36
-476,danny simpson,ENG,DF,Leicester City,29,35,34,"2,988",0,1,0,0,12,0,0.00,0.03
-477,josh sims,ENG,FW,Southampton,19,7,1,211,0,1,0,0,0,0,0.00,0.43
-478,jerome sinclair,ENG,FW,Watford,19,5,1,116,0,0,0,0,0,0,0.00,0.00
-479,moussa sissoko,FRA,"MF,FW",Tottenham,26,25,8,911,0,2,0,0,3,0,0.00,0.20
-480,islam slimani,ALG,FW,Leicester City,28,23,13,"1,281",7,4,1,1,1,0,0.49,0.77
-481,chris smalling,ENG,DF,Manchester Utd,26,18,13,"1,217",1,0,0,0,0,0,0.07,0.07
-482,adam smith,ENG,"DF,MF",Bournemouth,25,36,34,"3,079",1,5,0,0,6,0,0.03,0.18
-483,brad smith,AUS,"DF,MF",Bournemouth,22,5,3,291,0,0,0,0,1,0,0.00,0.00
-484,robert snodgrass,SCO,"MF,FW",West Ham,28,15,8,838,0,2,0,0,0,0,0.00,0.21
-485,robert snodgrass,SCO,"FW,MF",Hull City,28,20,19,"1,710",7,2,2,2,2,0,0.37,0.47
-486,cedric soares,POR,DF,Southampton,24,30,30,"2,515",0,3,0,0,7,0,0.00,0.11
-487,ramadan sobhi,EGY,MF,Stoke City,19,17,8,854,0,1,0,0,2,0,0.00,0.11
-488,pape souare,SEN,DF,Crystal Palace,26,3,3,269,0,0,0,0,0,0,0.00,0.00
-489,junior stanislas,ENG,MF,Bournemouth,26,21,18,"1,467",7,5,2,2,1,0,0.43,0.74
-490,maarten stekelenburg,NED,GK,Everton,33,19,19,"1,683",0,0,0,0,2,0,0.00,0.00
-491,jack stephens,ENG,DF,Southampton,22,17,15,"1,471",0,0,0,0,1,0,0.00,0.00
-492,raheem sterling,ENG,"MF,FW",Manchester City,21,33,29,"2,508",7,8,0,0,7,0,0.25,0.54
+468,andrew surman,ENG,MF,Bournemouth,31,18,16,"1,439",0,0,0,0,2,0,0.3,0.4
+469,sam surridge,ENG,"MF,FW",Bournemouth,20,2,0,13,0,0,0,0,0,0,0.3,0.0
+470,alexander sørloth,NOR,FW,Crystal Palace,22,12,0,185,0,0,0,0,0,0,0.5,0.9
+471,matt targett,ENG,DF,Southampton,22,16,13,"1,186",1,3,0,0,2,0,0.5,2.3
+472,james tarkowski,ENG,DF,Burnley,25,35,35,"3,086",3,1,0,0,8,0,3.3,0.3
+473,charlie taylor,ENG,DF,Burnley,24,38,35,"3,243",0,1,0,0,2,0,0.2,1.5
+474,youri tielemans,BEL,MF,Leicester City,21,13,13,"1,086",3,4,0,0,2,0,1.8,2.5
+475,james tomkins,ENG,DF,Crystal Palace,29,29,29,"2,560",1,1,0,0,5,0,1.4,0.9
+476,lucas torreira,URU,MF,Arsenal,22,34,24,"2,382",2,2,0,0,7,1,1.5,1.2
+477,cenk tosun,TUR,FW,Everton,27,25,10,"1,059",3,3,0,0,3,0,5.0,0.9
+478,andros townsend,ENG,"FW,MF",Crystal Palace,27,38,34,"3,009",6,4,0,0,1,0,4.6,3.6
+479,adama traore,ESP,"FW,MF",Wolves,22,29,8,902,1,1,0,0,1,0,1.3,2.2
+480,mark travers,IRL,GK,Bournemouth,19,2,2,180,0,0,0,0,0,0,0.0,0.0
+481,kieran trippier,ENG,DF,Tottenham,27,27,26,"2,276",1,3,0,0,2,0,0.5,4.1
+482,antonio valencia,ECU,DF,Manchester Utd,32,6,5,466,0,0,0,0,2,0,0.1,0.5
+483,yan valery,TUN,DF,Southampton,19,23,20,"1,712",2,1,0,0,4,1,0.7,0.2
+484,virgil van dijk,NED,DF,Liverpool,27,38,38,"3,384",4,2,0,0,1,0,3.1,1.4
+485,jamie vardy,ENG,FW,Leicester City,31,34,30,"2,726",18,4,4,5,3,1,18.3,5.1
+486,jan vertonghen,BEL,DF,Tottenham,31,22,22,"1,911",1,0,0,0,4,1,1.0,0.2
+487,jannik vestergaard,DEN,DF,Southampton,25,23,23,"2,027",0,0,0,0,2,0,0.7,0.6
+488,luciano vietto,ARG,"FW,MF",Fulham,24,20,10,986,1,4,0,0,1,0,2.9,2.1
+489,ruben vinagre,POR,"DF,MF",Wolves,19,17,7,710,0,0,0,0,1,0,0.5,0.8
+490,sam vokes,WAL,FW,Burnley,28,20,10,915,3,0,0,0,0,0,2.4,1.3
+491,michel vorm,NED,GK,Tottenham,34,2,2,180,0,0,0,0,0,0,0.0,0.0
+492,matej vydra,CZE,FW,Burnley,26,13,3,318,1,1,0,0,1,0,1.8,0.5
 493,,,,,,,,,,,,,,,,
-494,kevin stewart,JAM,"DF,MF",Liverpool,22,4,0,20,0,0,0,0,0,0,0.00,0.00
-495,john stones,ENG,DF,Manchester City,22,27,23,"2,014",0,0,0,0,1,0,0.00,0.00
-496,cristhian stuani,URU,"FW,MF",Middlesbrough,29,23,16,"1,354",4,0,0,0,4,0,0.27,0.27
-497,daniel sturridge,ENG,FW,Liverpool,26,20,7,775,3,1,0,0,1,0,0.35,0.46
-498,isaac success,NGA,MF,Watford,20,19,2,519,1,1,0,0,2,0,0.17,0.35
-499,ki sung-yueng,KOR,MF,Swansea City,27,23,13,"1,291",0,1,0,0,3,0,0.00,0.07
-500,andrew surman,ENG,MF,Bournemouth,29,22,21,"1,801",0,1,0,0,2,2,0.00,0.05
-501,dusan tadic,SRB,"FW,MF",Southampton,27,33,30,"2,411",3,5,1,2,4,0,0.11,0.30
-502,matt targett,ENG,DF,Southampton,20,5,5,373,0,0,0,0,0,0,0.00,0.00
-503,james tarkowski,ENG,DF,Burnley,23,19,4,568,0,0,0,0,1,0,0.00,0.00
-504,neil taylor,WAL,DF,Swansea City,27,11,11,920,0,0,0,0,1,0,0.00,0.00
-505,john terry,ENG,DF,Chelsea,35,9,6,496,1,0,0,0,1,0,0.18,0.18
-506,james tomkins,ENG,DF,Crystal Palace,27,24,23,"1,974",3,0,0,0,4,0,0.14,0.14
-507,gokhan tore,TUR,"MF,FW",West Ham,24,5,3,240,0,1,0,0,0,0,0.00,0.37
-508,yaya toure,CIV,MF,Manchester City,33,25,22,"1,941",5,0,2,2,4,0,0.23,0.23
-509,andros townsend,ENG,MF,Crystal Palace,25,36,30,"2,519",3,4,0,0,4,0,0.11,0.25
-510,adama traore,ESP,"MF,FW",Middlesbrough,20,27,16,"1,541",0,1,0,0,1,0,0.00,0.06
-511,kieran trippier,ENG,"DF,MF",Tottenham,25,12,6,568,0,5,0,0,1,0,0.00,0.79
-512,axel tuanzebe,COD,"MF,DF",Manchester Utd,18,4,4,303,0,0,0,0,0,0,0.00,0.00
-513,josh tymon,ENG,"MF,DF",Hull City,17,5,4,322,0,0,0,0,1,0,0.00,0.00
-514,leonardo ulloa,ARG,FW,Leicester City,30,16,3,447,1,0,0,0,0,0,0.20,0.20
-515,victor valdes,ESP,GK,Middlesbrough,34,28,28,"2,520",0,0,0,0,1,0,0.00,0.00
-516,antonio valencia,ECU,DF,Manchester Utd,30,28,27,"2,483",1,3,0,0,5,0,0.04,0.14
-517,enner valencia,ECU,FW,West Ham,26,3,3,211,0,0,0,0,0,0,0.00,0.00
-518,enner valencia,ECU,"FW,MF",Everton,26,21,5,716,3,1,0,0,1,0,0.38,0.50
+494,theo walcott,ENG,"FW,MF",Everton,29,37,24,"2,119",5,2,0,0,1,0,5.7,2.7
+495,kyle walker,ENG,DF,Manchester City,28,33,30,"2,779",1,1,0,0,3,0,0.8,1.9
+496,kyle walker-peters,ENG,DF,Tottenham,21,6,4,376,0,3,0,0,1,0,0.3,0.5
+497,aaron wan-bissaka,ENG,DF,Crystal Palace,20,35,35,"3,134",0,3,0,0,4,1,0.5,2.1
+498,victor wanyama,KEN,MF,Tottenham,27,13,4,516,1,0,0,0,2,0,1.0,0.1
+499,danny ward,ENG,FW,Cardiff City,26,14,4,445,1,0,0,0,0,0,0.6,0.3
+500,joel ward,ENG,DF,Crystal Palace,28,7,6,552,1,0,0,0,1,0,0.6,0.1
+501,stephen ward,IRL,DF,Burnley,32,3,3,228,0,0,0,0,1,0,0.1,0.0
+502,james ward-prowse,ENG,"MF,DF",Southampton,23,26,21,"1,945",7,0,1,1,4,0,3.4,3.2
+503,danny welbeck,ENG,"FW,MF",Arsenal,27,8,1,153,1,1,0,0,0,0,0.8,0.3
+504,ashley westwood,ENG,MF,Burnley,28,34,31,"2,824",2,7,0,0,5,0,1.9,4.8
+505,connor wickham,ENG,"FW,MF",Crystal Palace,25,6,0,67,0,1,0,0,0,0,0.4,0.3
+506,georginio wijnaldum,NED,MF,Liverpool,27,35,32,"2,725",3,0,0,0,3,0,3.0,1.8
+507,danny williams,USA,MF,Huddersfield,29,5,1,96,0,0,0,0,1,0,0.0,0.0
+508,willian,BRA,FW,Chelsea,29,32,26,"2,097",3,6,0,0,2,0,4.2,5.4
+509,joe willock,ENG,"MF,FW",Arsenal,18,2,1,64,0,0,0,0,0,0,0.1,0.0
+510,ben wilmot,ENG,"MF,DF",Watford,18,2,0,28,0,0,0,0,0,0,0.0,0.0
+511,jack wilshere,ENG,MF,West Ham,26,8,4,392,0,1,0,0,2,0,0.2,0.6
+512,callum wilson,ENG,FW,Bournemouth,26,30,29,"2,528",14,9,1,2,3,0,13.4,5.4
+513,harry winks,ENG,MF,Tottenham,22,26,17,"1,597",1,0,0,0,4,0,1.0,0.3
+514,chris wood,NZL,FW,Burnley,26,38,29,"2,588",10,2,0,0,2,0,8.8,3.8
+515,granit xhaka,SUI,"MF,DF",Arsenal,25,29,29,"2,498",4,2,0,0,10,0,2.0,3.4
+516,andriy yarmolenko,UKR,"MF,FW",West Ham,28,9,5,459,2,0,0,0,2,0,1.1,0.8
+517,deandre yedlin,USA,DF,Newcastle Utd,25,29,28,"2,473",1,2,0,0,6,1,1.2,2.0
+518,maya yoshida,JPN,DF,Southampton,29,17,17,"1,518",0,1,0,0,0,0,1.9,0.5
 519,,,,,,,,,,,,,,,,
-520,virgil van dijk,NED,DF,Southampton,25,21,21,"1,853",1,0,0,0,4,2,0.05,0.05
-521,jamie vardy,ENG,FW,Leicester City,29,35,33,"2,802",13,4,0,0,2,1,0.42,0.55
-522,jan vertonghen,BEL,DF,Tottenham,29,33,33,"2,894",0,0,0,0,5,0,0.00,0.00
-523,sam vokes,WAL,FW,Burnley,26,37,21,"2,064",10,3,2,2,0,0,0.44,0.57
-524,michel vorm,NED,GK,Tottenham,32,5,4,416,0,0,0,0,0,0,0.00,0.00
-525,matej vydra,CZE,"FW,MF",Watford,24,1,0,3,0,0,0,0,0,0,0.00,0.00
-526,theo walcott,ENG,MF,Arsenal,27,28,23,"1,916",10,2,0,1,1,0,0.47,0.56
-527,kyle walker,ENG,"DF,MF",Tottenham,26,33,31,"2,701",0,5,0,0,8,0,0.00,0.17
-528,jonathan walters,IRL,"FW,MF",Stoke City,32,23,13,"1,304",4,2,1,1,1,0,0.28,0.41
-529,victor wanyama,KEN,MF,Tottenham,25,36,35,"3,012",4,1,0,0,10,0,0.12,0.15
-530,joel ward,ENG,DF,Crystal Palace,26,38,38,"3,417",0,1,0,0,7,0,0.00,0.03
-531,stephen ward,IRL,DF,Burnley,30,37,37,"3,230",1,1,0,0,5,0,0.03,0.06
-532,james ward-prowse,ENG,MF,Southampton,21,30,22,"1,883",4,4,0,0,4,0,0.19,0.38
-533,marcin wasilewski,POL,DF,Leicester City,36,1,1,90,0,0,0,0,0,0,0.00,0.00
-534,duncan watmore,ENG,"MF,FW",Sunderland,22,14,11,"1,024",0,2,0,0,1,0,0.00,0.18
-535,ben watson,ENG,MF,Watford,31,4,0,54,0,0,0,0,0,1,0.00,0.00
-536,danny welbeck,ENG,"FW,MF",Arsenal,25,16,8,748,2,2,0,0,0,0,0.24,0.48
-537,ashley westwood,ENG,MF,Burnley,26,9,6,551,0,0,0,0,3,0,0.00,0.00
-538,glenn whelan,IRL,MF,Stoke City,32,30,26,"2,275",0,1,0,0,5,0,0.00,0.04
-539,connor wickham,ENG,"FW,MF",Crystal Palace,23,8,4,412,2,0,0,0,1,0,0.44,0.44
-540,georginio wijnaldum,NED,MF,Liverpool,25,36,33,"2,972",6,8,0,0,2,0,0.18,0.42
-541,ashley williams,WAL,DF,Everton,31,36,35,"3,160",1,2,0,0,7,1,0.03,0.09
-542,willian,BRA,"FW,MF",Chelsea,27,34,15,"1,534",8,2,0,0,3,0,0.47,0.59
-543,jack wilshere,ENG,MF,Arsenal,24,2,0,39,0,0,0,0,1,0,0.00,0.00
-544,jack wilshere,ENG,MF,Bournemouth,24,27,22,"1,910",0,2,0,0,3,0,0.00,0.09
-545,,,,,,,,,,,,,,,,
-546,callum wilson,ENG,FW,Bournemouth,24,20,16,"1,423",6,0,3,3,0,0,0.38,0.38
-547,marc wilson,IRL,DF,West Brom,28,4,3,254,0,0,0,0,3,0,0.00,0.00
-548,kevin wimmer,AUT,DF,Tottenham,23,5,4,357,0,0,0,0,3,0,0.00,0.00
-549,harry winks,ENG,MF,Tottenham,20,21,3,493,1,1,0,0,1,0,0.18,0.37
-550,philipp wollscheid,GER,DF,Stoke City,27,2,2,180,0,0,0,0,1,0,0.00,0.00
-551,ben woodburn,WAL,FW,Liverpool,16,5,1,86,0,0,0,0,0,0,0.00,0.00
-552,matt worthington,ENG,"DF,MF",Bournemouth,18,1,0,17,0,0,0,0,0,0,0.00,0.00
-553,granit xhaka,SUI,MF,Arsenal,23,32,28,"2,485",2,2,0,0,5,2,0.07,0.14
-554,claudio yacob,ARG,MF,West Brom,29,33,27,"2,418",0,0,0,0,9,0,0.00,0.00
-555,maya yoshida,JPN,DF,Southampton,27,23,23,"2,070",1,0,0,0,2,0,0.04,0.04
-556,ashley young,ENG,"DF,MF",Manchester Utd,31,12,8,758,0,1,0,0,2,0,0.00,0.12
-557,pablo zabaleta,ARG,"DF,MF",Manchester City,31,19,11,"1,036",1,1,0,0,2,0,0.09,0.17
-558,wilfried zaha,CIV,"MF,FW",Crystal Palace,23,35,34,"3,019",7,8,0,0,8,0,0.21,0.45
-559,mauro zarate,ARG,"FW,MF",Watford,29,3,3,203,0,0,0,0,0,0,0.00,0.00
-560,simone zaza,ITA,FW,West Ham,25,8,5,459,0,0,0,0,2,0,0.00,0.00
-561,ron-robert zieler,GER,GK,Leicester City,27,9,8,754,0,0,0,0,0,0,0.00,0.00
-562,kurt zouma,FRA,DF,Chelsea,21,9,3,250,0,0,0,0,0,0,0.00,0.00
-563,patrick van aanholt,NED,DF,Crystal Palace,26,28,25,"2,184",5,1,0,0,7,0,3.1,2.1
-564,rolando aarons,ENG,"MF,FW",Newcastle Utd,21,4,1,139,0,0,0,0,0,0,0.1,0.0
-565,tammy abraham,ENG,FW,Swansea City,19,31,15,"1,726",5,1,0,0,0,0,6.8,1.6
-566,charlie adam,SCO,MF,Stoke City,31,11,5,411,0,0,0,1,2,1,1.6,1.2
-567,adrian,ESP,GK,West Ham,30,19,19,"1,710",0,0,0,0,2,0,0.0,0.0
-568,ibrahim afellay,NED,MF,Stoke City,31,6,1,166,0,0,0,0,1,0,0.0,0.0
-569,benik afobe,COD,FW,Bournemouth,24,17,5,611,0,0,0,0,0,0,1.6,0.1
-570,sergio aguero,ARG,FW,Manchester City,29,25,22,"1,963",21,6,4,4,2,0,16.2,5.6
-571,nathan ake,NED,DF,Bournemouth,22,38,37,"3,353",2,3,0,0,5,0,1.4,1.9
-572,marc albrighton,ENG,"MF,FW",Leicester City,27,34,30,"2,538",2,7,0,0,5,1,1.6,5.7
-573,toby alderweireld,BEL,DF,Tottenham,28,14,13,"1,178",0,0,0,0,3,0,0.4,0.1
-574,trent alexander-arnold,ENG,DF,Liverpool,18,19,18,"1,573",1,1,0,0,3,0,1.0,2.6
-575,joe allen,WAL,MF,Stoke City,27,36,36,"3,139",2,6,0,0,8,0,1.8,2.8
-576,dele alli,ENG,"MF,FW",Tottenham,21,36,34,"2,958",9,10,0,0,7,0,9.1,8.2
-577,marcos alonso,ESP,"DF,MF",Chelsea,26,33,33,"2,855",7,2,0,0,6,0,4.1,2.8
-578,daniel amartey,GHA,DF,Leicester City,22,8,6,487,0,0,0,0,1,2,0.0,0.0
-579,ethan ampadu,WAL,DF,Chelsea,16,1,0,11,0,0,0,0,0,0,0.0,0.0
-580,nordin amrabat,MAR,FW,Watford,30,3,3,198,0,0,0,0,0,0,0.1,0.1
-581,michail antonio,JAM,"FW,MF",West Ham,27,21,16,"1,354",3,1,0,0,1,0,2.4,1.0
-582,scott arfield,CAN,"MF,FW",Burnley,28,18,15,"1,333",2,1,0,0,3,0,1.3,0.4
-583,marko arnautovic,AUT,"FW,MF",West Ham,28,31,28,"2,313",11,6,0,0,5,1,8.6,4.3
-584,harry arter,IRL,MF,Bournemouth,27,13,11,960,1,0,0,0,4,0,0.3,0.2
-585,christian atsu,GHA,"FW,MF",Newcastle Utd,25,28,19,"1,784",2,2,0,0,1,0,4.0,2.6
-586,pierre-emerick aubameyang,GAB,FW,Arsenal,28,13,12,"1,057",10,4,1,2,0,0,8.4,1.1
-587,serge aurier,CIV,DF,Tottenham,24,17,16,"1,429",2,2,0,0,2,2,0.8,2.6
-588,,,,,,,,,,,,,,,,
-589,charlie austin,ENG,FW,Southampton,28,24,10,"1,037",7,0,1,1,2,0,7.1,0.8
-590,andre ayew,GHA,"MF,FW",West Ham,27,18,9,895,3,2,0,1,2,0,3.3,0.3
-591,andre ayew,GHA,"MF,FW",Swansea City,27,12,10,950,0,2,0,0,3,0,1.9,1.3
-592,jordan ayew,GHA,"FW,MF",Swansea City,25,36,33,"2,852",7,2,1,1,2,1,7.3,2.0
-593,cesar azpilicueta,ESP,DF,Chelsea,27,37,37,"3,330",2,6,0,0,1,0,1.3,4.8
-594,eric bailly,CIV,DF,Manchester Utd,23,13,11,"1,001",1,0,0,0,2,0,1.1,0.2
-595,leighton baines,ENG,DF,Everton,32,22,22,"1,909",2,3,2,2,1,0,2.1,1.9
-596,tiemoue bakayoko,FRA,MF,Chelsea,22,29,24,"2,126",2,2,0,0,4,2,3.2,1.2
-597,sam baldock,ENG,FW,Brighton,28,2,0,32,0,0,0,0,0,0,0.0,0.0
-598,beni baningime,COD,MF,Everton,18,8,1,198,0,0,0,0,1,0,0.0,0.0
-599,phil bardsley,SCO,DF,Burnley,32,13,13,"1,125",0,0,0,0,5,0,0.0,0.3
-600,ross barkley,ENG,MF,Chelsea,23,2,2,129,0,0,0,0,0,0,0.8,0.1
-601,ashley barnes,ENG,FW,Burnley,27,36,21,"2,165",9,0,0,0,10,0,6.7,1.6
-602,harvey barnes,ENG,"MF,FW",Leicester City,19,3,0,10,0,0,0,0,0,0,0.1,0.0
-603,gareth barry,ENG,MF,West Brom,36,25,22,"1,923",1,1,0,0,4,0,1.6,1.4
-604,kyle bartley,ENG,DF,Swansea City,26,5,2,235,0,0,0,0,2,0,0.1,0.3
-605,michy batshuayi,BEL,FW,Chelsea,23,12,3,360,2,1,0,0,0,0,1.1,0.1
-606,moritz bauer,AUT,"DF,MF",Stoke City,25,15,15,"1,306",0,0,0,0,4,0,0.2,0.9
-607,jan bednarek,POL,DF,Southampton,21,5,5,426,1,0,0,0,1,0,0.2,0.0
-608,asmir begovic,BIH,GK,Bournemouth,30,38,38,"3,420",0,0,0,0,2,0,0.0,0.0
-609,hector bellerin,ESP,DF,Arsenal,22,35,34,"3,051",2,3,0,0,5,0,2.2,3.9
-610,yohan benalouane,TUN,DF,Leicester City,30,1,1,90,0,0,0,0,0,0,0.1,0.0
-611,christian benteke,BEL,FW,Crystal Palace,26,31,24,"2,240",3,5,1,2,6,0,10.2,2.9
-612,saido berahino,BDI,FW,Stoke City,23,15,3,494,0,1,0,1,0,0,2.0,0.6
-613,johann berg guðmundsson,ISL,MF,Burnley,26,35,32,"2,833",2,8,0,0,2,0,3.5,4.7
-614,,,,,,,,,,,,,,,,
-615,ryan bertrand,ENG,DF,Southampton,27,35,35,"3,135",0,4,0,0,2,0,1.7,3.1
-616,muhamed besic,BIH,MF,Everton,24,2,0,46,0,0,0,0,0,0,0.0,0.0
-617,philip billing,DEN,MF,Huddersfield,21,16,8,764,0,0,0,0,3,0,0.2,0.5
-618,mame biram diouf,SEN,"FW,DF",Stoke City,29,35,30,"2,596",6,2,0,0,6,0,6.5,1.9
-619,daley blind,NED,"DF,MF",Manchester Utd,27,7,4,362,0,0,0,0,0,0,0.1,0.2
-620,jeremie boga,CIV,MF,Chelsea,20,1,1,17,0,0,0,0,0,0,0.0,0.0
-621,yannick bolasie,COD,FW,Everton,28,16,11,851,1,0,0,0,0,0,1.5,0.7
-622,gaetan bong,CMR,DF,Brighton,29,25,25,"2,236",0,0,0,0,2,0,0.1,0.5
-623,wilfried bony,CIV,FW,Swansea City,28,15,8,707,2,0,0,0,2,0,1.6,0.2
-624,sofiane boufal,MAR,"FW,MF",Southampton,23,26,11,"1,219",2,2,0,0,1,0,1.7,1.8
-625,robbie brady,IRL,MF,Burnley,25,15,15,"1,277",1,2,0,0,3,0,1.2,2.1
-626,claudio bravo,CHI,GK,Manchester City,34,3,2,226,0,0,0,0,0,0,0.0,0.0
-627,miguel britos,URU,DF,Watford,32,12,10,797,1,0,0,0,3,1,0.8,0.4
-628,leon britton,ENG,MF,Swansea City,34,5,4,302,0,0,0,0,1,0,0.0,0.0
-629,izzy brown,ENG,"MF,FW",Brighton,20,13,4,311,0,0,0,0,0,0,0.1,0.8
-630,bruno,ESP,DF,Brighton,36,25,23,"2,016",0,0,0,0,3,0,0.1,0.6
-631,chris brunt,NIR,"MF,DF",West Brom,32,26,22,"1,920",0,7,0,0,5,0,1.8,4.3
-632,oliver burke,SCO,"FW,MF",West Brom,20,15,2,367,0,2,0,0,0,0,0.5,0.5
-633,jack butland,ENG,GK,Stoke City,24,35,35,"3,150",0,0,0,0,0,0,0.0,0.0
-634,sam byram,ENG,"DF,MF",West Ham,23,5,2,248,0,0,0,0,1,0,0.3,0.1
-635,willy caballero,ARG,GK,Chelsea,35,3,3,270,0,0,0,0,0,0,0.0,0.0
-636,yohan cabaye,FRA,MF,Crystal Palace,31,31,28,"2,376",0,1,0,0,7,0,2.3,4.1
-637,gary cahill,ENG,DF,Chelsea,31,27,24,"2,086",0,0,0,0,1,1,0.5,0.1
-638,dominic calvert-lewin,ENG,FW,Everton,20,32,18,"1,882",4,6,0,0,4,0,4.9,2.6
-639,geoff cameron,USA,"DF,MF",Stoke City,32,20,17,"1,525",0,0,0,0,2,0,0.3,0.1
-640,,,,,,,,,,,,,,,,
-641,tyrese campbell,ENG,FW,Stoke City,17,4,0,79,0,0,0,0,0,0,0.2,0.0
-642,emre can,GER,MF,Liverpool,23,26,24,"2,091",3,4,0,0,8,0,1.8,3.0
-643,etienne capoue,FRA,MF,Watford,29,23,18,"1,542",1,0,0,0,3,0,0.8,0.6
-644,michael carrick,ENG,MF,Manchester Utd,36,2,1,109,0,0,0,0,0,0,0.5,0.1
-645,andre carrillo,PER,"FW,MF",Watford,26,28,16,"1,540",1,2,0,0,2,0,2.3,2.8
-646,guido carrillo,ARG,FW,Southampton,26,7,5,450,0,1,0,0,0,0,0.7,0.4
-647,andy carroll,ENG,FW,West Ham,28,16,7,751,3,0,0,0,6,2,1.8,0.5
-648,tom carroll,ENG,MF,Swansea City,25,37,28,"2,570",0,4,0,0,3,0,0.9,4.1
-649,craig cathcart,NIR,DF,Watford,28,7,5,523,0,0,0,0,1,0,0.1,0.0
-650,petr cech,CZE,GK,Arsenal,35,34,34,"3,039",0,0,0,0,1,0,0.0,0.0
-651,nacer chadli,BEL,"FW,MF",West Brom,27,5,2,260,1,0,0,0,1,0,0.2,0.1
-652,nathaniel chalobah,ENG,MF,Watford,22,6,5,447,0,0,0,0,1,0,0.8,0.0
-653,calum chambers,ENG,DF,Arsenal,22,12,10,866,0,0,0,0,1,0,1.4,0.1
-654,ben chilwell,ENG,DF,Leicester City,20,24,20,"1,853",0,2,0,0,2,2,0.2,2.4
-655,hamza choudhury,ENG,"MF,DF",Leicester City,19,8,4,378,0,1,0,0,1,0,0.0,0.4
-656,andreas christensen,DEN,DF,Chelsea,21,27,23,"2,086",0,0,0,0,0,0,0.9,0.1
-657,lee chung-yong,KOR,"FW,MF",Crystal Palace,29,7,1,135,0,0,0,0,0,0,0.0,0.1
-658,ciaran clark,IRL,DF,Newcastle Utd,27,20,19,"1,746",2,1,0,0,3,0,1.7,0.7
-659,tom cleverley,ENG,MF,Watford,27,23,22,"1,902",1,2,0,1,2,2,1.9,1.6
-660,sam clucas,ENG,MF,Swansea City,26,29,23,"2,044",3,1,0,0,2,0,2.6,1.3
-661,nathaniel clyne,ENG,"DF,FW",Liverpool,26,3,2,174,0,0,0,0,1,0,0.1,0.1
-662,seamus coleman,IRL,DF,Everton,28,12,12,"1,035",0,1,0,0,0,0,1.0,0.7
-663,james collins,WAL,DF,West Ham,33,13,12,"1,050",1,0,0,0,3,0,0.3,0.2
-664,lewis cook,ENG,MF,Bournemouth,20,29,25,"2,237",0,2,0,0,5,0,0.5,1.6
-665,steve cook,ENG,DF,Bournemouth,26,34,31,"2,767",2,1,0,0,5,0,1.6,1.0
-666,,,,,,,,,,,,,,,,
-667,francis coquelin,FRA,"MF,DF",Arsenal,26,7,1,169,0,0,0,0,0,0,0.1,0.6
-668,jack cork,ENG,MF,Burnley,28,38,38,"3,420",2,1,0,0,7,0,2.2,1.1
-669,thibaut courtois,BEL,GK,Chelsea,25,35,35,"3,150",0,0,0,0,2,0,0.0,0.0
-670,philippe coutinho,BRA,"MF,FW",Liverpool,25,14,13,"1,109",7,6,0,0,0,0,3.5,4.7
-671,martin cranie,ENG,DF,Huddersfield,30,3,2,180,0,0,0,0,0,0,0.0,0.0
-672,aaron cresswell,ENG,DF,West Ham,27,36,35,"3,069",1,3,0,0,7,0,0.8,3.2
-673,peter crouch,ENG,FW,Stoke City,36,31,14,"1,567",5,2,0,0,4,0,4.2,2.8
-674,josh cullen,IRL,MF,West Ham,21,2,0,8,0,0,0,0,0,0,0.0,0.0
-675,charlie daniels,ENG,"DF,MF",Bournemouth,30,35,34,"3,002",1,3,0,0,0,0,0.6,2.2
-676,danilo,BRA,DF,Manchester City,26,23,13,"1,349",3,2,0,0,2,0,1.1,0.2
-677,scott dann,ENG,DF,Crystal Palace,30,17,16,"1,435",1,0,0,0,4,0,2.3,0.2
-678,karl darlow,ENG,GK,Newcastle Utd,26,10,10,900,0,0,0,0,0,0,0.0,0.0
-679,matteo darmian,ITA,DF,Manchester Utd,27,8,5,444,0,0,0,0,0,0,0.0,0.0
-680,ben davies,WAL,DF,Tottenham,24,29,26,"2,324",2,6,0,0,3,0,1.1,3.2
-681,tom davies,ENG,MF,Everton,19,33,20,"1,900",2,1,0,0,7,0,1.5,0.6
-682,steven davis,NIR,MF,Southampton,32,23,17,"1,521",3,0,0,0,0,0,0.9,1.1
-683,craig dawson,ENG,DF,West Brom,27,28,28,"2,510",2,0,0,0,6,0,2.3,1.2
-684,kevin de bruyne,BEL,MF,Manchester City,26,37,36,"3,073",8,16,0,0,2,0,5.1,11.1
-685,troy deeney,ENG,FW,Watford,29,29,20,"1,844",5,2,3,5,1,1,6.9,2.8
-686,jermain defoe,ENG,FW,Bournemouth,34,24,11,"1,088",4,1,0,0,1,0,3.5,1.1
-687,steven defour,BEL,MF,Burnley,29,24,24,"1,997",1,1,0,0,6,0,0.8,1.1
-688,damien delaney,IRL,DF,Crystal Palace,36,2,1,96,0,0,0,0,0,0,0.0,0.0
-689,fabian delph,ENG,DF,Manchester City,27,22,21,"1,741",1,2,0,0,2,0,0.3,1.2
-690,mousa dembele,BEL,MF,Tottenham,30,28,21,"1,879",0,0,0,0,6,0,0.4,0.7
-691,laurent depoitre,BEL,FW,Huddersfield,28,33,18,"1,820",6,1,0,0,1,0,3.7,1.4
-692,,,,,,,,,,,,,,,,
-693,mike van der hoorn,NED,DF,Swansea City,24,24,24,"1,944",1,0,0,0,4,0,1.0,0.6
-694,gerard deulofeu,ESP,"FW,MF",Watford,23,7,5,435,1,0,0,0,0,0,0.5,0.6
-695,fousseni diabate,MLI,"MF,FW",Leicester City,21,14,5,587,0,1,0,0,1,0,0.5,0.3
-696,mohamed diame,SEN,MF,Newcastle Utd,30,31,23,"2,041",2,0,0,0,3,0,1.4,0.7
-697,brahim diaz,MAR,"FW,DF",Manchester City,17,5,0,55,0,0,0,0,0,0,0.5,0.0
-698,eric dier,ENG,"MF,DF",Tottenham,23,34,32,"2,824",0,2,0,0,4,0,2.0,1.7
-699,abdoulaye doucoure,MLI,MF,Watford,24,37,37,"3,324",7,3,0,0,10,0,3.5,2.3
-700,aleksandar dragovic,AUT,DF,Leicester City,26,11,7,769,0,0,0,0,2,0,0.1,0.0
-701,danny drinkwater,ENG,MF,Chelsea,27,12,5,527,1,0,0,0,0,0,0.2,0.3
-702,martin dubravka,SVK,GK,Newcastle Utd,28,12,12,"1,080",0,0,0,0,0,0,0.0,0.0
-703,shane duffy,IRL,DF,Brighton,25,37,37,"3,292",0,1,0,0,8,0,2.3,1.1
-704,paul dummett,WAL,DF,Newcastle Utd,25,20,19,"1,602",0,0,0,0,1,0,0.3,0.3
-705,lewis dunk,ENG,DF,Brighton,25,38,38,"3,420",1,1,0,0,7,0,2.7,1.2
-706,nathan dyer,ENG,"MF,FW",Swansea City,29,24,16,"1,307",0,0,0,0,2,0,0.9,0.8
-707,ederson,BRA,GK,Manchester City,23,36,36,"3,194",0,0,0,0,1,0,0.0,0.1
-708,tom edwards,ENG,"DF,MF",Stoke City,18,6,6,481,0,0,0,0,0,0,0.0,0.4
-709,rob elliot,IRL,GK,Newcastle Utd,31,16,16,"1,440",0,0,0,0,0,0,0.0,0.0
-710,mohamed elneny,EGY,MF,Arsenal,25,13,11,867,0,1,0,0,3,1,0.3,0.9
-711,christian eriksen,DEN,"MF,FW",Tottenham,25,37,37,"3,218",10,10,0,0,0,0,7.0,11.6
-712,jonny evans,NIR,DF,West Brom,29,28,26,"2,270",2,2,0,0,7,0,2.1,0.9
-713,patrice evra,FRA,"DF,MF",West Ham,36,5,3,228,0,0,0,0,0,0,0.0,0.0
-714,łukasz fabianski,POL,GK,Swansea City,32,38,38,"3,420",0,0,0,0,0,0,0.0,0.0
-715,cesc fabregas,ESP,MF,Chelsea,30,32,25,"2,307",2,4,0,0,5,2,2.4,6.8
-716,marouane fellaini,BEL,MF,Manchester Utd,29,16,5,683,4,0,0,0,1,0,3.5,0.2
-717,kiko femenia,ESP,"DF,FW",Watford,26,23,19,"1,713",1,1,0,0,2,0,0.4,1.8
-718,,,,,,,,,,,,,,,,
-719,leroy fer,NED,MF,Swansea City,27,20,15,"1,397",1,1,0,0,5,0,1.6,1.0
-720,edimilson fernandes,SUI,"MF,DF",West Ham,21,14,9,845,0,1,0,0,1,0,0.3,0.3
-721,federico fernandez,ARG,DF,Swansea City,28,30,30,"2,676",1,1,0,0,5,0,0.7,0.7
-722,fernandinho,BRA,MF,Manchester City,32,34,33,"2,881",5,3,0,0,7,0,2.1,2.8
-723,sam field,ENG,MF,West Brom,19,10,7,537,1,0,0,0,3,0,0.5,0.2
-724,roberto firmino,BRA,FW,Liverpool,25,37,32,"2,763",15,7,1,1,1,0,10.7,6.5
-725,darren fletcher,SCO,MF,Stoke City,33,27,25,"2,219",1,1,0,0,0,0,0.4,1.6
-726,phil foden,ENG,"MF,FW",Manchester City,17,5,0,49,0,1,0,0,0,0,0.0,0.3
-727,jose fonte,POR,DF,West Ham,33,8,8,688,0,1,0,0,0,0,0.6,0.3
-728,fraser forster,ENG,GK,Southampton,29,20,20,"1,800",0,0,0,0,0,0,0.0,0.0
-729,ben foster,ENG,GK,West Brom,34,37,37,"3,330",0,0,0,0,2,0,0.0,0.1
-730,timothy fosu-mensah,NED,DF,Crystal Palace,19,21,17,"1,596",0,0,0,0,2,0,0.2,0.3
-731,simon francis,ENG,DF,Bournemouth,32,32,31,"2,705",0,1,0,0,9,2,0.6,1.5
-732,ryan fraser,SCO,"MF,DF",Bournemouth,23,26,23,"2,004",5,3,0,0,0,0,1.8,3.3
-733,christian fuchs,AUT,DF,Leicester City,31,25,21,"1,921",0,1,0,0,1,0,0.5,1.2
-734,jay fulton,SCO,MF,Swansea City,23,2,0,19,0,0,0,0,1,0,0.0,0.0
-735,ramiro funes mori,ARG,DF,Everton,26,4,1,121,0,0,0,0,1,0,0.0,0.0
-736,manolo gabbiadini,ITA,FW,Southampton,25,28,11,"1,081",5,0,1,1,2,0,2.5,0.5
-737,jesus gamez,ESP,DF,Newcastle Utd,32,2,1,98,0,0,0,0,0,0,0.1,0.2
-738,idrissa gana gueye,SEN,MF,Everton,27,33,32,"2,751",2,1,0,0,7,2,1.5,0.8
-739,dwight gayle,ENG,FW,Newcastle Utd,26,35,23,"1,958",6,3,0,0,3,0,8.3,2.0
-740,paulo gazzaniga,ARG,GK,Tottenham,25,1,1,90,0,0,0,0,0,0,0.0,0.0
-741,david de gea,ESP,GK,Manchester Utd,26,37,37,"3,330",0,0,0,0,0,0,0.0,0.0
-742,kieran gibbs,ENG,DF,West Brom,27,33,32,"2,827",0,1,0,0,3,0,0.4,1.8
-743,olivier giroud,FRA,FW,Arsenal,30,16,1,388,4,1,0,0,0,0,3.3,0.9
-744,,,,,,,,,,,,,,,,
-745,olivier giroud,FRA,FW,Chelsea,30,13,6,613,3,1,0,0,0,0,3.6,2.0
-746,connor goldson,ENG,DF,Brighton,24,3,2,200,0,0,0,0,1,0,0.2,0.0
-747,heurelho gomes,BRA,GK,Watford,36,24,24,"2,128",0,0,0,0,0,0,0.0,0.0
-748,joe gomez,ENG,DF,Liverpool,20,23,21,"1,902",0,2,0,0,3,0,0.3,1.5
-749,dan gosling,ENG,MF,Bournemouth,27,28,21,"1,947",2,1,0,0,8,0,2.1,0.9
-750,lee grant,ENG,GK,Stoke City,34,3,3,270,0,0,0,0,0,0,0.0,0.0
-751,andre gray,JAM,FW,Watford,26,31,16,"1,498",5,2,0,0,1,0,6.7,2.1
-752,demarai gray,JAM,"MF,FW",Leicester City,21,35,17,"1,697",3,1,0,0,2,0,2.5,3.4
-753,pascal groß,GER,"FW,MF",Brighton,26,38,35,"2,928",7,8,1,1,2,0,3.3,8.3
-754,marko grujic,SRB,"MF,DF",Liverpool,21,3,0,16,0,0,0,0,0,0,0.0,0.0
-755,ilkay gundogan,GER,MF,Manchester City,26,30,15,"1,517",4,1,1,1,3,0,3.0,1.7
-756,florent hadergjonaj,KVX,"DF,MF",Huddersfield,23,23,19,"1,674",0,1,0,0,3,0,0.3,1.5
-757,massadio haidara,MLI,FW,Newcastle Utd,24,1,0,4,0,0,0,0,0,0,0.0,0.0
-758,ben hamer,ENG,GK,Leicester City,29,4,3,275,0,0,0,0,0,0,0.0,0.0
-759,rekeem harper,ENG,MF,West Brom,17,1,0,21,0,0,0,0,0,0,0.0,0.1
-760,joe hart,ENG,GK,West Ham,30,19,19,"1,710",0,1,0,0,0,0,0.0,0.7
-761,isaac hayden,ENG,MF,Newcastle Utd,22,26,15,"1,374",1,0,0,0,7,0,1.0,0.6
-762,eden hazard,BEL,"FW,MF",Chelsea,26,34,28,"2,422",12,4,2,2,2,0,7.7,6.4
-763,tom heaton,ENG,GK,Burnley,31,4,4,305,0,0,0,0,0,0,0.0,0.0
-764,michael hefele,GER,DF,Huddersfield,26,2,0,33,0,0,0,0,1,0,0.0,0.0
-765,ahmed hegazi,EGY,DF,West Brom,26,38,38,"3,386",2,0,0,0,4,0,1.7,0.6
-766,tomer hemed,ISR,FW,Brighton,30,16,9,849,2,2,0,0,0,0,1.9,0.1
-767,jordan henderson,ENG,MF,Liverpool,27,27,25,"2,171",1,1,0,0,1,0,1.2,1.8
-768,jeff hendrick,IRL,"FW,MF",Burnley,25,34,29,"2,331",2,2,0,0,1,0,2.0,2.7
-769,wayne hennessey,WAL,GK,Crystal Palace,30,27,27,"2,430",0,0,0,0,1,0,0.0,0.5
-770,,,,,,,,,,,,,,,,
-771,javier hernandez,MEX,FW,West Ham,29,28,16,"1,548",8,0,0,0,3,0,5.0,1.3
-772,ander herrera,ESP,MF,Manchester Utd,27,26,13,"1,268",0,2,0,0,5,0,0.4,1.6
-773,son heung-min,KOR,FW,Tottenham,25,37,27,"2,317",12,6,0,0,0,0,10.2,6.2
-774,wesley hoedt,NED,DF,Southampton,23,28,28,"2,520",0,1,0,0,7,0,1.3,0.5
-775,jonathan hogg,ENG,MF,Huddersfield,28,30,29,"2,398",0,0,0,0,9,2,0.4,0.4
-776,rob holding,ENG,DF,Arsenal,21,12,9,822,0,0,0,0,3,0,0.1,0.0
-777,jose holebas,GRE,DF,Watford,33,28,26,"2,382",0,4,0,0,7,0,0.6,3.2
-778,mason holgate,ENG,DF,Everton,20,15,13,"1,184",0,0,0,0,3,0,0.6,0.6
-779,callum hudson-odoi,ENG,"FW,DF",Chelsea,16,2,0,29,0,0,0,0,0,0,0.1,0.0
-780,will hughes,ENG,MF,Watford,22,15,11,990,2,3,0,0,0,0,0.6,1.5
-781,jordan hugill,ENG,FW,West Ham,25,3,0,25,0,0,0,0,0,0,0.0,0.0
-782,uwe hunemeier,GER,DF,Brighton,31,1,0,18,0,0,0,0,0,0,0.0,0.0
-783,emerson hyndman,USA,MF,Bournemouth,21,1,1,58,0,0,0,0,0,0,0.0,0.0
-784,pierre højbjerg,DEN,MF,Southampton,21,23,19,"1,670",0,0,0,0,6,0,1.0,0.6
-785,jordon ibe,ENG,"MF,FW",Bournemouth,21,32,22,"1,995",2,6,0,0,1,0,3.0,3.3
-786,vicente iborra,ESP,MF,Leicester City,29,19,17,"1,410",3,0,0,0,0,0,1.7,0.5
-787,zlatan ibrahimovic,SWE,"MF,FW",Manchester Utd,35,5,1,106,0,0,0,0,0,0,0.2,0.1
-788,kelechi iheanacho,NGA,"FW,MF",Leicester City,20,21,7,830,3,3,0,0,2,0,4.1,2.3
-789,tom ince,ENG,"MF,FW",Huddersfield,25,33,27,"2,452",2,0,0,0,0,0,6.4,1.4
-790,danny ings,ENG,FW,Liverpool,25,8,3,267,1,0,0,0,0,0,1.1,0.1
-791,stephen ireland,IRL,"MF,FW",Stoke City,30,4,1,131,0,0,0,0,1,0,0.4,0.0
-792,alex iwobi,NGA,"MF,FW",Arsenal,21,26,22,"1,830",3,5,0,0,1,0,3.9,3.5
-793,jose izquierdo,COL,"MF,FW",Brighton,25,32,23,"1,984",5,3,0,0,2,0,3.8,2.2
-794,phil jagielka,ENG,DF,Everton,34,25,23,"2,065",0,0,0,0,2,0,0.5,0.0
-795,eldin jakupovic,SUI,GK,Leicester City,32,2,2,180,0,0,0,0,0,0,0.0,0.0
-796,,,,,,,,,,,,,,,,
-797,matty james,ENG,MF,Leicester City,26,13,11,993,0,0,0,0,2,0,1.3,0.1
-798,daryl janmaat,NED,DF,Watford,28,23,21,"1,820",3,0,0,0,3,0,1.8,1.0
-799,vincent janssen,NED,DF,Tottenham,23,1,0,1,0,0,0,0,0,0,0.0,0.0
-800,jese,ESP,"FW,MF",Stoke City,24,13,8,614,1,1,0,0,0,0,0.9,0.7
-801,gabriel jesus,BRA,FW,Manchester City,20,29,19,"1,668",13,3,0,2,6,0,13.8,2.1
-802,glen johnson,ENG,DF,Stoke City,32,9,7,547,0,0,0,0,3,0,0.1,0.2
-803,phil jones,ENG,DF,Manchester Utd,25,23,23,"1,973",0,0,0,0,2,0,0.4,0.1
-804,joselu,ESP,FW,Newcastle Utd,27,30,19,"1,712",4,1,0,1,2,0,6.0,1.2
-805,mathias jørgensen,DEN,DF,Huddersfield,27,38,38,"3,420",0,2,0,0,6,0,1.9,0.9
-806,christian kabasele,BEL,DF,Watford,26,28,27,"2,330",2,0,0,0,5,0,0.7,0.1
-807,younes kaboul,FRA,DF,Watford,31,2,2,150,0,0,0,0,0,0,0.0,0.0
-808,elias kachunga,COD,"FW,MF",Huddersfield,25,19,17,"1,329",1,1,0,0,1,0,1.9,0.6
-809,sullay kaikai,SLE,MF,Crystal Palace,21,1,0,14,0,0,0,0,0,0,0.0,0.0
-810,harry kane,ENG,FW,Tottenham,24,37,35,"3,076",30,2,2,3,5,0,24.8,2.7
-811,n'golo kante,FRA,MF,Chelsea,26,34,34,"2,994",1,1,0,0,3,0,0.8,2.9
-812,loris karius,GER,GK,Liverpool,24,19,19,"1,710",0,0,0,0,1,0,0.0,0.0
-813,orestis karnezis,GRE,GK,Watford,32,15,14,"1,292",0,0,0,0,0,0,0.0,0.0
-814,beram kayal,ISR,MF,Brighton,29,19,8,745,0,0,0,0,2,0,0.2,0.5
-815,michael keane,ENG,DF,Everton,24,30,29,"2,560",0,1,0,0,3,0,1.1,0.5
-816,martin kelly,ENG,DF,Crystal Palace,27,15,12,"1,195",0,0,0,0,1,0,0.4,0.1
-817,kenedy,BRA,"MF,DF",Newcastle Utd,21,13,13,"1,023",2,2,0,0,1,0,2.4,1.7
-818,jonjoe kenny,ENG,DF,Everton,20,19,17,"1,590",0,1,0,0,2,0,0.1,1.5
-819,andy king,WAL,MF,Leicester City,28,11,5,537,1,0,0,0,1,0,0.5,0.1
-820,andy king,WAL,MF,Swansea City,28,11,9,715,2,1,0,0,1,0,1.0,0.2
-821,joshua king,NOR,"FW,MF",Bournemouth,25,33,27,"2,453",8,3,2,2,3,0,6.5,4.9
-822,,,,,,,,,,,,,,,,
-823,davy klaassen,NED,"MF,FW",Everton,24,7,3,251,0,0,0,0,0,0,0.1,0.1
-824,ragnar klavan,EST,DF,Liverpool,31,19,16,"1,451",1,0,0,0,0,0,0.9,0.2
-825,anthony knockaert,FRA,"MF,FW",Brighton,25,33,27,"2,421",3,1,0,0,4,1,4.1,3.2
-826,sead kolasinac,BIH,DF,Arsenal,24,27,25,"2,147",2,4,0,0,3,0,2.2,3.5
-827,vincent kompany,BEL,DF,Manchester City,31,17,17,"1,394",1,1,0,0,6,0,0.8,0.5
-828,terence kongolo,NED,DF,Huddersfield,23,13,11,"1,049",0,0,0,0,0,0,0.3,0.1
-829,laurent koscielny,FRA,DF,Arsenal,31,25,25,"2,225",2,0,0,0,4,0,1.9,0.4
-830,cheikhou kouyate,SEN,MF,West Ham,27,33,32,"2,799",2,3,0,0,5,0,2.7,1.1
-831,bojan krkic,ESP,MF,Stoke City,26,1,1,71,0,0,0,0,0,0,0.0,0.0
-832,grzegorz krychowiak,POL,MF,West Brom,27,27,20,"1,641",0,2,0,0,2,0,0.8,1.8
-833,rajiv van la parra,NED,"FW,MF",Huddersfield,26,33,26,"2,137",3,0,1,1,3,1,3.1,0.9
-834,alexandre lacazette,FRA,FW,Arsenal,26,32,26,"2,202",14,4,2,2,1,0,13.7,4.4
-835,freddie ladapo,ENG,FW,Crystal Palace,24,1,0,17,0,0,0,0,0,0,0.0,0.0
-836,adam lallana,ENG,"MF,FW",Liverpool,29,12,1,308,0,0,0,0,1,0,1.5,0.4
-837,erik lamela,ARG,"FW,MF",Tottenham,25,25,7,843,2,2,0,0,4,0,3.4,2.0
-838,manuel lanzini,ARG,"MF,FW",West Ham,24,27,23,"2,042",5,6,0,1,4,0,3.9,4.1
-839,aymeric laporte,ESP,DF,Manchester City,23,9,9,806,0,0,0,0,1,0,0.1,0.1
-840,jamaal lascelles,ENG,DF,Newcastle Utd,23,33,32,"2,928",3,0,0,0,5,0,1.1,0.7
-841,florian lejeune,FRA,DF,Newcastle Utd,26,24,24,"2,103",0,2,0,0,3,0,0.6,1.5
-842,mario lemina,GAB,MF,Southampton,23,25,20,"1,720",1,1,0,0,2,0,0.8,0.7
-843,aaron lennon,ENG,MF,Burnley,30,14,13,"1,118",0,2,0,0,2,0,0.6,0.8
-844,aaron lennon,ENG,"FW,MF",Everton,30,15,9,793,0,0,0,0,0,0,0.2,0.2
-845,victor lindelof,SWE,DF,Manchester Utd,23,17,13,"1,285",0,0,0,0,1,0,0.0,0.3
-846,jesse lingard,ENG,"MF,FW",Manchester Utd,24,33,20,"1,817",8,5,0,0,2,0,7.1,2.8
-847,jake livermore,ENG,MF,West Brom,27,34,30,"2,674",2,2,0,0,5,0,2.3,1.9
-848,,,,,,,,,,,,,,,,
-849,fernando llorente,ESP,"FW,MF",Tottenham,32,16,1,238,1,0,0,0,1,0,1.0,0.2
-850,hugo lloris,FRA,GK,Tottenham,30,36,36,"3,240",0,0,0,0,1,0,0.0,0.0
-851,jurgen locadia,CUW,"FW,MF",Brighton,23,6,3,224,1,1,0,0,0,0,1.1,0.1
-852,ruben loftus-cheek,ENG,MF,Crystal Palace,21,24,21,"1,874",2,3,0,0,1,0,3.5,3.2
-853,joe lolley,ENG,"FW,MF",Huddersfield,24,6,2,221,1,0,0,0,1,0,0.1,0.1
-854,kevin long,IRL,DF,Burnley,26,16,16,"1,440",1,2,0,0,1,0,1.2,1.3
-855,shane long,IRL,FW,Southampton,30,30,15,"1,582",2,1,0,0,6,0,3.7,1.3
-856,ademola lookman,NGA,"FW,MF",Everton,19,7,1,159,0,0,0,0,0,0,0.1,0.5
-857,jonas lossl,DEN,GK,Huddersfield,28,38,38,"3,420",0,1,0,0,1,0,0.0,0.6
-858,dejan lovren,CRO,DF,Liverpool,28,29,24,"2,127",2,1,0,0,4,0,1.4,1.3
-859,chris lowe,GER,DF,Huddersfield,28,23,19,"1,588",0,0,0,0,1,0,0.4,0.4
-860,matthew lowton,ENG,DF,Burnley,28,26,25,"2,295",0,3,0,0,1,0,0.1,1.6
-861,david luiz,BRA,"DF,MF",Chelsea,30,10,9,840,1,0,0,0,4,1,0.9,0.0
-862,romelu lukaku,BEL,FW,Manchester Utd,24,34,33,"2,867",16,7,0,1,4,0,13.2,4.7
-863,dodi lukebakio,BEL,"MF,FW",Watford,19,1,0,16,0,0,0,0,0,0,0.0,0.1
-864,levi lumeka,ENG,FW,Crystal Palace,18,1,0,26,0,0,0,0,0,0,0.1,0.0
-865,harry maguire,ENG,DF,Leicester City,24,38,38,"3,420",2,4,0,0,7,0,2.8,4.1
-866,riyad mahrez,ALG,"MF,FW",Leicester City,26,36,34,"2,950",12,10,0,0,2,0,6.5,7.2
-867,ainsley maitland-niles,ENG,"DF,MF",Arsenal,19,15,8,914,0,0,0,0,1,0,0.2,0.9
-868,scott malone,ENG,DF,Huddersfield,26,22,12,"1,119",0,1,0,0,3,0,0.5,0.5
-869,sadio mane,SEN,FW,Liverpool,25,29,28,"2,190",10,7,0,0,3,1,10.6,5.4
-870,eliaquim mangala,FRA,DF,Everton,26,2,2,134,0,0,0,0,0,0,0.1,0.0
-871,eliaquim mangala,FRA,DF,Manchester City,26,9,4,488,0,0,0,0,0,0,0.1,0.0
-872,javier manquillo,ESP,DF,Newcastle Utd,23,21,20,"1,758",0,1,0,0,2,0,0.1,1.3
-873,solly march,ENG,"MF,FW",Brighton,23,36,18,"1,851",1,1,0,0,3,0,1.5,1.4
-874,,,,,,,,,,,,,,,,
-875,adrian mariappa,JAM,DF,Watford,30,28,24,"2,210",0,0,0,0,4,0,0.7,0.2
-876,joao mario,POR,MF,West Ham,24,13,12,"1,022",2,1,0,0,0,0,1.7,1.4
-877,anthony martial,FRA,FW,Manchester Utd,21,30,18,"1,582",9,5,1,1,1,0,6.3,5.1
-878,cuco martina,CUW,DF,Everton,27,21,20,"1,830",0,2,0,0,2,0,0.1,1.4
-879,bruno martins indi,NED,DF,Stoke City,25,17,14,"1,243",0,0,0,0,3,0,1.0,0.1
-880,arthur masuaku,COD,DF,West Ham,23,27,21,"1,870",0,3,0,0,5,0,0.3,2.0
-881,juan mata,ESP,FW,Manchester Utd,29,28,23,"1,922",3,5,0,0,1,0,3.7,4.5
-882,nemanja matic,SRB,MF,Manchester Utd,28,36,35,"3,118",1,1,0,0,6,0,0.7,1.6
-883,joel matip,CMR,DF,Liverpool,25,25,22,"1,997",1,0,0,0,3,0,1.9,0.3
-884,konstantinos mavropanos,GRE,DF,Arsenal,19,3,3,195,0,0,0,0,0,1,0.0,0.0
-885,alfie mawson,ENG,DF,Swansea City,23,38,38,"3,420",2,1,0,0,3,0,1.9,0.6
-886,eric maxim choupo-moting,CMR,"FW,MF",Stoke City,28,30,26,"2,314",5,5,0,0,3,0,5.9,3.1
-887,chancel mbemba,COD,DF,Newcastle Utd,22,9,7,672,0,0,0,0,0,0,0.0,0.5
-888,james mcarthur,SCO,MF,Crystal Palace,29,33,27,"2,431",5,1,0,0,5,0,3.7,2.2
-889,gareth mcauley,NIR,DF,West Brom,37,9,5,458,0,0,0,0,0,0,0.0,0.0
-890,oliver mcburnie,SCO,"FW,MF",Swansea City,21,11,2,276,0,1,0,0,0,0,0.4,0.7
-891,alex mccarthy,ENG,GK,Southampton,27,18,18,"1,620",0,0,0,0,2,0,0.0,0.0
-892,james mccarthy,IRL,MF,Everton,26,4,3,205,0,0,0,0,0,0,0.1,0.0
-893,james mcclean,IRL,"MF,FW",West Brom,28,30,14,"1,406",1,0,0,0,7,0,1.8,0.8
-894,sam mcqueen,ENG,"DF,MF",Southampton,22,7,1,148,0,0,0,0,0,0,0.0,0.2
-895,scott mctominay,SCO,MF,Manchester Utd,20,13,7,634,0,0,0,0,2,0,0.0,0.0
-896,ben mee,ENG,DF,Burnley,27,29,29,"2,610",0,0,0,0,5,0,1.9,0.5
-897,benjamin mendy,FRA,"DF,FW",Manchester City,23,7,4,363,0,1,0,0,2,0,0.1,0.8
-898,mikel merino,ESP,MF,Newcastle Utd,21,24,14,"1,347",1,1,0,0,4,0,0.6,0.9
-899,per mertesacker,GER,DF,Arsenal,32,6,4,366,1,0,0,0,0,0,0.2,0.0
-900,,,,,,,,,,,,,,,,
-901,roque mesa,ESP,MF,Swansea City,28,11,9,754,0,0,0,0,3,0,0.2,0.2
-902,simon mignolet,BEL,GK,Liverpool,29,19,19,"1,710",0,0,0,0,3,0,0.0,0.0
-903,luka milivojevic,SRB,MF,Crystal Palace,26,36,35,"3,080",10,1,7,8,8,0,8.2,1.0
-904,james milner,ENG,MF,Liverpool,31,32,16,"1,775",0,3,0,0,3,0,1.1,3.2
-905,tyrone mings,ENG,DF,Bournemouth,24,4,3,201,0,0,0,0,1,0,0.0,0.1
-906,kevin mirallas,BEL,"FW,MF",Everton,29,5,2,138,0,0,0,0,1,0,0.2,0.1
-907,aleksandar mitrovic,SRB,FW,Newcastle Utd,22,6,0,95,1,0,0,0,0,0,1.2,0.2
-908,henrikh mkhitaryan,ARM,"FW,MF",Arsenal,28,11,9,794,2,4,0,0,0,0,1.5,2.8
-909,henrikh mkhitaryan,ARM,"MF,FW",Manchester Utd,28,15,11,922,1,5,0,0,2,0,0.8,3.0
-910,nacho monreal,ESP,DF,Arsenal,31,28,26,"2,243",5,2,0,0,3,0,1.7,2.6
-911,aaron mooy,AUS,MF,Huddersfield,26,36,34,"3,067",4,3,1,1,4,0,3.0,4.0
-912,alvaro morata,ESP,FW,Chelsea,24,31,24,"2,061",11,6,0,0,7,0,13.0,3.1
-913,alberto moreno,ESP,DF,Liverpool,25,16,14,"1,266",0,0,0,0,1,0,0.5,0.8
-914,wes morgan,JAM,DF,Leicester City,33,32,32,"2,817",0,0,0,0,4,0,1.6,0.4
-915,james morrison,SCO,MF,West Brom,31,4,2,207,1,0,0,0,0,0,1.0,0.1
-916,victor moses,NGA,"DF,MF",Chelsea,26,28,25,"2,110",3,3,0,0,3,0,3.0,2.4
-917,steve mounie,BEN,FW,Huddersfield,22,28,21,"1,855",7,1,0,0,2,0,5.2,1.8
-918,lucas moura,BRA,"FW,MF",Tottenham,24,6,2,210,0,1,0,0,0,0,0.2,0.3
-919,lys mousset,FRA,"FW,MF",Bournemouth,21,23,4,596,2,0,0,0,1,0,1.2,0.8
-920,jacob murphy,ENG,"MF,FW",Newcastle Utd,22,25,13,"1,148",1,1,0,0,0,0,1.8,1.3
-921,jamie murphy,SCO,MF,Brighton,27,4,1,168,0,0,0,0,0,0,0.1,0.0
-922,glenn murray,ENG,FW,Brighton,33,35,25,"2,192",12,0,4,6,9,0,11.9,1.6
-923,charly musonda jr.,BEL,FW,Chelsea,20,3,0,37,0,0,0,0,0,0,0.2,0.5
-924,shkodran mustafi,GER,DF,Arsenal,25,27,25,"2,273",3,1,0,0,6,0,0.8,1.3
-925,boaz myhill,WAL,GK,West Brom,34,1,1,90,0,0,0,0,1,0,0.0,0.0
-926,,,,,,,,,,,,,,,,
-927,georges-kevin n'koudou,CMR,MF,Tottenham,22,1,0,1,0,0,0,0,0,0,0.0,0.0
-928,georges-kevin n'koudou,CMR,"MF,FW",Burnley,22,8,2,228,0,0,0,0,1,0,0.1,0.0
-929,luciano narsingh,NED,"FW,MF",Swansea City,26,18,5,625,1,0,0,0,0,0,0.8,1.1
-930,kyle naughton,ENG,DF,Swansea City,28,34,34,"3,030",0,2,0,0,1,0,0.4,0.5
-931,badou ndiaye,SEN,MF,Stoke City,26,13,13,"1,138",2,1,0,0,5,0,1.6,0.3
-932,wilfred ndidi,NGA,MF,Leicester City,20,33,33,"2,898",0,3,0,0,8,4,2.1,0.6
-933,reiss nelson,ENG,"FW,MF",Arsenal,17,3,2,145,0,0,0,0,0,0,0.1,0.0
-934,julien ngoy,BEL,MF,Stoke City,19,1,0,20,0,0,0,0,0,0,0.0,0.0
-935,oumar niasse,SEN,FW,Everton,27,22,10,"1,087",8,2,0,0,2,0,7.0,1.4
-936,eddie nketiah,ENG,FW,Arsenal,18,3,0,20,0,1,0,0,0,0,0.1,0.0
-937,lukas nmecha,GER,FW,Manchester City,18,2,0,16,0,0,0,0,0,0,0.0,0.0
-938,mark noble,ENG,MF,West Ham,30,29,28,"2,400",4,0,2,2,6,0,2.4,1.8
-939,allan nyom,CMR,DF,West Brom,29,29,25,"2,310",0,1,0,0,7,0,0.1,1.1
-940,aiden o'neill,AUS,MF,Burnley,19,1,0,1,0,0,0,0,0,0,,
-941,michael obafemi,IRL,FW,Southampton,17,1,0,9,0,0,0,0,0,0,0.4,0.0
-942,pedro obiang,EQG,MF,West Ham,25,21,18,"1,563",2,0,0,0,3,0,0.4,0.4
-943,angelo ogbonna,ITA,DF,West Ham,29,32,32,"2,880",1,0,0,0,3,0,0.7,0.5
-944,stefano okaka,ITA,FW,Watford,27,15,3,453,1,1,0,0,2,0,1.8,0.4
-945,shinji okazaki,JPN,"FW,MF",Leicester City,31,27,17,"1,324",6,2,0,0,2,0,6.7,2.0
-946,martin olsson,SWE,DF,Swansea City,29,36,36,"3,149",0,1,0,0,7,0,0.9,0.8
-947,divock origi,BEL,FW,Liverpool,22,1,0,10,0,0,0,0,0,0,0.0,0.0
-948,david ospina,COL,GK,Arsenal,28,5,4,381,0,0,0,0,0,0,0.0,0.0
-949,nicolas otamendi,ARG,DF,Manchester City,29,34,33,"2,967",4,0,0,0,9,0,2.7,0.9
-950,reece oxford,ENG,MF,West Ham,18,1,0,5,0,0,0,0,0,0,0.0,0.0
-951,alex oxlade-chamberlain,ENG,DF,Arsenal,23,3,3,241,0,0,0,0,0,0,0.3,0.5
-952,,,,,,,,,,,,,,,,
-953,alex oxlade-chamberlain,ENG,"MF,FW",Liverpool,23,32,14,"1,493",3,7,0,0,3,0,2.2,3.8
-954,mesut ozil,GER,"MF,FW",Arsenal,28,26,24,"2,163",4,8,0,0,4,0,4.4,8.7
-955,kasey palmer,JAM,"MF,FW",Huddersfield,20,4,1,170,0,0,0,0,2,0,0.1,0.1
-956,emerson palmieri,ITA,DF,Chelsea,22,5,3,280,0,1,0,0,0,0,0.1,0.0
-957,pedro,ESP,"MF,FW",Chelsea,30,31,17,"1,523",4,2,0,0,1,0,3.0,1.3
-958,roberto pereyra,ARG,"MF,FW",Watford,26,32,18,"1,624",5,2,0,0,3,0,3.3,3.0
-959,ayoze perez,ESP,"MF,FW",Newcastle Utd,24,36,28,"2,492",8,5,0,0,3,0,6.2,4.7
-960,matt phillips,SCO,"MF,DF",West Brom,26,30,23,"2,093",2,2,0,0,3,0,2.4,4.1
-961,jordan pickford,ENG,GK,Everton,23,38,38,"3,420",0,0,0,0,0,0,0.0,0.1
-962,jeremy pied,FRA,DF,Southampton,28,2,2,180,0,1,0,0,0,0,0.0,0.2
-963,erik pieters,NED,DF,Stoke City,28,31,30,"2,718",0,1,0,0,5,0,0.1,1.5
-964,paul pogba,FRA,MF,Manchester Utd,24,27,25,"2,148",6,10,0,0,5,1,7.7,4.5
-965,nick pope,ENG,GK,Burnley,25,35,34,"3,115",0,0,0,0,3,0,0.0,0.5
-966,alex pritchard,ENG,"MF,FW",Huddersfield,24,14,12,998,1,1,0,0,1,0,1.2,1.9
-967,sebastian prodl,AUT,DF,Watford,30,21,17,"1,570",0,0,0,0,5,0,0.6,0.2
-968,davy propper,NED,MF,Brighton,25,35,35,"3,119",0,4,0,0,2,1,1.9,1.4
-969,marc pugh,ENG,"MF,FW",Bournemouth,30,20,11,985,0,0,0,0,2,0,1.3,0.5
-970,jason puncheon,ENG,MF,Crystal Palace,31,10,6,645,0,0,0,0,5,0,1.2,0.5
-971,collin quaner,GER,"FW,MF",Huddersfield,26,26,13,"1,280",0,4,0,0,4,0,1.4,2.5
-972,sandro ramirez,ESP,"FW,MF",Everton,22,8,3,278,0,0,0,0,0,0,0.5,0.0
-973,aaron ramsey,WAL,MF,Arsenal,26,24,21,"1,846",7,8,0,0,0,0,6.1,5.4
-974,angel rangel,ESP,DF,Swansea City,34,4,2,156,0,0,0,0,0,0,0.0,0.1
-975,marcus rashford,ENG,"FW,MF",Manchester Utd,19,35,17,"1,813",7,5,0,0,3,0,5.2,3.8
-976,nathan redmond,ENG,"FW,MF",Southampton,23,31,22,"1,945",1,3,0,0,3,0,2.2,3.6
-977,winston reid,NZL,DF,West Ham,29,17,17,"1,452",0,0,0,0,5,0,0.3,0.3
-978,,,,,,,,,,,,,,,,
-979,declan rice,ENG,"DF,MF",West Ham,18,26,15,"1,430",0,0,0,0,1,0,0.2,0.1
-980,richarlison,BRA,"FW,MF",Watford,20,38,32,"2,823",5,4,0,0,4,0,10.3,3.4
-981,jairo riedewald,NED,"MF,DF",Crystal Palace,20,12,4,442,0,0,0,0,0,0,0.0,0.0
-982,matt ritchie,SCO,"MF,FW",Newcastle Utd,27,35,32,"2,804",3,5,0,0,6,0,3.1,6.0
-983,connor roberts,WAL,DF,Swansea City,21,4,3,268,0,0,0,0,0,0,0.0,0.0
-984,andrew robertson,SCO,DF,Liverpool,23,22,22,"1,940",1,5,0,0,2,0,0.5,4.1
-985,hal robson-kanu,WAL,"FW,MF",West Brom,28,21,8,827,2,0,0,0,2,1,2.4,0.4
-986,jay rodriguez,ENG,"FW,MF",West Brom,28,37,31,"2,812",7,1,1,1,2,0,8.4,1.6
-987,marcos rojo,ARG,DF,Manchester Utd,27,9,8,640,0,0,0,0,6,0,0.2,0.1
-988,sergio romero,ARG,GK,Manchester Utd,30,1,1,90,0,0,0,0,0,0,0.0,0.0
-989,oriol romeu,ESP,MF,Southampton,25,34,34,"2,897",1,0,0,0,11,0,2.6,1.4
-990,salomon rondon,VEN,FW,West Brom,27,36,32,"2,767",7,3,0,0,4,0,7.0,2.8
-991,wayne rooney,ENG,"MF,FW",Everton,31,31,27,"2,268",10,2,3,6,5,0,8.6,2.2
-992,danny rose,ENG,DF,Tottenham,27,10,9,800,0,1,0,0,4,0,0.6,0.6
-993,liam rosenior,ENG,DF,Brighton,33,3,1,164,0,0,0,0,0,0,0.1,0.0
-994,wayne routledge,ENG,"MF,FW",Swansea City,32,15,4,429,0,0,0,0,1,0,0.4,0.4
-995,antonio rudiger,GER,DF,Chelsea,24,27,25,"2,338",2,1,0,0,4,0,1.7,0.4
-996,mathew ryan,AUS,GK,Brighton,25,38,38,"3,420",0,0,0,0,0,0,0.0,0.0
-997,abdelhamid sabiri,MAR,MF,Huddersfield,20,5,2,220,0,1,0,0,1,0,0.3,0.1
-998,henri saivet,SEN,MF,Newcastle Utd,26,1,1,83,1,0,0,0,0,0,0.1,0.0
-999,diafra sakho,SEN,FW,West Ham,27,14,0,306,2,0,0,0,2,0,1.4,0.1
-1000,mamadou sakho,FRA,DF,Crystal Palace,27,19,18,"1,600",1,2,0,0,1,0,1.2,1.1
-1001,bakary sako,MLI,"FW,MF",Crystal Palace,29,16,4,478,3,0,0,0,0,0,1.9,1.1
-1002,mohamed salah,EGY,FW,Liverpool,25,36,34,"2,907",32,10,1,2,1,0,24.1,7.5
-1003,renato sanches,POR,MF,Swansea City,19,12,9,702,0,0,0,0,1,0,0.5,0.3
-1004,,,,,,,,,,,,,,,,
-1005,alexis sanchez,CHI,"MF,FW",Arsenal,28,19,17,"1,503",7,3,1,1,4,0,8.1,4.9
-1006,alexis sanchez,CHI,"FW,MF",Manchester Utd,28,12,12,"1,043",2,3,0,1,1,0,2.7,2.4
-1007,davinson sanchez,COL,DF,Tottenham,21,31,29,"2,534",0,0,0,0,1,1,0.5,0.1
-1008,leroy sane,GER,FW,Manchester City,21,32,27,"2,419",10,15,0,0,4,0,5.8,6.8
-1009,ezequiel schelotto,ITA,DF,Brighton,28,20,15,"1,318",0,0,0,0,3,0,0.2,0.6
-1010,christopher schindler,GER,DF,Huddersfield,27,37,37,"3,265",0,1,0,0,7,2,1.1,2.3
-1011,jeffrey schlupp,GHA,"DF,MF",Crystal Palace,24,24,21,"1,745",0,1,0,0,3,0,1.2,1.0
-1012,kasper schmeichel,DEN,GK,Leicester City,30,33,33,"2,965",0,0,0,0,3,0,0.0,0.1
-1013,morgan schneiderlin,FRA,MF,Everton,27,30,24,"2,130",0,0,0,0,5,2,0.4,0.2
-1014,xherdan shaqiri,SUI,"MF,FW",Stoke City,25,36,36,"3,039",8,7,0,1,5,0,5.0,7.1
-1015,luke shaw,ENG,DF,Manchester Utd,22,11,8,790,0,0,0,0,2,0,0.4,0.4
-1016,ryan shawcross,ENG,DF,Stoke City,29,27,27,"2,371",1,1,0,0,2,0,2.5,0.3
-1017,jonjo shelvey,ENG,MF,Newcastle Utd,25,30,25,"2,270",1,3,0,0,3,3,2.4,2.5
-1018,gylfi sigurðsson,ISL,"MF,FW",Everton,27,27,25,"2,259",4,3,0,0,2,0,3.0,3.9
-1019,adrien silva,POR,MF,Leicester City,28,12,9,761,0,1,0,0,3,0,0.3,0.8
-1020,bernardo silva,POR,"FW,MF",Manchester City,22,35,15,"1,533",6,4,0,0,0,0,3.8,2.8
-1021,david silva,ESP,MF,Manchester City,31,29,28,"2,430",9,11,0,0,5,0,7.2,8.4
-1022,danny simpson,ENG,DF,Leicester City,30,28,27,"2,306",0,0,0,0,4,0,0.2,0.1
-1023,jack simpson,ENG,DF,Bournemouth,20,1,1,71,0,0,0,0,0,0,0.0,0.0
-1024,josh sims,ENG,"FW,MF",Southampton,20,6,1,163,0,0,0,0,0,0,0.6,0.1
-1025,jerome sinclair,ENG,"MF,FW",Watford,20,4,0,31,0,0,0,0,0,0,0.0,0.0
-1026,moussa sissoko,FRA,"MF,FW",Tottenham,27,32,15,"1,386",1,1,0,0,3,0,2.2,2.2
-1027,islam slimani,ALG,FW,Leicester City,29,12,2,249,1,1,0,0,0,0,1.5,0.2
-1028,islam slimani,ALG,FW,Newcastle Utd,29,4,1,132,0,0,0,0,1,0,0.0,0.4
-1029,chris smalling,ENG,DF,Manchester Utd,27,29,28,"2,536",4,0,0,0,4,0,1.7,0.2
-1030,,,,,,,,,,,,,,,,
-1031,adam smith,ENG,"DF,MF",Bournemouth,26,27,22,"2,071",1,3,0,0,6,0,0.5,1.6
-1032,tommy smith,ENG,DF,Huddersfield,25,24,21,"1,904",0,1,0,0,7,0,0.2,1.8
-1033,cedric soares,POR,DF,Southampton,25,32,32,"2,794",0,3,0,0,3,0,0.7,3.1
-1034,ramadan sobhi,EGY,"MF,FW",Stoke City,20,24,12,"1,238",2,0,0,0,2,0,1.2,1.0
-1035,dominic solanke,ENG,FW,Liverpool,19,21,5,596,1,1,0,0,0,0,3.5,2.6
-1036,pape souare,SEN,DF,Crystal Palace,27,1,0,9,0,0,0,0,0,0,0.0,0.0
-1037,julian speroni,ARG,GK,Crystal Palace,38,11,11,990,0,0,0,0,0,0,0.0,0.0
-1038,kostas stafylidis,GRE,"DF,MF",Stoke City,23,5,4,335,0,0,0,0,0,0,0.1,0.0
-1039,junior stanislas,ENG,"MF,FW",Bournemouth,27,19,17,"1,286",5,2,1,1,1,0,3.9,1.9
-1040,dale stephens,ENG,MF,Brighton,28,36,36,"3,240",0,3,0,0,6,0,1.2,2.3
-1041,jack stephens,ENG,DF,Southampton,23,22,22,"1,980",2,0,0,0,6,1,1.3,0.2
-1042,raheem sterling,ENG,FW,Manchester City,22,33,29,"2,587",18,11,1,1,4,2,16.2,7.3
-1043,john stones,ENG,DF,Manchester City,23,18,16,"1,302",0,0,0,0,0,0,0.8,0.0
-1044,daniel sturridge,ENG,FW,West Brom,27,6,2,118,0,0,0,0,0,0,0.1,0.2
-1045,daniel sturridge,ENG,FW,Liverpool,27,9,5,431,2,1,0,0,0,0,2.3,0.8
-1046,ki sung-yueng,KOR,MF,Swansea City,28,25,21,"1,868",2,2,0,0,2,0,0.9,1.5
-1047,andrew surman,ENG,MF,Bournemouth,30,25,20,"1,856",2,5,0,0,2,0,1.2,1.0
-1048,markus suttner,AUT,DF,Brighton,30,14,13,"1,179",0,0,0,0,0,0,0.1,0.3
-1049,lasse sørensen,DEN,MF,Stoke City,17,1,1,75,0,0,0,0,0,0,0.0,0.1
-1050,alexander sørloth,NOR,FW,Crystal Palace,21,4,4,360,0,0,0,0,0,0,0.5,0.5
-1051,dusan tadic,SRB,"MF,FW",Southampton,28,36,34,"2,791",6,3,1,1,4,0,5.8,5.7
-1052,matt targett,ENG,DF,Southampton,21,2,2,166,0,0,0,0,0,0,0.0,0.1
-1053,james tarkowski,ENG,DF,Burnley,24,31,31,"2,790",0,0,0,0,5,0,1.4,0.8
-1054,charlie taylor,ENG,DF,Burnley,23,11,10,950,0,0,0,0,3,0,0.0,0.2
-1055,james tomkins,ENG,DF,Crystal Palace,28,28,27,"2,387",3,0,0,0,8,0,2.2,0.1
-1056,,,,,,,,,,,,,,,,
-1057,cenk tosun,TUR,FW,Everton,26,14,12,986,5,0,0,0,0,0,2.8,1.4
-1058,yaya toure,CIV,MF,Manchester City,34,10,1,236,0,2,0,0,1,0,0.4,0.9
-1059,andros townsend,ENG,"FW,MF",Crystal Palace,26,36,35,"3,120",2,7,0,0,3,0,3.0,7.2
-1060,kieran trippier,ENG,DF,Tottenham,26,24,21,"1,914",0,5,0,0,1,0,0.4,4.2
-1061,axel tuanzebe,COD,FW,Manchester Utd,19,1,0,1,0,0,0,0,0,0,0.0,0.0
-1062,josh tymon,ENG,DF,Stoke City,18,3,2,163,0,0,0,0,0,0,0.0,0.0
-1063,leonardo ulloa,ARG,FW,Leicester City,31,4,0,22,0,0,0,0,0,0,0.1,0.3
-1064,leonardo ulloa,ARG,FW,Brighton,31,10,2,267,1,0,0,0,0,0,0.7,0.2
-1065,antonio valencia,ECU,DF,Manchester Utd,31,31,31,"2,740",3,1,0,0,7,0,0.5,1.2
-1066,virgil van dijk,NED,DF,Southampton,26,12,11,994,0,0,0,0,0,0,0.9,1.0
-1067,virgil van dijk,NED,DF,Liverpool,26,14,14,"1,260",0,0,0,0,1,0,1.2,1.2
-1068,jamie vardy,ENG,FW,Leicester City,30,37,37,"3,247",20,1,5,6,3,0,16.1,3.0
-1069,jan vertonghen,BEL,DF,Tottenham,30,36,36,"3,203",0,0,0,0,4,0,1.0,0.8
-1070,nikola vlasic,CRO,"MF,FW",Everton,19,12,7,576,0,0,0,0,0,0,0.3,0.8
-1071,sam vokes,WAL,FW,Burnley,27,30,7,998,4,1,0,0,3,0,2.8,1.3
-1072,michel vorm,NED,GK,Tottenham,33,1,1,90,0,0,0,0,0,0,0.0,0.0
-1073,molla wague,MLI,DF,Watford,26,6,5,438,1,0,0,0,0,0,0.4,0.0
-1074,theo walcott,ENG,"FW,MF",Arsenal,28,6,0,69,0,0,0,0,0,0,0.0,0.0
-1075,theo walcott,ENG,FW,Everton,28,14,13,"1,152",3,3,0,0,2,0,2.5,2.4
-1076,kyle walker,ENG,DF,Manchester City,27,32,32,"2,785",0,6,0,0,3,2,0.6,4.6
-1077,kyle walker-peters,ENG,DF,Tottenham,20,3,2,189,0,2,0,0,0,0,0.0,1.2
-1078,jonathan walters,IRL,FW,Burnley,33,3,0,39,0,0,0,0,0,0,0.2,0.0
-1079,aaron wan-bissaka,ENG,DF,Crystal Palace,19,7,7,627,0,0,0,0,1,0,0.0,0.2
-1080,victor wanyama,KEN,MF,Tottenham,26,18,8,846,1,0,0,0,2,0,0.5,0.2
-1081,joel ward,ENG,DF,Crystal Palace,27,19,19,"1,613",0,1,0,0,4,0,0.2,0.9
-1082,,,,,,,,,,,,,,,,
-1083,stephen ward,IRL,DF,Burnley,31,28,28,"2,460",1,1,0,0,1,0,0.3,1.4
-1084,james ward-prowse,ENG,"FW,MF",Southampton,22,30,20,"1,716",3,3,0,0,3,0,2.2,2.8
-1085,ben watson,ENG,MF,Watford,32,8,6,456,0,0,0,0,1,0,0.1,0.2
-1086,danny welbeck,ENG,"FW,MF",Arsenal,26,28,12,"1,194",5,2,0,0,1,0,5.5,1.4
-1087,nahki wells,BER,"FW,MF",Burnley,27,9,0,55,0,0,0,0,0,0,0.6,0.0
-1088,ashley westwood,ENG,MF,Burnley,27,19,12,"1,111",0,1,0,0,2,0,0.6,1.0
-1089,dean whitehead,ENG,MF,Huddersfield,35,4,0,71,0,0,0,0,0,0,0.0,0.0
-1090,georginio wijnaldum,NED,MF,Liverpool,26,33,27,"2,387",1,2,0,0,1,0,2.8,1.2
-1091,ashley williams,WAL,DF,Everton,32,24,20,"1,834",1,0,0,0,3,1,0.8,0.3
-1092,danny williams,USA,MF,Huddersfield,28,20,11,"1,124",0,0,0,0,2,0,0.4,0.2
-1093,willian,BRA,"MF,FW",Chelsea,28,36,20,"1,890",6,7,1,1,1,0,5.5,5.3
-1094,joe willock,ENG,MF,Arsenal,17,2,1,82,0,0,0,0,0,0,0.1,0.0
-1095,jack wilshere,ENG,MF,Arsenal,25,20,12,"1,193",1,3,0,0,6,0,1.1,2.6
-1096,callum wilson,ENG,FW,Bournemouth,25,28,23,"1,981",8,2,0,0,0,0,7.6,1.5
-1097,kevin wimmer,AUT,DF,Stoke City,24,17,14,"1,323",0,0,0,0,5,0,0.1,0.2
-1098,harry winks,ENG,MF,Tottenham,21,16,9,774,0,1,0,0,0,0,0.1,0.5
-1099,chris wood,NZL,FW,Burnley,25,24,20,"1,624",10,1,0,0,1,0,7.0,0.6
-1100,ben woodburn,WAL,FW,Liverpool,17,1,0,7,0,0,0,0,0,0,0.0,0.0
-1101,granit xhaka,SUI,MF,Arsenal,24,38,37,"3,260",1,7,0,0,10,0,2.4,3.4
-1102,claudio yacob,ARG,MF,West Brom,30,16,9,903,0,0,0,0,5,0,0.5,0.0
-1103,deandre yedlin,USA,DF,Newcastle Utd,24,34,31,"2,845",0,2,0,0,5,0,0.2,2.0
-1104,maya yoshida,JPN,DF,Southampton,28,24,23,"2,051",2,0,0,0,3,2,2.0,0.4
-1105,ashley young,ENG,DF,Manchester Utd,32,30,28,"2,442",2,4,0,0,7,0,0.8,3.6
-1106,pablo zabaleta,ARG,"DF,MF",West Ham,32,37,37,"3,289",0,1,0,0,9,0,0.4,0.9
-1107,wilfried zaha,CIV,"FW,MF",Crystal Palace,24,29,28,"2,549",9,3,0,0,5,0,9.2,4.7
-1108,,,,,,,,,,,,,,,,
-1109,davide zappacosta,ITA,"DF,MF",Chelsea,25,22,12,"1,098",1,1,0,0,0,0,1.4,1.3
-1110,marvin zeegelaar,NED,DF,Watford,26,12,12,994,0,1,0,0,4,1,0.0,1.0
-1111,oleksandr zinchenko,UKR,DF,Manchester City,20,8,6,532,0,0,0,0,1,0,0.1,0.4
-1112,patrick van aanholt,NED,DF,Crystal Palace,27,36,36,"3,195",3,2,0,0,3,0,2.6,4.4
-1113,sergio aguero,ARG,FW,Manchester City,30,33,31,"2,459",21,8,2,2,4,0,18.1,5.0
-1114,nathan ake,NED,DF,Bournemouth,23,38,38,"3,411",4,0,0,0,3,0,3.4,1.0
-1115,marc albrighton,ENG,"FW,MF",Leicester City,28,27,18,"1,625",2,2,0,0,3,0,1.2,2.9
-1116,toby alderweireld,BEL,DF,Tottenham,29,34,33,"2,922",0,0,0,0,3,0,1.1,0.6
-1117,trent alexander-arnold,ENG,DF,Liverpool,19,29,27,"2,462",1,12,0,0,3,0,1.6,6.3
-1118,alisson,BRA,GK,Liverpool,25,38,38,"3,420",0,0,0,0,1,0,0.0,0.0
-1119,dele alli,ENG,MF,Tottenham,22,25,22,"1,825",5,3,0,0,4,0,4.8,3.1
-1120,miguel almiron,PAR,MF,Newcastle Utd,24,10,9,759,0,0,0,0,0,0,1.5,0.6
-1121,marcos alonso,ESP,DF,Chelsea,27,31,31,"2,759",2,4,0,0,6,0,3.4,3.4
-1122,daniel amartey,GHA,DF,Leicester City,23,9,7,641,0,0,0,0,2,0,0.3,0.1
-1123,luke amos,ENG,MF,Tottenham,21,1,0,3,0,0,0,0,0,0,0.0,0.0
-1124,felipe anderson,BRA,"MF,FW",West Ham,25,36,36,"3,043",9,4,0,0,3,0,5.5,6.1
-1125,florin andone,ROU,FW,Brighton,25,23,8,881,3,0,0,0,5,0,2.5,0.1
-1126,michail antonio,JAM,"MF,FW",West Ham,28,33,22,"2,103",6,4,0,0,3,0,7.1,4.4
-1127,stuart armstrong,SCO,MF,Southampton,26,29,16,"1,432",3,2,0,0,2,0,2.0,1.5
-1128,marko arnautovic,AUT,FW,West Ham,29,28,24,"1,990",10,4,1,1,3,0,8.9,4.4
-1129,kepa arrizabalaga,ESP,GK,Chelsea,23,36,36,"3,240",0,0,0,0,2,0,0.0,0.0
-1130,harry arter,IRL,MF,Cardiff City,28,25,24,"1,997",0,1,0,0,10,0,0.9,0.5
-1131,christian atsu,GHA,MF,Newcastle Utd,26,28,15,"1,493",1,0,0,0,2,0,2.1,1.6
-1132,pierre-emerick aubameyang,GAB,FW,Arsenal,29,36,30,"2,726",22,5,4,5,0,0,22.5,4.2
-1133,serge aurier,CIV,DF,Tottenham,25,8,6,564,0,2,0,0,1,0,0.1,1.0
-1134,charlie austin,ENG,FW,Southampton,29,25,11,983,2,2,0,1,1,0,3.6,0.9
-1135,jordan ayew,GHA,FW,Crystal Palace,26,20,14,"1,181",1,2,0,0,3,0,2.9,1.2
-1136,floyd ayite,TOG,"FW,MF",Fulham,29,16,3,476,1,0,0,0,0,0,0.4,0.5
-1137,,,,,,,,,,,,,,,,
-1138,cesar azpilicueta,ESP,DF,Chelsea,28,38,38,"3,402",1,5,0,0,4,0,1.2,2.4
-1139,ryan babel,NED,"FW,MF",Fulham,31,16,15,"1,251",5,3,0,0,3,0,5.7,2.2
-1140,juninho bacuna,CUW,"MF,DF",Huddersfield,20,21,16,"1,412",1,0,0,0,4,0,0.7,1.4
-1141,leandro bacuna,CUW,MF,Cardiff City,26,11,4,561,0,0,0,0,2,0,0.1,0.1
-1142,eric bailly,CIV,DF,Manchester Utd,24,12,8,638,0,0,0,0,0,1,0.2,0.0
-1143,leighton baines,ENG,DF,Everton,33,6,5,375,0,0,0,0,0,0,0.1,0.2
-1144,fabian balbuena,PAR,DF,West Ham,26,23,23,"2,013",1,0,0,0,2,0,2.1,0.2
-1145,leon balogun,NGA,DF,Brighton,30,8,5,594,1,0,0,0,2,0,0.1,0.0
-1146,sol bamba,CIV,DF,Cardiff City,33,28,28,"2,474",4,1,0,0,7,0,4.0,0.2
-1147,phil bardsley,SCO,DF,Burnley,33,19,19,"1,670",0,0,0,0,9,0,0.3,1.1
-1148,ross barkley,ENG,MF,Chelsea,24,27,13,"1,245",3,5,0,0,1,0,4.0,2.1
-1149,ashley barnes,ENG,FW,Burnley,28,37,26,"2,388",12,2,2,2,8,0,13.8,3.3
-1150,harvey barnes,ENG,"MF,FW",Leicester City,20,16,11,"1,004",1,2,0,0,0,0,3.9,1.7
-1151,antonio barreca,ITA,DF,Newcastle Utd,23,1,0,5,0,0,0,0,0,0,0.0,0.0
-1152,michy batshuayi,BEL,FW,Crystal Palace,24,11,9,750,5,0,0,0,0,0,4.0,0.1
-1153,jan bednarek,POL,DF,Southampton,22,25,24,"2,151",0,1,0,0,7,0,0.8,0.7
-1154,asmir begovic,BIH,GK,Bournemouth,31,24,24,"2,160",0,0,0,0,0,0,0.0,0.0
-1155,hector bellerin,ESP,DF,Arsenal,23,19,18,"1,533",0,5,0,0,3,0,0.9,2.2
-1156,joe bennett,ENG,DF,Cardiff City,28,30,30,"2,639",0,1,0,0,5,0,0.5,0.9
-1157,ryan bennett,ENG,DF,Wolves,28,34,34,"3,060",1,0,0,0,12,0,1.3,1.0
-1158,christian benteke,BEL,FW,Crystal Palace,27,16,9,814,1,1,0,0,1,0,3.4,0.8
-1159,johann berg guðmundsson,ISL,MF,Burnley,27,29,19,"1,752",3,6,0,0,2,0,2.8,4.3
-1160,bernard,BRA,"FW,MF",Everton,25,34,25,"2,116",1,3,0,0,5,0,2.6,2.3
-1161,bernardo,BRA,DF,Brighton,23,22,19,"1,752",0,1,0,0,4,0,0.4,0.6
-1162,ryan bertrand,ENG,DF,Southampton,28,24,24,"2,160",1,0,0,0,8,0,1.2,1.7
-1163,,,,,,,,,,,,,,,,
-1164,marcus bettinelli,ENG,GK,Fulham,26,7,7,630,0,0,0,0,1,0,0.0,0.0
-1165,philip billing,DEN,MF,Huddersfield,22,27,25,"2,188",2,0,0,0,7,0,1.8,1.7
-1166,yves bissouma,MLI,MF,Brighton,21,28,17,"1,774",0,0,0,0,5,0,1.8,1.0
-1167,willy boly,CIV,DF,Wolves,27,36,36,"3,167",4,0,0,0,2,1,3.6,2.1
-1168,leo bonatini,BRA,FW,Wolves,24,7,0,135,0,1,0,0,0,0,1.3,0.1
-1169,gaetan bong,CMR,DF,Brighton,30,22,19,"1,808",0,0,0,0,0,0,0.1,0.5
-1170,artur boruc,POL,GK,Bournemouth,38,12,12,"1,080",0,0,0,0,2,0,0.0,0.0
-1171,robbie brady,IRL,MF,Burnley,26,16,6,720,0,1,0,0,3,1,0.6,1.4
-1172,miguel britos,URU,DF,Watford,33,3,2,185,0,0,0,0,0,0,0.0,0.0
-1173,david brooks,WAL,"MF,FW",Bournemouth,21,30,29,"2,261",7,5,0,0,3,0,6.0,5.0
-1174,bruno,ESP,DF,Brighton,37,14,14,"1,131",0,1,0,0,2,0,0.1,0.6
-1175,joe bryan,ENG,"DF,MF",Fulham,24,28,27,"2,345",0,1,0,0,5,0,0.7,3.5
-1176,david button,ENG,GK,Brighton,29,4,4,360,0,0,0,0,0,0,0.0,0.0
-1177,willy caballero,ARG,GK,Chelsea,36,2,2,180,0,0,0,0,0,0,0.0,0.0
-1178,gary cahill,ENG,DF,Chelsea,32,2,0,24,0,0,0,0,0,0,0.0,0.0
-1179,tom cairney,SCO,"MF,FW",Fulham,27,31,24,"2,194",1,1,0,0,0,0,1.1,2.6
-1180,dominic calvert-lewin,ENG,FW,Everton,21,35,19,"1,784",6,2,0,0,3,0,5.5,1.4
-1181,rafael camacho,POR,DF,Liverpool,18,1,0,1,0,0,0,0,0,0,0.0,0.0
-1182,victor camarasa,ESP,MF,Cardiff City,24,32,31,"2,569",5,4,1,1,6,0,4.0,3.8
-1183,etienne capoue,FRA,MF,Watford,30,33,33,"2,944",1,3,0,0,14,1,1.4,1.0
-1184,andy carroll,ENG,FW,West Ham,29,12,3,461,0,0,0,0,2,0,2.2,0.4
-1185,jonny castro,ESP,"DF,MF",Wolves,24,33,32,"2,771",1,1,0,0,6,0,2.0,1.6
-1186,craig cathcart,NIR,DF,Watford,29,36,35,"3,096",3,0,0,0,2,0,1.5,0.2
-1187,ivan cavaleiro,POR,"FW,MF",Wolves,24,23,6,693,3,1,0,0,1,0,2.2,1.5
-1188,petr cech,CZE,GK,Arsenal,36,7,7,584,0,0,0,0,0,0,0.0,0.0
-1189,,,,,,,,,,,,,,,,
-1190,nathaniel chalobah,ENG,MF,Watford,23,9,3,270,0,0,0,0,2,0,0.1,0.3
-1191,calum chambers,ENG,"MF,DF",Fulham,23,31,29,"2,588",2,0,0,0,9,0,2.3,0.9
-1192,ben chilwell,ENG,DF,Leicester City,21,36,36,"3,240",0,4,0,0,4,0,1.1,2.9
-1193,tahith chong,NED,FW,Manchester Utd,18,2,0,38,0,0,0,0,0,0,0.4,0.0
-1194,hamza choudhury,ENG,MF,Leicester City,20,9,7,595,0,0,0,0,0,0,0.5,0.4
-1195,andreas christensen,DEN,DF,Chelsea,22,8,6,617,0,0,0,0,1,0,0.0,0.0
-1196,cyrus christie,IRL,"DF,MF",Fulham,25,28,19,"1,948",0,1,0,0,7,0,0.4,1.2
-1197,ibrahima cisse,GUI,MF,Fulham,24,3,1,88,0,0,0,0,0,0,0.0,0.0
-1198,ciaran clark,IRL,DF,Newcastle Utd,28,11,9,858,3,0,0,0,1,0,0.5,0.1
-1199,tom cleverley,ENG,MF,Watford,28,13,4,478,1,0,0,0,2,0,0.2,0.1
-1200,nathaniel clyne,ENG,DF,Bournemouth,27,14,13,"1,143",0,1,0,0,2,0,0.1,0.1
-1201,nathaniel clyne,ENG,DF,Liverpool,27,4,1,111,0,0,0,0,0,0,0.1,0.0
-1202,conor coady,ENG,DF,Wolves,25,38,38,"3,420",0,0,0,0,5,0,0.0,0.0
-1203,joel coleman,ENG,GK,Huddersfield,22,1,1,90,0,0,0,0,0,0,0.0,0.0
-1204,seamus coleman,IRL,DF,Everton,29,29,29,"2,558",2,2,0,0,1,0,1.6,3.6
-1205,lewis cook,ENG,MF,Bournemouth,21,13,8,723,0,0,0,0,2,0,0.1,0.1
-1206,steve cook,ENG,DF,Bournemouth,27,31,31,"2,786",1,1,0,0,3,0,1.3,0.9
-1207,jack cork,ENG,MF,Burnley,29,37,37,"3,312",1,2,0,0,6,0,1.4,2.2
-1208,helder costa,ANG,"FW,MF",Wolves,24,25,16,"1,341",1,2,0,0,3,0,2.4,2.2
-1209,aaron cresswell,ENG,DF,West Ham,28,20,18,"1,589",0,1,0,0,1,0,0.5,1.1
-1210,peter crouch,ENG,FW,Burnley,37,6,0,92,0,0,0,0,1,0,0.6,0.0
-1211,greg cunningham,IRL,DF,Cardiff City,27,7,7,630,0,0,0,0,3,0,0.1,0.2
-1212,diogo dalot,POR,"DF,FW",Manchester Utd,19,16,12,"1,013",0,2,0,0,3,0,0.7,2.3
-1213,matty daly,ENG,MF,Huddersfield,17,2,0,75,0,0,0,0,0,0,0.0,0.0
-1214,loic damour,FRA,MF,Cardiff City,27,2,0,23,0,0,0,0,0,0,0.0,0.0
-1215,,,,,,,,,,,,,,,,
-1216,charlie daniels,ENG,DF,Bournemouth,31,21,17,"1,585",1,0,0,0,4,0,0.4,0.6
-1217,danilo,BRA,DF,Manchester City,27,11,9,807,1,0,0,0,1,0,0.4,0.2
-1218,scott dann,ENG,DF,Crystal Palace,31,10,7,663,0,1,0,0,1,0,0.2,0.7
-1219,matteo darmian,ITA,DF,Manchester Utd,28,6,5,443,0,0,0,0,0,0,0.0,0.1
-1220,ben davies,WAL,DF,Tottenham,25,27,20,"1,844",0,0,0,0,2,0,0.5,2.1
-1221,tom davies,ENG,MF,Everton,20,16,10,980,0,0,0,0,3,0,0.3,0.5
-1222,steven davis,NIR,MF,Southampton,33,3,1,98,0,1,0,0,0,0,0.0,0.5
-1223,kevin de bruyne,BEL,MF,Manchester City,27,19,11,975,2,2,0,0,2,0,1.4,5.7
-1224,troy deeney,ENG,FW,Watford,30,32,28,"2,545",9,5,1,1,4,1,9.5,4.6
-1225,jermain defoe,ENG,FW,Bournemouth,35,4,0,25,0,0,0,0,0,0,0.1,0.0
-1226,steven defour,BEL,MF,Burnley,30,6,6,448,0,0,0,0,0,0,0.0,0.1
-1227,fabian delph,ENG,DF,Manchester City,28,11,8,725,0,1,0,0,1,1,0.1,0.3
-1228,mousa dembele,BEL,MF,Tottenham,31,10,7,515,0,0,0,0,1,0,0.0,0.0
-1229,leander dendoncker,BEL,MF,Wolves,23,19,17,"1,467",2,0,0,0,1,0,3.4,1.2
-1230,laurent depoitre,BEL,FW,Huddersfield,29,23,10,"1,068",0,1,0,0,1,0,2.5,0.7
-1231,gerard deulofeu,ESP,"FW,MF",Watford,24,30,26,"2,066",10,5,0,0,3,0,8.0,4.1
-1232,fousseni diabate,MLI,FW,Leicester City,22,1,1,54,0,0,0,0,0,0,0.0,0.1
-1233,adama diakhaby,FRA,"FW,MF",Huddersfield,22,12,6,552,0,0,0,0,1,0,0.6,0.5
-1234,mohamed diame,SEN,MF,Newcastle Utd,31,29,24,"2,166",0,0,0,0,3,0,1.0,0.1
-1235,grady diangana,COD,"MF,FW",West Ham,20,17,6,609,0,1,0,0,0,0,0.5,1.2
-1236,eric dier,ENG,"MF,DF",Tottenham,24,20,18,"1,506",3,0,0,0,4,0,1.0,1.0
-1237,lucas digne,FRA,DF,Everton,25,35,33,"2,965",4,4,0,0,5,1,1.3,7.1
-1238,issa diop,FRA,DF,West Ham,21,33,33,"2,970",1,0,0,0,4,0,1.2,0.2
-1239,matt doherty,IRL,"DF,MF",Wolves,26,38,35,"3,144",4,5,0,0,5,0,4.4,5.1
-1240,abdoulaye doucoure,MLI,MF,Watford,25,35,34,"3,062",5,6,0,0,7,0,6.2,4.7
-1241,,,,,,,,,,,,,,,,
-1242,luke dreher,ENG,FW,Crystal Palace,19,1,0,1,0,0,0,0,0,0,0.0,0.0
-1243,martin dubravka,SVK,GK,Newcastle Utd,29,38,38,"3,420",0,0,0,0,1,0,0.0,0.0
-1244,shane duffy,IRL,DF,Brighton,26,35,35,"3,087",5,1,0,0,4,1,3.1,0.3
-1245,demeaco duhaney,ENG,DF,Huddersfield,19,1,1,45,0,0,0,0,0,0,0.0,0.0
-1246,paul dummett,WAL,DF,Newcastle Utd,26,26,21,"1,990",0,0,0,0,1,0,0.3,0.7
-1247,lewis dunk,ENG,DF,Brighton,26,36,36,"3,151",2,1,0,0,6,1,1.8,0.8
-1248,erik durm,GER,DF,Huddersfield,26,28,21,"2,055",0,1,0,0,0,0,0.4,0.6
-1249,bruno ecuele manga,GAB,DF,Cardiff City,30,38,37,"3,376",0,1,0,0,0,0,1.1,0.4
-1250,ederson,BRA,GK,Manchester City,24,38,38,"3,420",0,1,0,0,2,0,0.0,0.1
-1251,harvey elliott,ENG,MF,Fulham,15,2,0,20,0,0,0,0,0,0,0.1,0.0
-1252,mohamed elneny,EGY,MF,Arsenal,26,8,5,380,0,0,0,0,0,0,0.4,0.2
-1253,mohamed elyounoussi,NOR,MF,Southampton,23,16,8,793,0,0,0,0,0,0,2.1,1.1
-1254,christian eriksen,DEN,MF,Tottenham,26,35,30,"2,774",8,12,0,0,3,0,5.4,7.4
-1255,neil etheridge,PHI,GK,Cardiff City,28,38,38,"3,420",0,0,0,0,2,0,0.0,0.1
-1256,jonny evans,NIR,DF,Leicester City,30,24,21,"1,996",1,0,0,0,2,0,0.9,0.3
-1257,łukasz fabianski,POL,GK,West Ham,33,38,38,"3,420",0,0,0,0,0,0,0.0,0.1
-1258,fabinho,BRA,MF,Liverpool,24,28,21,"2,017",1,2,0,0,6,0,1.0,1.8
-1259,cesc fabregas,ESP,MF,Chelsea,31,6,1,180,0,0,0,0,1,0,0.1,0.2
-1260,fabricio,ESP,GK,Fulham,30,2,2,180,0,0,0,0,0,0,0.0,0.0
-1261,marouane fellaini,BEL,MF,Manchester Utd,30,14,6,752,0,1,0,0,1,0,0.4,0.4
-1262,kiko femenia,ESP,DF,Watford,27,29,22,"2,049",1,1,0,0,1,0,0.4,1.6
-1263,federico fernandez,ARG,DF,Newcastle Utd,29,19,17,"1,484",0,1,0,0,2,0,0.2,0.5
-1264,fernandinho,BRA,MF,Manchester City,33,29,27,"2,377",1,3,0,0,5,0,1.6,3.0
-1265,roberto firmino,BRA,"FW,MF",Liverpool,26,34,31,"2,607",12,6,1,1,0,0,13.6,5.5
-1266,phil foden,ENG,MF,Manchester City,18,13,3,335,1,0,0,0,0,0,2.1,0.9
-1267,,,,,,,,,,,,,,,,
-1268,fraser forster,ENG,GK,Southampton,30,1,1,90,0,0,0,0,0,0,0.0,0.0
-1269,ben foster,ENG,GK,Watford,35,38,38,"3,420",0,0,0,0,1,0,0.0,0.2
-1270,timothy fosu-mensah,NED,DF,Fulham,20,12,10,793,0,0,0,0,3,0,0.1,0.4
-1271,juan foyth,ARG,DF,Tottenham,20,12,10,888,1,0,0,0,3,1,0.7,0.8
-1272,simon francis,ENG,DF,Bournemouth,33,17,13,"1,229",0,2,0,0,1,0,0.1,0.6
-1273,ryan fraser,SCO,"MF,FW",Bournemouth,24,38,35,"3,166",7,14,0,0,2,0,4.7,13.4
-1274,fred,BRA,MF,Manchester Utd,25,17,13,"1,041",1,1,0,0,2,0,0.8,1.0
-1275,ryan fredericks,ENG,DF,West Ham,25,15,12,"1,086",1,0,0,0,5,0,0.5,0.5
-1276,christian fuchs,AUT,DF,Leicester City,32,3,2,207,0,0,0,0,0,0,0.1,0.2
-1277,manolo gabbiadini,ITA,"FW,MF",Southampton,26,12,4,476,1,0,0,0,0,0,1.2,0.4
-1278,sam gallagher,ENG,FW,Southampton,22,4,0,34,0,0,0,0,0,0,0.0,0.0
-1279,idrissa gana gueye,SEN,MF,Everton,28,33,32,"2,822",0,2,0,0,6,0,0.6,0.8
-1280,james garner,ENG,MF,Manchester Utd,17,1,0,1,0,0,0,0,0,0,0.0,0.0
-1281,paulo gazzaniga,ARG,GK,Tottenham,26,3,3,270,0,0,0,0,0,0,0.0,0.0
-1282,david de gea,ESP,GK,Manchester Utd,27,38,38,"3,420",0,0,0,0,1,0,0.0,0.0
-1283,rachid ghezzal,ALG,"FW,MF",Leicester City,26,19,8,743,1,0,0,0,3,0,1.4,1.7
-1284,morgan gibbs-white,ENG,"MF,FW",Wolves,18,26,5,663,0,1,0,0,1,0,1.1,1.3
-1285,ben gibson,ENG,DF,Burnley,25,1,1,62,1,0,0,0,1,0,0.7,0.0
-1286,olivier giroud,FRA,FW,Chelsea,31,27,7,847,2,4,0,0,1,0,4.6,2.2
-1287,andre gomes,POR,MF,Everton,25,27,24,"1,980",1,1,0,0,7,0,1.6,0.6
-1288,angel gomes,ENG,"MF,FW",Manchester Utd,17,2,0,27,0,0,0,0,0,0,0.1,0.0
-1289,joe gomez,ENG,DF,Liverpool,21,16,12,"1,063",0,0,0,0,2,0,0.3,0.4
-1290,jon gorenc stankovic,SVN,"MF,DF",Huddersfield,22,11,9,715,1,0,0,0,2,0,1.0,0.1
-1291,dan gosling,ENG,MF,Bournemouth,28,25,19,"1,739",2,1,0,0,8,0,1.9,1.5
-1292,karlan grant,ENG,FW,Huddersfield,20,13,9,877,4,0,0,0,0,0,3.6,0.3
-1293,,,,,,,,,,,,,,,,
-1294,andre gray,JAM,FW,Watford,27,29,13,"1,366",7,2,0,0,2,0,5.0,1.9
-1295,demarai gray,JAM,"FW,MF",Leicester City,22,34,23,"1,985",4,1,0,0,2,0,4.5,1.3
-1296,mason greenwood,ENG,FW,Manchester Utd,16,3,1,117,0,0,0,0,0,0,0.7,0.1
-1297,pascal groß,GER,"MF,FW",Brighton,27,25,24,"1,864",3,3,1,2,1,0,4.4,5.5
-1298,vicente guaita,ESP,GK,Crystal Palace,31,20,20,"1,754",0,0,0,0,2,0,0.0,0.0
-1299,matteo guendouzi,FRA,MF,Arsenal,19,33,23,"2,149",0,0,0,0,9,0,0.6,1.8
-1300,ilkay gundogan,GER,MF,Manchester City,27,31,23,"2,137",6,3,0,0,3,0,4.1,4.3
-1301,angus gunn,SCO,GK,Southampton,22,12,12,"1,080",0,0,0,0,0,0,0.0,0.0
-1302,aron gunnarsson,ISL,MF,Cardiff City,29,28,27,"2,266",1,1,0,0,5,0,2.0,1.6
-1303,florent hadergjonaj,KVX,"DF,MF",Huddersfield,24,24,19,"1,842",0,0,0,0,1,0,0.2,1.5
-1304,ben hamer,ENG,GK,Huddersfield,30,7,7,552,0,0,0,0,0,0,0.0,0.0
-1305,kadeem harris,ENG,MF,Cardiff City,25,13,3,375,1,0,0,0,1,0,0.5,0.4
-1306,joe hart,ENG,GK,Burnley,31,19,19,"1,710",0,0,0,0,0,0,0.0,0.1
-1307,isaac hayden,ENG,MF,Newcastle Utd,23,25,21,"1,859",1,4,0,0,3,1,0.9,2.3
-1308,eden hazard,BEL,FW,Chelsea,27,37,32,"2,923",16,15,4,4,2,0,10.5,10.0
-1309,rhys healey,WAL,FW,Cardiff City,23,3,0,52,0,0,0,0,0,0,0.0,0.1
-1310,tom heaton,ENG,GK,Burnley,32,19,19,"1,710",0,0,0,0,3,0,0.0,0.1
-1311,jordan henderson,ENG,MF,Liverpool,28,32,21,"1,987",1,3,0,0,2,1,1.5,1.8
-1312,jeff hendrick,IRL,"MF,FW",Burnley,26,32,25,"2,063",3,0,0,0,4,0,1.8,0.8
-1313,wayne hennessey,WAL,GK,Crystal Palace,31,18,17,"1,576",0,0,0,0,0,0,0.0,0.0
-1314,javier hernandez,MEX,FW,West Ham,30,25,14,"1,334",7,1,0,0,2,0,6.6,1.4
-1315,ander herrera,ESP,MF,Manchester Utd,28,22,16,"1,403",2,3,0,0,4,0,1.3,1.6
-1316,son heung-min,KOR,"FW,MF",Tottenham,26,31,23,"2,039",12,6,0,0,2,1,7.5,3.6
-1317,gonzalo higuain,ARG,FW,Chelsea,30,14,13,"1,085",5,0,0,0,0,0,4.9,1.3
-1318,wesley hoedt,NED,DF,Southampton,24,13,13,"1,170",0,0,0,0,2,0,0.4,0.0
-1319,,,,,,,,,,,,,,,,
-1320,jonathan hogg,ENG,MF,Huddersfield,29,29,29,"2,367",0,1,0,0,8,1,0.3,0.8
-1321,junior hoilett,CAN,"MF,FW",Cardiff City,28,32,23,"2,141",3,1,0,0,4,0,3.4,1.5
-1322,rob holding,ENG,DF,Arsenal,22,10,9,807,0,0,0,0,1,0,0.1,0.2
-1323,jose holebas,GRE,DF,Watford,34,28,27,"2,393",3,6,0,0,12,1,1.0,4.1
-1324,mason holgate,ENG,DF,Everton,21,5,4,408,0,0,0,0,1,0,0.0,0.0
-1325,callum hudson-odoi,ENG,FW,Chelsea,17,10,4,393,0,1,0,0,0,0,0.7,1.4
-1326,will hughes,ENG,MF,Watford,23,32,31,"2,418",2,4,0,0,5,0,2.5,2.6
-1327,emerson hyndman,USA,MF,Bournemouth,22,1,0,38,0,0,0,0,0,0,0.0,0.0
-1328,pierre højbjerg,DEN,MF,Southampton,22,31,31,"2,760",4,3,0,0,8,2,2.6,2.4
-1329,jordon ibe,ENG,"MF,DF",Bournemouth,22,19,9,797,1,1,0,0,1,0,0.8,0.6
-1330,vicente iborra,ESP,MF,Leicester City,30,8,3,229,0,0,0,0,0,0,0.1,0.1
-1331,kelechi iheanacho,NGA,"FW,MF",Leicester City,21,30,9,941,1,3,0,0,2,0,2.1,1.6
-1332,danny ings,ENG,FW,Southampton,26,24,23,"1,651",7,3,3,3,1,0,9.4,3.1
-1333,alex iwobi,NGA,"FW,MF",Arsenal,22,35,22,"1,970",3,6,0,0,0,0,3.5,7.0
-1334,jose izquierdo,COL,"MF,FW",Brighton,26,15,9,795,0,1,0,0,1,0,0.6,0.4
-1335,phil jagielka,ENG,DF,Everton,35,7,4,331,1,0,0,0,0,1,0.6,0.3
-1336,alireza jahanbakhsh,IRN,"FW,MF",Brighton,24,19,12,"1,020",0,0,0,0,2,0,0.8,0.2
-1337,daryl janmaat,NED,DF,Watford,29,18,17,"1,520",0,2,0,0,3,0,0.5,0.8
-1338,vincent janssen,NED,FW,Tottenham,24,3,0,39,0,0,0,0,0,0,0.4,0.0
-1339,carl jenkinson,ENG,DF,Arsenal,26,3,2,166,0,0,0,0,0,0,0.0,0.0
-1340,gabriel jesus,BRA,FW,Manchester City,21,29,8,"1,036",7,3,1,1,1,0,11.2,2.3
-1341,raul jimenez,MEX,FW,Wolves,27,38,36,"3,111",13,7,2,2,4,0,15.1,6.3
-1342,stefan johansen,NOR,MF,Fulham,27,12,4,417,0,0,0,0,4,0,0.1,0.1
-1343,ben johnson,ENG,DF,West Ham,18,1,1,62,0,0,0,0,0,0,0.0,0.0
-1344,tyreke johnson,ENG,MF,Southampton,19,1,0,1,0,0,0,0,0,0,0.0,0.0
-1345,,,,,,,,,,,,,,,,
-1346,phil jones,ENG,DF,Manchester Utd,26,18,15,"1,263",0,1,0,0,1,0,0.4,0.5
-1347,jorginho,ITA,MF,Chelsea,26,37,37,"3,156",2,0,1,1,8,0,1.4,3.2
-1348,joselu,ESP,FW,Newcastle Utd,28,16,5,596,2,0,0,0,1,0,1.6,0.0
-1349,diogo jota,POR,"FW,MF",Wolves,21,33,29,"2,355",9,5,0,0,11,0,8.8,5.3
-1350,mathias jørgensen,DEN,DF,Huddersfield,28,24,24,"2,147",3,1,0,0,6,0,1.4,0.3
-1351,christian kabasele,BEL,DF,Watford,27,21,19,"1,586",0,0,0,0,4,1,1.5,0.6
-1352,elias kachunga,COD,"FW,MF",Huddersfield,26,20,13,"1,182",0,0,0,0,2,0,0.9,0.2
-1353,aboubakar kamara,MTN,FW,Fulham,23,13,5,693,3,0,1,2,2,0,3.7,0.7
-1354,harry kane,ENG,FW,Tottenham,25,28,27,"2,424",17,4,4,4,5,0,14.4,4.0
-1355,n'golo kante,FRA,MF,Chelsea,27,36,36,"3,092",4,4,0,0,3,0,2.9,3.5
-1356,beram kayal,ISR,MF,Brighton,30,18,9,940,1,1,0,0,4,0,0.4,1.1
-1357,michael keane,ENG,DF,Everton,25,33,33,"2,969",1,2,0,0,2,0,2.3,1.4
-1358,neeskens kebano,COD,"FW,MF",Fulham,26,7,0,108,0,0,0,0,0,0,0.1,0.0
-1359,naby keita,GUI,"MF,FW",Liverpool,23,25,16,"1,390",2,1,0,0,0,0,2.0,1.0
-1360,martin kelly,ENG,DF,Crystal Palace,28,13,12,"1,111",0,0,0,0,2,0,0.4,0.0
-1361,kenedy,BRA,"MF,DF",Newcastle Utd,22,25,14,"1,348",1,1,0,1,1,0,2.2,0.7
-1362,jonjoe kenny,ENG,DF,Everton,21,10,8,791,0,1,0,0,1,0,0.1,0.6
-1363,max kilman,ENG,DF,Wolves,21,1,0,1,0,0,0,0,0,0,0.0,0.0
-1364,joshua king,NOR,"FW,MF",Bournemouth,26,35,34,"2,961",12,3,5,6,3,0,13.5,3.8
-1365,anthony knockaert,FRA,"MF,FW",Brighton,26,30,18,"1,837",2,6,0,0,4,1,2.1,3.6
-1366,sead kolasinac,BIH,"DF,MF",Arsenal,25,24,22,"1,887",0,5,0,0,5,0,0.4,6.0
-1367,vincent kompany,BEL,DF,Manchester City,32,17,13,"1,224",1,0,0,0,6,0,0.3,0.0
-1368,terence kongolo,NED,DF,Huddersfield,24,32,32,"2,716",1,1,0,0,4,0,1.3,1.1
-1369,laurent koscielny,FRA,DF,Arsenal,32,17,13,"1,331",3,0,0,0,1,0,1.4,0.2
-1370,cheikhou kouyate,SEN,MF,Crystal Palace,28,31,21,"1,899",0,2,0,0,3,0,1.1,1.1
-1371,,,,,,,,,,,,,,,,
-1372,mateo kovacic,CRO,MF,Chelsea,24,32,21,"1,735",0,2,0,0,3,0,2.2,1.7
-1373,rajiv van la parra,NED,"FW,MF",Huddersfield,27,5,5,405,0,0,0,0,0,0,0.2,0.1
-1374,alexandre lacazette,FRA,FW,Arsenal,27,35,27,"2,502",13,8,0,0,2,0,11.7,3.7
-1375,adam lallana,ENG,"MF,FW",Liverpool,30,13,5,468,0,0,0,0,1,0,0.3,0.5
-1376,erik lamela,ARG,"MF,FW",Tottenham,26,19,9,974,4,2,0,0,2,0,3.3,1.8
-1377,manuel lanzini,ARG,MF,West Ham,25,10,8,686,1,1,0,0,2,0,1.1,0.8
-1378,aymeric laporte,ESP,DF,Manchester City,24,35,34,"3,057",3,3,0,0,3,0,3.0,0.8
-1379,jamaal lascelles,ENG,DF,Newcastle Utd,24,32,32,"2,745",0,1,0,0,4,0,0.6,0.9
-1380,maxime le marchand,FRA,DF,Fulham,28,26,25,"2,250",0,1,0,0,5,0,0.3,0.7
-1381,florian lejeune,FRA,DF,Newcastle Utd,27,12,12,"1,054",0,0,0,0,0,0,0.4,0.4
-1382,mario lemina,GAB,MF,Southampton,24,21,18,"1,613",1,1,0,0,5,0,1.1,1.1
-1383,aaron lennon,ENG,MF,Burnley,31,16,14,"1,215",1,1,0,0,1,0,0.8,0.7
-1384,bernd leno,GER,GK,Arsenal,26,32,31,"2,836",0,0,0,0,0,0,0.0,0.0
-1385,jefferson lerma,COL,MF,Bournemouth,23,30,29,"2,506",2,0,0,0,12,0,1.3,1.1
-1386,stephan lichtsteiner,SUI,DF,Arsenal,34,14,10,938,0,0,0,0,3,0,0.0,0.1
-1387,victor lindelof,SWE,DF,Manchester Utd,24,30,29,"2,601",1,1,0,0,1,0,0.7,1.2
-1388,jesse lingard,ENG,"FW,MF",Manchester Utd,25,27,19,"1,663",4,2,1,1,3,0,4.7,2.7
-1389,fernando llorente,ESP,FW,Tottenham,33,20,6,694,1,4,0,0,2,0,3.4,1.6
-1390,hugo lloris,FRA,GK,Tottenham,31,33,33,"2,970",0,0,0,0,0,0,0.0,0.0
-1391,jurgen locadia,CUW,"FW,MF",Brighton,24,26,12,"1,236",2,0,0,0,1,0,2.7,1.0
-1392,ruben loftus-cheek,ENG,"MF,FW",Chelsea,22,24,6,998,6,2,0,0,0,0,2.8,0.8
-1393,kevin long,IRL,DF,Burnley,27,6,5,514,0,1,0,0,0,0,0.1,0.5
-1394,shane long,IRL,"FW,MF",Southampton,31,26,12,"1,272",5,1,0,0,3,0,4.6,1.6
-1395,sean longstaff,ENG,MF,Newcastle Utd,20,9,8,687,1,0,0,0,2,0,0.7,0.5
-1396,ademola lookman,NGA,"FW,MF",Everton,20,21,3,618,0,2,0,0,0,0,1.4,1.4
-1397,,,,,,,,,,,,,,,,
-1398,jonas lossl,DEN,GK,Huddersfield,29,31,30,"2,778",0,1,0,0,1,0,0.0,0.5
-1399,dejan lovren,CRO,DF,Liverpool,29,13,11,986,1,0,0,0,1,0,0.7,0.1
-1400,chris lowe,GER,"DF,MF",Huddersfield,29,29,23,"2,057",0,2,0,0,2,0,0.6,1.7
-1401,matthew lowton,ENG,DF,Burnley,29,21,19,"1,750",0,0,0,0,7,0,0.6,0.7
-1402,david luiz,BRA,DF,Chelsea,31,36,36,"3,238",3,2,0,0,3,0,2.6,2.9
-1403,romelu lukaku,BEL,FW,Manchester Utd,25,32,22,"2,136",12,0,0,0,4,0,10.5,2.2
-1404,james maddison,ENG,"MF,FW",Leicester City,21,36,35,"2,831",7,7,1,2,4,1,7.4,8.2
-1405,gary madine,ENG,"FW,MF",Cardiff City,27,5,0,37,0,0,0,0,0,0,0.0,0.0
-1406,harry maguire,ENG,DF,Leicester City,25,31,31,"2,596",3,0,0,0,6,1,2.4,0.8
-1407,riyad mahrez,ALG,"FW,MF",Manchester City,27,27,14,"1,343",7,4,0,1,0,0,5.5,4.6
-1408,ainsley maitland-niles,ENG,DF,Arsenal,20,16,11,987,1,1,0,0,2,1,0.9,0.9
-1409,sadio mane,SEN,FW,Liverpool,26,36,35,"3,077",22,1,0,0,2,0,15.1,4.5
-1410,javier manquillo,ESP,DF,Newcastle Utd,24,18,12,"1,101",0,3,0,0,2,0,0.1,0.7
-1411,solly march,ENG,"FW,MF",Brighton,24,35,30,"2,463",1,5,0,0,1,0,2.5,4.3
-1412,adrian mariappa,JAM,DF,Watford,31,26,20,"1,927",0,0,0,0,3,0,0.7,0.6
-1413,lazar markovic,SRB,MF,Fulham,24,1,0,45,0,0,0,0,0,0,0.0,0.0
-1414,anthony martial,FRA,FW,Manchester Utd,22,27,18,"1,621",10,2,1,1,2,0,6.2,2.9
-1415,adam masina,MAR,DF,Watford,24,14,11,"1,004",0,1,0,0,5,0,0.1,0.8
-1416,arthur masuaku,COD,DF,West Ham,24,23,19,"1,759",0,1,0,0,2,0,0.1,0.8
-1417,juan mata,ESP,"FW,MF",Manchester Utd,30,22,16,"1,289",3,2,0,0,3,0,1.6,2.9
-1418,nemanja matic,SRB,MF,Manchester Utd,29,28,28,"2,436",1,0,0,0,7,1,1.3,0.5
-1419,joel matip,CMR,DF,Liverpool,26,22,17,"1,537",1,0,0,0,3,0,0.7,0.2
-1420,konstantinos mavropanos,GRE,DF,Arsenal,20,4,3,148,0,0,0,0,1,0,0.1,0.3
-1421,alfie mawson,ENG,DF,Fulham,24,15,13,"1,131",0,0,0,0,2,0,0.1,0.1
-1422,isaac mbenza,BEL,"FW,MF",Huddersfield,22,22,10,986,1,1,0,0,1,0,1.0,0.9
-1423,,,,,,,,,,,,,,,,
-1424,james mcarthur,SCO,MF,Crystal Palace,30,38,36,"3,058",3,6,0,0,7,0,4.1,3.3
-1425,alex mccarthy,ENG,GK,Southampton,28,25,25,"2,250",0,0,0,0,1,0,0.0,0.0
-1426,james mccarthy,IRL,MF,Everton,27,1,0,15,0,0,0,0,0,0,0.0,0.0
-1427,kevin mcdonald,SCO,MF,Fulham,29,15,10,841,0,0,0,0,5,1,0.1,0.1
-1428,dwight mcneil,ENG,MF,Burnley,18,21,19,"1,591",3,5,0,0,2,0,2.0,3.4
-1429,scott mctominay,SCO,"MF,DF",Manchester Utd,21,16,9,867,2,0,0,0,1,0,1.5,0.0
-1430,ben mee,ENG,DF,Burnley,28,38,38,"3,420",0,2,0,0,9,0,1.6,1.1
-1431,nathaniel mendez-laing,GUA,"MF,FW",Cardiff City,26,20,11,985,4,1,1,1,0,0,2.3,1.5
-1432,benjamin mendy,FRA,DF,Manchester City,24,10,10,900,0,5,0,0,1,0,0.2,1.6
-1433,nampalys mendy,SEN,MF,Leicester City,26,31,23,"2,092",0,0,0,0,5,0,0.1,0.2
-1434,chris mepham,WAL,DF,Bournemouth,20,13,10,850,0,1,0,0,1,0,0.1,0.5
-1435,max meyer,GER,MF,Crystal Palace,22,29,15,"1,416",1,2,0,0,3,0,1.8,1.2
-1436,luka milivojevic,SRB,MF,Crystal Palace,27,38,38,"3,420",12,2,10,11,10,0,10.9,3.0
-1437,james milner,ENG,"MF,DF",Liverpool,32,31,19,"1,789",5,4,3,3,6,1,3.4,5.3
-1438,yerry mina,COL,DF,Everton,23,13,10,892,1,0,0,0,3,0,0.3,0.1
-1439,tyrone mings,ENG,DF,Bournemouth,25,5,2,143,0,0,0,0,0,0,0.0,0.1
-1440,aleksandar mitrovic,SRB,FW,Fulham,23,37,37,"3,280",11,3,1,1,7,0,14.1,3.2
-1441,henrikh mkhitaryan,ARM,"FW,MF",Arsenal,29,25,19,"1,641",6,4,0,0,1,0,5.0,6.2
-1442,nacho monreal,ESP,DF,Arsenal,32,22,21,"1,861",1,3,0,0,5,0,1.3,1.7
-1443,martin montoya,ESP,DF,Brighton,27,25,24,"2,167",0,1,0,0,4,0,0.2,1.2
-1444,aaron mooy,AUS,"MF,FW",Huddersfield,27,29,25,"2,330",3,1,1,1,4,0,2.8,2.6
-1445,alvaro morata,ESP,FW,Chelsea,25,16,11,941,5,0,0,0,3,0,6.1,0.2
-1446,alberto moreno,ESP,DF,Liverpool,26,2,2,154,0,0,0,0,0,0,0.0,0.1
-1447,wes morgan,JAM,DF,Leicester City,34,22,21,"1,925",3,0,0,0,3,2,1.8,0.2
-1448,sean morrison,ENG,DF,Cardiff City,27,34,34,"3,039",1,3,0,0,6,0,5.0,3.7
-1449,,,,,,,,,,,,,,,,
-1450,victor moses,NGA,FW,Chelsea,27,2,0,28,0,0,0,0,0,0,0.0,0.1
-1451,steve mounie,BEN,FW,Huddersfield,23,31,19,"1,778",2,3,0,0,1,1,5.8,1.9
-1452,lucas moura,BRA,"FW,MF",Tottenham,25,32,25,"2,121",10,0,0,0,3,0,6.3,1.5
-1453,lys mousset,FRA,FW,Bournemouth,22,24,1,368,1,0,0,0,1,0,1.4,0.3
-1454,joao moutinho,POR,MF,Wolves,31,38,35,"3,032",1,8,0,0,4,0,0.7,6.5
-1455,jacob murphy,ENG,"MF,DF",Newcastle Utd,23,9,3,302,0,1,0,0,0,0,0.1,0.6
-1456,josh murphy,ENG,"MF,FW",Cardiff City,23,29,22,"1,817",3,2,0,0,2,0,4.1,3.9
-1457,glenn murray,ENG,FW,Brighton,34,38,30,"2,508",13,1,4,4,5,0,11.4,1.3
-1458,shkodran mustafi,GER,DF,Arsenal,26,31,31,"2,611",2,0,0,0,9,0,1.5,0.6
-1459,yoshinori muto,JPN,"FW,MF",Newcastle Utd,26,17,5,524,1,0,0,0,1,0,0.9,0.8
-1460,georges-kevin n'koudou,CMR,FW,Tottenham,23,1,0,5,0,1,0,0,0,0,0.0,0.5
-1461,samir nasri,FRA,MF,West Ham,31,5,3,245,0,2,0,0,0,0,0.1,0.3
-1462,marc navarro,ESP,DF,Watford,23,2,1,84,0,0,0,0,0,0,0.0,0.0
-1463,wilfred ndidi,NGA,MF,Leicester City,21,38,37,"3,296",2,0,0,0,8,0,3.7,1.8
-1464,ruben neves,POR,MF,Wolves,21,35,34,"3,007",4,3,2,2,8,0,4.0,1.9
-1465,oumar niasse,SEN,FW,Cardiff City,28,13,12,931,0,0,0,0,0,0,3.4,0.6
-1466,oumar niasse,SEN,FW,Everton,28,5,0,63,0,0,0,0,0,0,0.5,0.2
-1467,eddie nketiah,ENG,"MF,FW",Arsenal,19,5,0,67,1,0,0,0,0,0,0.2,0.1
-1468,mark noble,ENG,MF,West Ham,31,31,29,"2,291",5,5,4,4,6,1,3.7,1.9
-1469,havard nordtveit,NOR,DF,Fulham,28,5,4,362,0,1,0,0,0,0,0.0,0.1
-1470,will norris,ENG,GK,Wolves,24,1,0,1,0,0,0,0,0,0,0.0,0.0
-1471,michael obafemi,IRL,FW,Southampton,18,6,1,137,1,1,0,0,1,0,1.7,0.4
-1472,pedro obiang,EQG,MF,West Ham,26,24,12,"1,128",0,1,0,0,0,0,0.6,1.0
-1473,denis odoi,GHA,DF,Fulham,30,31,29,"2,594",0,1,0,0,4,0,0.6,0.7
-1474,angelo ogbonna,ITA,DF,West Ham,30,24,20,"1,874",1,1,0,0,2,0,1.8,0.9
-1475,,,,,,,,,,,,,,,,
-1476,stefano okaka,ITA,"FW,MF",Watford,28,2,0,24,0,0,0,0,1,0,0.5,0.1
-1477,shinji okazaki,JPN,"MF,FW",Leicester City,32,21,1,288,0,1,0,0,0,0,0.6,0.1
-1478,divock origi,BEL,FW,Liverpool,23,12,4,371,3,1,0,0,0,0,2.2,0.2
-1479,nicolas otamendi,ARG,DF,Manchester City,30,18,14,"1,236",0,0,0,0,1,0,1.3,0.2
-1480,alex oxlade-chamberlain,ENG,MF,Liverpool,24,2,0,21,0,0,0,0,0,0,0.5,0.1
-1481,mesut ozil,GER,"MF,FW",Arsenal,29,24,20,"1,735",5,2,0,0,2,0,1.7,4.1
-1482,emerson palmieri,ITA,DF,Chelsea,23,10,7,663,0,0,0,0,0,0,0.3,0.3
-1483,sokratis papastathopoulos,GRE,DF,Arsenal,30,25,25,"2,198",1,2,0,0,12,0,0.8,0.7
-1484,callum paterson,SCO,"FW,MF",Cardiff City,23,27,21,"1,998",4,1,0,0,4,0,5.5,2.8
-1485,rui patricio,POR,GK,Wolves,30,37,37,"3,329",0,0,0,0,1,0,0.0,0.0
-1486,pedro,ESP,FW,Chelsea,31,31,21,"1,778",8,2,0,0,2,0,5.3,3.5
-1487,lee peltier,ENG,DF,Cardiff City,31,20,17,"1,544",0,0,0,0,4,0,0.0,0.1
-1488,andreas pereira,BRA,MF,Manchester Utd,22,15,6,599,1,1,0,0,5,0,0.3,0.9
-1489,ricardo pereira,POR,"DF,FW",Leicester City,24,35,35,"3,123",2,6,0,0,7,0,1.2,5.2
-1490,roberto pereyra,ARG,MF,Watford,27,33,33,"2,815",6,1,0,0,3,0,5.4,3.2
-1491,ayoze perez,ESP,"MF,FW",Newcastle Utd,25,37,34,"2,917",12,2,0,0,2,0,7.5,3.6
-1492,lucas perez,ESP,"FW,MF",West Ham,29,15,4,475,3,0,0,0,0,0,1.3,0.8
-1493,jordan pickford,ENG,GK,Everton,24,38,38,"3,420",0,0,0,0,1,0,0.0,0.0
-1494,paul pogba,FRA,MF,Manchester Utd,25,35,34,"3,006",13,9,7,10,6,0,15.0,4.7
-1495,alex pritchard,ENG,"MF,FW",Huddersfield,25,30,26,"2,081",2,0,0,0,2,0,2.7,1.8
-1496,sebastian prodl,AUT,DF,Watford,31,1,0,13,0,0,0,0,0,0,0.0,0.0
-1497,davy propper,NED,MF,Brighton,26,30,30,"2,546",1,1,0,0,2,0,0.9,1.3
-1498,jason puncheon,ENG,MF,Crystal Palace,32,5,0,13,0,0,0,0,0,0,0.0,0.0
-1499,jason puncheon,ENG,MF,Huddersfield,32,6,5,382,0,0,0,0,1,0,0.3,0.5
-1500,collin quaner,GER,FW,Huddersfield,27,2,0,39,0,0,0,0,0,0,0.0,0.1
-1501,,,,,,,,,,,,,,,,
-1502,domingos quina,POR,MF,Watford,18,8,3,338,1,0,0,0,0,0,0.2,0.1
-1503,joe ralls,ENG,MF,Cardiff City,24,28,22,"1,959",0,0,0,1,4,1,1.6,3.2
-1504,aaron ramsey,WAL,MF,Arsenal,27,28,14,"1,331",4,6,0,0,0,0,3.4,2.0
-1505,kayne ramsey,ENG,DF,Southampton,17,1,1,90,0,0,0,0,0,0,0.0,0.0
-1506,marcus rashford,ENG,FW,Manchester Utd,20,33,26,"2,334",10,6,0,0,3,1,10.7,5.0
-1507,tim ream,USA,DF,Fulham,30,26,25,"2,047",0,0,0,0,1,0,0.0,0.1
-1508,nathan redmond,ENG,"MF,FW",Southampton,24,38,36,"3,270",6,4,0,0,3,0,7.6,4.7
-1509,bobby reid,JAM,"FW,MF",Cardiff City,25,27,16,"1,424",5,2,1,1,0,0,3.8,1.2
-1510,declan rice,ENG,MF,West Ham,19,34,34,"3,003",2,0,0,0,4,0,1.2,0.4
-1511,jazz richards,WAL,"DF,MF",Cardiff City,27,4,0,132,0,0,0,0,0,0,0.0,0.0
-1512,richarlison,BRA,"FW,MF",Everton,21,35,32,"2,665",13,1,0,0,5,1,9.4,2.0
-1513,diego rico,ESP,"DF,MF",Bournemouth,25,12,5,612,0,0,0,0,1,0,0.2,1.1
-1514,sergio rico,ESP,GK,Fulham,24,29,29,"2,610",0,0,0,0,1,0,0.0,0.1
-1515,matt ritchie,SCO,"DF,MF",Newcastle Utd,28,36,35,"2,928",2,8,1,2,9,0,5.1,5.3
-1516,andrew robertson,SCO,DF,Liverpool,24,36,36,"3,216",0,11,0,0,4,0,0.7,7.2
-1517,marcos rojo,ARG,DF,Manchester Utd,28,5,2,212,0,0,0,0,2,0,0.2,0.0
-1518,oriol romeu,ESP,MF,Southampton,26,31,25,"2,136",1,0,0,0,11,0,0.9,1.0
-1519,salomon rondon,VEN,FW,Newcastle Utd,28,32,30,"2,603",11,7,0,0,1,0,10.4,3.0
-1520,danny rose,ENG,DF,Tottenham,28,26,20,"1,798",0,3,0,0,5,0,0.7,2.2
-1521,aaron rowe,ENG,FW,Huddersfield,17,2,1,69,0,0,0,0,0,0,0.0,0.0
-1522,john ruddy,ENG,GK,Wolves,31,1,1,90,0,0,0,0,0,0,0.0,0.0
-1523,antonio rudiger,GER,DF,Chelsea,25,33,33,"2,871",1,0,0,0,7,0,2.5,0.6
-1524,mathew ryan,AUS,GK,Brighton,26,34,34,"3,060",0,0,0,0,2,0,0.0,0.0
-1525,abdelhamid sabiri,MAR,FW,Huddersfield,21,2,1,48,0,0,0,0,0,0,0.0,0.0
-1526,romain saiss,MAR,"MF,DF",Wolves,28,19,12,"1,149",2,0,0,0,7,0,1.4,0.6
-1527,,,,,,,,,,,,,,,,
-1528,bukayo saka,ENG,FW,Arsenal,16,1,0,8,0,0,0,0,0,0,0.0,0.0
-1529,mamadou sakho,FRA,DF,Crystal Palace,28,27,27,"2,416",0,0,0,0,2,0,0.4,0.2
-1530,bakary sako,MLI,FW,Crystal Palace,30,4,0,29,0,0,0,0,0,0,0.0,0.0
-1531,mohamed salah,EGY,FW,Liverpool,26,38,37,"3,250",22,8,3,3,1,0,20.2,9.4
-1532,alexis sanchez,CHI,"FW,MF",Manchester Utd,29,20,9,880,1,3,0,0,3,0,1.5,3.0
-1533,carlos sanchez,COL,MF,West Ham,32,7,2,245,0,0,0,0,0,0,0.1,0.1
-1534,davinson sanchez,COL,DF,Tottenham,22,23,22,"1,942",1,1,0,0,2,0,1.4,0.4
-1535,leroy sane,GER,FW,Manchester City,22,31,21,"1,867",10,10,0,0,1,0,6.7,7.4
-1536,fabian schar,SUI,DF,Newcastle Utd,26,24,22,"1,999",4,1,0,0,12,0,1.9,0.7
-1537,christopher schindler,GER,DF,Huddersfield,28,37,37,"3,260",1,0,0,0,5,1,1.1,0.2
-1538,jeffrey schlupp,GHA,"MF,FW",Crystal Palace,25,30,18,"1,670",4,1,0,0,1,0,3.2,1.2
-1539,kasper schmeichel,DEN,GK,Leicester City,31,38,38,"3,420",0,0,0,0,3,0,0.1,0.4
-1540,morgan schneiderlin,FRA,MF,Everton,28,14,10,834,0,1,0,0,2,0,0.1,0.4
-1541,andre schurrle,GER,"FW,MF",Fulham,27,24,21,"1,641",6,0,0,0,2,0,3.6,1.9
-1542,ken sema,SWE,"MF,FW",Watford,24,17,9,754,1,2,0,0,1,0,0.8,0.6
-1543,jean seri,CIV,MF,Fulham,27,32,27,"2,244",1,2,0,0,6,0,0.9,4.8
-1544,ryan sessegnon,ENG,"FW,DF",Fulham,18,35,26,"2,300",2,6,0,0,0,0,4.0,3.8
-1545,xherdan shaqiri,SUI,"FW,MF",Liverpool,26,24,11,"1,064",6,3,0,0,2,0,3.9,1.6
-1546,luke shaw,ENG,DF,Manchester Utd,23,29,29,"2,591",1,4,0,0,11,0,1.4,3.9
-1547,jonjo shelvey,ENG,MF,Newcastle Utd,26,16,10,948,1,1,0,0,1,0,0.9,1.7
-1548,gylfi sigurðsson,ISL,MF,Everton,28,38,36,"3,117",13,6,2,5,3,0,10.7,6.9
-1549,adrien silva,POR,MF,Leicester City,29,2,1,88,0,0,0,0,0,0,0.0,0.0
-1550,bernardo silva,POR,"MF,FW",Manchester City,23,36,31,"2,854",7,7,0,0,3,0,7.4,7.8
-1551,david silva,ESP,MF,Manchester City,32,33,28,"2,401",6,8,0,0,2,0,7.8,8.5
-1552,xande silva,POR,FW,West Ham,21,1,0,18,0,0,0,0,0,0,0.1,0.0
-1553,,,,,,,,,,,,,,,,
-1554,danny simpson,ENG,DF,Leicester City,31,6,3,292,0,0,0,0,0,0,0.0,0.0
-1555,jack simpson,ENG,DF,Bournemouth,21,6,4,403,0,0,0,0,0,0,0.1,0.0
-1556,josh sims,ENG,MF,Southampton,21,7,2,212,0,1,0,0,0,0,0.6,0.7
-1557,moussa sissoko,FRA,"MF,FW",Tottenham,28,29,27,"2,330",0,3,0,0,2,0,0.9,2.5
-1558,oliver skipp,ENG,MF,Tottenham,17,8,2,220,0,0,0,0,0,0,0.1,0.0
-1559,callum slattery,ENG,MF,Southampton,19,3,1,112,0,0,0,0,0,0,0.1,0.0
-1560,chris smalling,ENG,DF,Manchester Utd,28,24,24,"2,127",1,0,0,0,1,0,1.2,0.2
-1561,adam smith,ENG,"DF,MF",Bournemouth,27,25,25,"2,066",1,1,0,0,5,1,0.5,0.6
-1562,tommy smith,ENG,DF,Huddersfield,26,15,13,"1,141",0,0,0,0,2,1,0.1,0.4
-1563,robert snodgrass,SCO,MF,West Ham,30,33,25,"2,220",2,5,0,0,10,0,2.3,5.6
-1564,cedric soares,POR,DF,Southampton,26,18,16,"1,495",1,2,0,0,4,0,0.3,1.0
-1565,ramadan sobhi,EGY,"FW,MF",Huddersfield,21,4,0,79,0,0,0,0,0,0,0.0,0.2
-1566,dominic solanke,ENG,"FW,MF",Bournemouth,20,10,2,347,0,1,0,0,0,0,1.0,0.4
-1567,pape souare,SEN,DF,Crystal Palace,28,1,0,1,0,0,0,0,0,0,0.0,0.0
-1568,caglar soyuncu,TUR,DF,Leicester City,22,6,4,372,0,0,0,0,1,0,0.1,0.0
-1569,julian speroni,ARG,GK,Crystal Palace,39,1,1,90,0,0,0,0,0,0,0.0,0.0
-1570,junior stanislas,ENG,"MF,FW",Bournemouth,28,23,11,"1,031",2,3,1,1,1,0,3.1,2.0
-1571,dale stephens,ENG,MF,Brighton,29,30,29,"2,485",1,1,0,0,6,1,0.3,0.7
-1572,jack stephens,ENG,DF,Southampton,24,24,19,"1,700",1,0,0,0,4,0,1.0,0.2
-1573,raheem sterling,ENG,FW,Manchester City,23,34,31,"2,771",17,9,0,0,3,0,13.7,9.6
-1574,john stones,ENG,DF,Manchester City,24,24,20,"1,764",0,0,0,0,1,0,0.3,0.2
-1575,daniel sturridge,ENG,"FW,MF",Liverpool,28,18,4,509,2,1,0,0,1,0,1.2,0.8
-1576,denis suarez,ESP,"MF,FW",Arsenal,24,4,0,71,0,0,0,0,0,0,0.0,0.0
-1577,isaac success,NGA,"FW,MF",Watford,22,30,9,"1,052",1,1,0,0,4,0,3.5,2.8
-1578,ki sung-yueng,KOR,MF,Newcastle Utd,29,18,14,"1,302",0,1,0,0,2,0,0.3,1.0
-1579,,,,,,,,,,,,,,,,
-1580,andrew surman,ENG,MF,Bournemouth,31,18,16,"1,439",0,0,0,0,2,0,0.3,0.4
-1581,sam surridge,ENG,"MF,FW",Bournemouth,20,2,0,13,0,0,0,0,0,0,0.3,0.0
-1582,alexander sørloth,NOR,FW,Crystal Palace,22,12,0,185,0,0,0,0,0,0,0.5,0.9
-1583,matt targett,ENG,DF,Southampton,22,16,13,"1,186",1,3,0,0,2,0,0.5,2.3
-1584,james tarkowski,ENG,DF,Burnley,25,35,35,"3,086",3,1,0,0,8,0,3.3,0.3
-1585,charlie taylor,ENG,DF,Burnley,24,38,35,"3,243",0,1,0,0,2,0,0.2,1.5
-1586,youri tielemans,BEL,MF,Leicester City,21,13,13,"1,086",3,4,0,0,2,0,1.8,2.5
-1587,james tomkins,ENG,DF,Crystal Palace,29,29,29,"2,560",1,1,0,0,5,0,1.4,0.9
-1588,lucas torreira,URU,MF,Arsenal,22,34,24,"2,382",2,2,0,0,7,1,1.5,1.2
-1589,cenk tosun,TUR,FW,Everton,27,25,10,"1,059",3,3,0,0,3,0,5.0,0.9
-1590,andros townsend,ENG,"FW,MF",Crystal Palace,27,38,34,"3,009",6,4,0,0,1,0,4.6,3.6
-1591,adama traore,ESP,"FW,MF",Wolves,22,29,8,902,1,1,0,0,1,0,1.3,2.2
-1592,mark travers,IRL,GK,Bournemouth,19,2,2,180,0,0,0,0,0,0,0.0,0.0
-1593,kieran trippier,ENG,DF,Tottenham,27,27,26,"2,276",1,3,0,0,2,0,0.5,4.1
-1594,antonio valencia,ECU,DF,Manchester Utd,32,6,5,466,0,0,0,0,2,0,0.1,0.5
-1595,yan valery,TUN,DF,Southampton,19,23,20,"1,712",2,1,0,0,4,1,0.7,0.2
-1596,virgil van dijk,NED,DF,Liverpool,27,38,38,"3,384",4,2,0,0,1,0,3.1,1.4
-1597,jamie vardy,ENG,FW,Leicester City,31,34,30,"2,726",18,4,4,5,3,1,18.3,5.1
-1598,jan vertonghen,BEL,DF,Tottenham,31,22,22,"1,911",1,0,0,0,4,1,1.0,0.2
-1599,jannik vestergaard,DEN,DF,Southampton,25,23,23,"2,027",0,0,0,0,2,0,0.7,0.6
-1600,luciano vietto,ARG,"FW,MF",Fulham,24,20,10,986,1,4,0,0,1,0,2.9,2.1
-1601,ruben vinagre,POR,"DF,MF",Wolves,19,17,7,710,0,0,0,0,1,0,0.5,0.8
-1602,sam vokes,WAL,FW,Burnley,28,20,10,915,3,0,0,0,0,0,2.4,1.3
-1603,michel vorm,NED,GK,Tottenham,34,2,2,180,0,0,0,0,0,0,0.0,0.0
-1604,matej vydra,CZE,FW,Burnley,26,13,3,318,1,1,0,0,1,0,1.8,0.5
-1605,,,,,,,,,,,,,,,,
-1606,theo walcott,ENG,"FW,MF",Everton,29,37,24,"2,119",5,2,0,0,1,0,5.7,2.7
-1607,kyle walker,ENG,DF,Manchester City,28,33,30,"2,779",1,1,0,0,3,0,0.8,1.9
-1608,kyle walker-peters,ENG,DF,Tottenham,21,6,4,376,0,3,0,0,1,0,0.3,0.5
-1609,aaron wan-bissaka,ENG,DF,Crystal Palace,20,35,35,"3,134",0,3,0,0,4,1,0.5,2.1
-1610,victor wanyama,KEN,MF,Tottenham,27,13,4,516,1,0,0,0,2,0,1.0,0.1
-1611,danny ward,ENG,FW,Cardiff City,26,14,4,445,1,0,0,0,0,0,0.6,0.3
-1612,joel ward,ENG,DF,Crystal Palace,28,7,6,552,1,0,0,0,1,0,0.6,0.1
-1613,stephen ward,IRL,DF,Burnley,32,3,3,228,0,0,0,0,1,0,0.1,0.0
-1614,james ward-prowse,ENG,"MF,DF",Southampton,23,26,21,"1,945",7,0,1,1,4,0,3.4,3.2
-1615,danny welbeck,ENG,"FW,MF",Arsenal,27,8,1,153,1,1,0,0,0,0,0.8,0.3
-1616,ashley westwood,ENG,MF,Burnley,28,34,31,"2,824",2,7,0,0,5,0,1.9,4.8
-1617,connor wickham,ENG,"FW,MF",Crystal Palace,25,6,0,67,0,1,0,0,0,0,0.4,0.3
-1618,georginio wijnaldum,NED,MF,Liverpool,27,35,32,"2,725",3,0,0,0,3,0,3.0,1.8
-1619,danny williams,USA,MF,Huddersfield,29,5,1,96,0,0,0,0,1,0,0.0,0.0
-1620,willian,BRA,FW,Chelsea,29,32,26,"2,097",3,6,0,0,2,0,4.2,5.4
-1621,joe willock,ENG,"MF,FW",Arsenal,18,2,1,64,0,0,0,0,0,0,0.1,0.0
-1622,ben wilmot,ENG,"MF,DF",Watford,18,2,0,28,0,0,0,0,0,0,0.0,0.0
-1623,jack wilshere,ENG,MF,West Ham,26,8,4,392,0,1,0,0,2,0,0.2,0.6
-1624,callum wilson,ENG,FW,Bournemouth,26,30,29,"2,528",14,9,1,2,3,0,13.4,5.4
-1625,harry winks,ENG,MF,Tottenham,22,26,17,"1,597",1,0,0,0,4,0,1.0,0.3
-1626,chris wood,NZL,FW,Burnley,26,38,29,"2,588",10,2,0,0,2,0,8.8,3.8
-1627,granit xhaka,SUI,"MF,DF",Arsenal,25,29,29,"2,498",4,2,0,0,10,0,2.0,3.4
-1628,andriy yarmolenko,UKR,"MF,FW",West Ham,28,9,5,459,2,0,0,0,2,0,1.1,0.8
-1629,deandre yedlin,USA,DF,Newcastle Utd,25,29,28,"2,473",1,2,0,0,6,1,1.2,2.0
-1630,maya yoshida,JPN,DF,Southampton,29,17,17,"1,518",0,1,0,0,0,0,1.9,0.5
-1631,,,,,,,,,,,,,,,,
-1632,ashley young,ENG,DF,Manchester Utd,33,30,28,"2,569",2,2,0,0,9,1,0.5,3.1
-1633,pablo zabaleta,ARG,DF,West Ham,33,26,23,"2,092",0,1,0,0,4,0,0.2,1.0
-1634,wilfried zaha,CIV,FW,Crystal Palace,25,34,34,"3,036",10,5,0,0,9,1,5.7,4.8
-1635,andre-frank zambo anguissa,CMR,MF,Fulham,22,22,16,"1,517",0,0,0,0,2,1,0.8,0.2
-1636,davide zappacosta,ITA,DF,Chelsea,26,4,1,128,0,0,0,0,0,0,0.1,0.1
-1637,oleksandr zinchenko,UKR,DF,Manchester City,21,14,14,"1,151",0,3,0,0,1,0,0.2,1.5
-1638,kenneth zohore,DEN,FW,Cardiff City,24,19,7,753,1,1,0,0,1,0,1.7,1.1
+520,ashley young,ENG,DF,Manchester Utd,33,30,28,"2,569",2,2,0,0,9,1,0.5,3.1
+521,pablo zabaleta,ARG,DF,West Ham,33,26,23,"2,092",0,1,0,0,4,0,0.2,1.0
+522,wilfried zaha,CIV,FW,Crystal Palace,25,34,34,"3,036",10,5,0,0,9,1,5.7,4.8
+523,andre-frank zambo anguissa,CMR,MF,Fulham,22,22,16,"1,517",0,0,0,0,2,1,0.8,0.2
+524,davide zappacosta,ITA,DF,Chelsea,26,4,1,128,0,0,0,0,0,0,0.1,0.1
+525,oleksandr zinchenko,UKR,DF,Manchester City,21,14,14,"1,151",0,3,0,0,1,0,0.2,1.5
+526,kenneth zohore,DEN,FW,Cardiff City,24,19,7,753,1,1,0,0,1,0,1.7,1.1

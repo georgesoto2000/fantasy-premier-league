@@ -25,3 +25,196 @@
 2024-09-06 11:32 - INFO - Squad created
 2024-09-06 11:32 - INFO - Data encoded
 2024-09-06 11:32 - INFO - Data imputed
+2024-12-18 14:52 - INFO - Get request to https://fantasy.premierleague.com/api/bootstrap-static/
+2024-12-18 14:52 - INFO - Combining data
+2024-12-18 14:53 - INFO - Get request to https://fantasy.premierleague.com/api/bootstrap-static/
+2024-12-18 14:53 - INFO - Combining data
+2024-12-18 14:53 - INFO - Scraping for data/raw_data/fpl/fpl_2017.csv
+2024-12-18 14:53 - INFO - Opening browser
+2024-12-18 14:54 - INFO - Scraping started
+2024-12-18 14:54 - INFO - 648 rows scrapped.
+2024-12-18 14:54 - INFO - Saved data
+2024-12-18 14:54 - INFO - Scraping for data/raw_data/fpl/fpl_2018.csv
+2024-12-18 14:54 - INFO - Opening browser
+2024-12-18 14:55 - INFO - Scraping started
+2024-12-18 14:55 - INFO - 624 rows scrapped.
+2024-12-18 14:55 - INFO - Saved data
+2024-12-18 14:55 - INFO - Scraping for data/raw_data/fpl/fpl_2019.csv
+2024-12-18 14:55 - INFO - Opening browser
+2024-12-18 14:55 - INFO - Scraping started
+2024-12-18 14:56 - INFO - 666 rows scrapped.
+2024-12-18 14:56 - INFO - Saved data
+2024-12-18 14:56 - INFO - Scraping for data/raw_data/fpl/fpl_2020.csv
+2024-12-18 14:56 - INFO - Opening browser
+2024-12-18 14:56 - INFO - Scraping started
+2024-12-18 14:58 - INFO - 714 rows scrapped.
+2024-12-18 14:58 - INFO - Saved data
+2024-12-18 14:58 - INFO - Scraping for data/raw_data/fpl/fpl_2021.csv
+2024-12-18 14:58 - INFO - Opening browser
+2024-12-18 14:58 - INFO - Scraping started
+2024-12-18 14:59 - INFO - 738 rows scrapped.
+2024-12-18 14:59 - INFO - Saved data
+2024-12-18 14:59 - INFO - Scraping for data/raw_data/fpl/fpl_2022.csv
+2024-12-18 14:59 - INFO - Opening browser
+2024-12-18 14:59 - INFO - Scraping started
+2024-12-18 15:00 - INFO - 779 rows scrapped.
+2024-12-18 15:00 - INFO - Saved data
+2024-12-18 15:00 - INFO - Scraping for data/raw_data/fpl/fpl_2023.csv
+2024-12-18 15:00 - INFO - Opening browser
+2024-12-18 15:00 - INFO - Scraping started
+2024-12-18 15:01 - INFO - 866 rows scrapped.
+2024-12-18 15:01 - INFO - Saved data
+2024-12-18 15:01 - INFO - Scraping for data/raw_data/fbref/fbref_2016.csv
+2024-12-18 15:01 - INFO - Scraping for data/raw_data/fbref/fbref_2016.csv
+2024-12-18 15:01 - INFO - Opening browser
+2024-12-18 15:01 - INFO - Opening browser
+2024-12-18 15:01 - INFO - Scraping started
+2024-12-18 15:01 - INFO - Scraping started
+2024-12-18 15:04 - INFO - 564 rows scrapped.
+2024-12-18 15:04 - INFO - 564 rows scrapped.
+2024-12-18 15:04 - INFO - Saved data
+2024-12-18 15:04 - INFO - Saved data
+2024-12-18 15:04 - INFO - Scraping for data/raw_data/fbref/fbref_2017.csv
+2024-12-18 15:04 - INFO - Scraping for data/raw_data/fbref/fbref_2017.csv
+2024-12-18 15:04 - INFO - Opening browser
+2024-12-18 15:04 - INFO - Opening browser
+2024-12-18 15:04 - INFO - Scraping started
+2024-12-18 15:04 - INFO - Scraping started
+2024-12-18 15:07 - INFO - 550 rows scrapped.
+2024-12-18 15:07 - INFO - 550 rows scrapped.
+2024-12-18 15:07 - INFO - Saved data
+2024-12-18 15:07 - INFO - Saved data
+2024-12-18 15:07 - INFO - Scraping for data/raw_data/fbref/fbref_2018.csv
+2024-12-18 15:07 - INFO - Scraping for data/raw_data/fbref/fbref_2018.csv
+2024-12-18 15:07 - INFO - Opening browser
+2024-12-18 15:07 - INFO - Opening browser
+2024-12-18 15:07 - INFO - Scraping started
+2024-12-18 15:07 - INFO - Scraping started
+2024-12-18 15:10 - INFO - 528 rows scrapped.
+2024-12-18 15:10 - INFO - 528 rows scrapped.
+2024-12-18 15:10 - INFO - Saved data
+2024-12-18 15:10 - INFO - Saved data
+2024-12-18 15:10 - INFO - Scraping for data/raw_data/fbref/fbref_2019.csv
+2024-12-18 15:10 - INFO - Scraping for data/raw_data/fbref/fbref_2019.csv
+2024-12-18 15:10 - INFO - Opening browser
+2024-12-18 15:10 - INFO - Opening browser
+2024-12-18 15:10 - INFO - Scraping started
+2024-12-18 15:10 - INFO - Scraping started
+2024-12-18 15:19 - INFO - Scraping for data/raw_data/fpl/fpl_2017.csv
+2024-12-18 15:19 - INFO - Opening browser
+2024-12-18 15:19 - INFO - Scraping started
+2024-12-18 15:20 - INFO - Scraping for data/raw_data/fpl/fpl_2017.csv
+2024-12-18 15:20 - INFO - Opening browser
+2024-12-18 15:20 - INFO - Scraping started
+2024-12-18 15:21 - INFO - 648 rows scrapped.
+2024-12-18 15:21 - INFO - Saved data
+2024-12-18 15:21 - INFO - Scraping for data/raw_data/fpl/fpl_2018.csv
+2024-12-18 15:21 - INFO - Opening browser
+2024-12-18 15:21 - INFO - Scraping started
+2024-12-18 15:22 - INFO - 624 rows scrapped.
+2024-12-18 15:22 - INFO - Saved data
+2024-12-18 15:22 - INFO - Scraping for data/raw_data/fpl/fpl_2019.csv
+2024-12-18 15:22 - INFO - Opening browser
+2024-12-18 15:22 - INFO - Scraping started
+2024-12-18 15:23 - INFO - 666 rows scrapped.
+2024-12-18 15:23 - INFO - Saved data
+2024-12-18 15:23 - INFO - Scraping for data/raw_data/fpl/fpl_2020.csv
+2024-12-18 15:23 - INFO - Opening browser
+2024-12-18 15:23 - INFO - Scraping started
+2024-12-18 15:25 - INFO - 714 rows scrapped.
+2024-12-18 15:25 - INFO - Saved data
+2024-12-18 15:25 - INFO - Scraping for data/raw_data/fpl/fpl_2021.csv
+2024-12-18 15:25 - INFO - Opening browser
+2024-12-18 15:25 - INFO - Scraping started
+2024-12-18 15:27 - INFO - 738 rows scrapped.
+2024-12-18 15:27 - INFO - Saved data
+2024-12-18 15:27 - INFO - Scraping for data/raw_data/fpl/fpl_2022.csv
+2024-12-18 15:27 - INFO - Opening browser
+2024-12-18 15:27 - INFO - Scraping started
+2024-12-18 15:28 - INFO - 779 rows scrapped.
+2024-12-18 15:28 - INFO - Saved data
+2024-12-18 15:28 - INFO - Scraping for data/raw_data/fpl/fpl_2023.csv
+2024-12-18 15:28 - INFO - Opening browser
+2024-12-18 15:29 - INFO - Scraping started
+2024-12-18 15:30 - INFO - 866 rows scrapped.
+2024-12-18 15:30 - INFO - Saved data
+2024-12-18 15:30 - INFO - Scraping for data/raw_data/fbref/fbref_2016.csv
+2024-12-18 15:30 - INFO - Scraping for data/raw_data/fbref/fbref_2016.csv
+2024-12-18 15:30 - INFO - Opening browser
+2024-12-18 15:30 - INFO - Opening browser
+2024-12-18 15:30 - INFO - Scraping started
+2024-12-18 15:30 - INFO - Scraping started
+2024-12-18 15:32 - INFO - 564 rows scrapped.
+2024-12-18 15:32 - INFO - 564 rows scrapped.
+2024-12-18 15:32 - INFO - Saved data
+2024-12-18 15:32 - INFO - Saved data
+2024-12-18 15:32 - INFO - Scraping for data/raw_data/fbref/fbref_2017.csv
+2024-12-18 15:32 - INFO - Scraping for data/raw_data/fbref/fbref_2017.csv
+2024-12-18 15:32 - INFO - Opening browser
+2024-12-18 15:32 - INFO - Opening browser
+2024-12-18 15:32 - INFO - Scraping started
+2024-12-18 15:32 - INFO - Scraping started
+2024-12-18 15:35 - INFO - 550 rows scrapped.
+2024-12-18 15:35 - INFO - 550 rows scrapped.
+2024-12-18 15:35 - INFO - Saved data
+2024-12-18 15:35 - INFO - Saved data
+2024-12-18 15:35 - INFO - Scraping for data/raw_data/fbref/fbref_2018.csv
+2024-12-18 15:35 - INFO - Scraping for data/raw_data/fbref/fbref_2018.csv
+2024-12-18 15:35 - INFO - Opening browser
+2024-12-18 15:35 - INFO - Opening browser
+2024-12-18 15:35 - INFO - Scraping started
+2024-12-18 15:35 - INFO - Scraping started
+2024-12-18 15:37 - INFO - 528 rows scrapped.
+2024-12-18 15:37 - INFO - 528 rows scrapped.
+2024-12-18 15:37 - INFO - Saved data
+2024-12-18 15:37 - INFO - Saved data
+2024-12-18 15:37 - INFO - Scraping for data/raw_data/fbref/fbref_2019.csv
+2024-12-18 15:37 - INFO - Scraping for data/raw_data/fbref/fbref_2019.csv
+2024-12-18 15:37 - INFO - Opening browser
+2024-12-18 15:37 - INFO - Opening browser
+2024-12-18 15:37 - INFO - Scraping started
+2024-12-18 15:37 - INFO - Scraping started
+2024-12-18 15:40 - INFO - 542 rows scrapped.
+2024-12-18 15:40 - INFO - 542 rows scrapped.
+2024-12-18 15:40 - INFO - Saved data
+2024-12-18 15:40 - INFO - Saved data
+2024-12-18 15:40 - INFO - Scraping for data/raw_data/fbref/fbref_2020.csv
+2024-12-18 15:40 - INFO - Scraping for data/raw_data/fbref/fbref_2020.csv
+2024-12-18 15:40 - INFO - Opening browser
+2024-12-18 15:40 - INFO - Opening browser
+2024-12-18 15:40 - INFO - Scraping started
+2024-12-18 15:40 - INFO - Scraping started
+2024-12-18 15:42 - INFO - 553 rows scrapped.
+2024-12-18 15:42 - INFO - 553 rows scrapped.
+2024-12-18 15:42 - INFO - Saved data
+2024-12-18 15:42 - INFO - Saved data
+2024-12-18 15:42 - INFO - Scraping for data/raw_data/fbref/fbref_2021.csv
+2024-12-18 15:42 - INFO - Scraping for data/raw_data/fbref/fbref_2021.csv
+2024-12-18 15:42 - INFO - Opening browser
+2024-12-18 15:42 - INFO - Opening browser
+2024-12-18 15:42 - INFO - Scraping started
+2024-12-18 15:42 - INFO - Scraping started
+2024-12-18 15:45 - INFO - 567 rows scrapped.
+2024-12-18 15:45 - INFO - 567 rows scrapped.
+2024-12-18 15:45 - INFO - Saved data
+2024-12-18 15:45 - INFO - Saved data
+2024-12-18 15:45 - INFO - Scraping for data/raw_data/fbref/fbref_2022.csv
+2024-12-18 15:45 - INFO - Scraping for data/raw_data/fbref/fbref_2022.csv
+2024-12-18 15:45 - INFO - Opening browser
+2024-12-18 15:45 - INFO - Opening browser
+2024-12-18 15:45 - INFO - Scraping started
+2024-12-18 15:45 - INFO - Scraping started
+2024-12-18 15:48 - INFO - 591 rows scrapped.
+2024-12-18 15:48 - INFO - 591 rows scrapped.
+2024-12-18 15:48 - INFO - Saved data
+2024-12-18 15:48 - INFO - Saved data
+2024-12-18 15:48 - INFO - Scraping for data/raw_data/fbref/fbref_2023.csv
+2024-12-18 15:48 - INFO - Scraping for data/raw_data/fbref/fbref_2023.csv
+2024-12-18 15:48 - INFO - Opening browser
+2024-12-18 15:48 - INFO - Opening browser
+2024-12-18 15:48 - INFO - Scraping started
+2024-12-18 15:48 - INFO - Scraping started
+2024-12-18 15:50 - INFO - 509 rows scrapped.
+2024-12-18 15:50 - INFO - 509 rows scrapped.
+2024-12-18 15:50 - INFO - Saved data
+2024-12-18 15:50 - INFO - Saved data

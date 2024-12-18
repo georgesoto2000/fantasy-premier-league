@@ -4,12 +4,12 @@ from fpl_api import FplApi
 from scraper import Scraper
 
 if __name__ == "__main__":
-    date = datetime.today().strftime("%Y-%m-%d")
-    fpl = FplApi()
-    fpl.get_data()
-    fpl.combine_data()
-    fpl.rename()
-    fpl.combined_data.to_csv(f"data/raw_data/api/fpl_prices_{date}.csv")
+    # date = datetime.today().strftime("%Y-%m-%d")
+    # fpl = FplApi()
+    # fpl.get_data()
+    # fpl.combine_data()
+    # fpl.rename()
+    # fpl.combined_data.to_csv(f"data/raw_data/api/fpl_prices_{date}.csv")
     fpl_player_data = {
         "Name": [],
         "Clean Sheets": [],

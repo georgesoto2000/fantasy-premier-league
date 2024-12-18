@@ -87,3 +87,5 @@ class Scraper:
         player_data = pd.DataFrame.from_dict(self.player_data)
         player_data.to_csv(filename)
         self.logger.info(f"Saved data")
+        for key in self.player_data:
+            self.player_data[key].clear()
