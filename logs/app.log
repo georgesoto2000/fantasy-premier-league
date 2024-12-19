@@ -134,3 +134,8 @@
 2024-12-19 14:16 - INFO - Scraping started
 2024-12-19 14:20 - INFO - 603 rows scrapped.
 2024-12-19 14:20 - INFO - Saved data to BQ
+2024-12-19 16:09 - INFO - Scraping for 2017
+2024-12-19 16:09 - INFO - Opening browser
+2024-12-19 16:09 - INFO - Scraping started
+2024-12-19 16:10 - INFO - 648 rows scrapped.
+2024-12-19 16:10 - INFO - Saved data to BQ

@@ -71,7 +71,7 @@ class FplApi:
             "id_x": "player_id",
             "singular_name_short": "POSITION",
             "now_cost": "COST",
-            "name": "TEAM",
+            "name": "TEAM_NAME",
         }
         self.combined_data = self.combined_data.rename(columns=rename)
         self.combined_data["NAME"] = (
