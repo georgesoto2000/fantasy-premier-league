@@ -1,2 +1,4 @@
 venv/
 sanity/
+env/
+logs/

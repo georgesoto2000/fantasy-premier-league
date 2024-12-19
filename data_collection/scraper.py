@@ -4,6 +4,7 @@ import logging
 from selenium import webdriver
 from utils import StringsUtils
 from selenium.webdriver.common.by import By
+from gcp_utils import upload_dataframe_to_bigquery
 
 
 class Scraper:
@@ -66,14 +67,14 @@ class Scraper:
                     pass
             self.player_data[key].append(stat)
 
-    def scrape(self, url: str, filename: str):
+    def scrape(self, url: str, project_id: str, dataset_id: str, table_id: str):
         """opens webdriver and extracts player data
 
         Args:
             url (str): url of website to scrape from
             filename (str): filename to save data to
         """
-        self.logger.info(f"Scraping for {filename}")
+        self.logger.info("Scraping for %s", table_id)
         self.logger.info("Opening browser")
         self.driver = webdriver.Chrome()
         self.driver.get(url)
@@ -83,9 +84,16 @@ class Scraper:
         for i in tqdm(range(1, table_length)):
             xpath = self.base_path + f"/tr[{i}]"
             self.get_player_stats_from_xpath(xpath)
-        self.logger.info(f"{table_length} rows scrapped.")
+        self.logger.info("%s rows scrapped.", table_length)
         player_data = pd.DataFrame.from_dict(self.player_data)
-        player_data.to_csv(filename)
-        self.logger.info(f"Saved data")
+        player_data.columns = player_data.columns.str.replace(" ", "_")
+        upload_dataframe_to_bigquery(
+            df=player_data,
+            project_id=project_id,
+            dataset_id=dataset_id,
+            table_id=table_id,
+            replace=True,
+        )
+        self.logger.info("Saved data to BQ")
         for key in self.player_data:
             self.player_data[key].clear()
