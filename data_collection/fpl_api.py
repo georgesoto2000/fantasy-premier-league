@@ -16,10 +16,7 @@ class FplApi:
         )
         console_handler.setFormatter(format)
         console_handler.setLevel("INFO")
-        file_handler = logging.FileHandler("logs/app.log", mode="a", encoding="utf-8")
-        file_handler.setLevel("INFO")
-        file_handler.setFormatter(format)
-        logger.addHandler(file_handler)
+        # TODO add file handler
         logger.addHandler(console_handler)
         self.log = logger
         self.base_url = "https://fantasy.premierleague.com/api/"
@@ -48,7 +45,7 @@ class FplApi:
         ]
         player_position = pd.merge(
             self.players,
-            self.positions[["id", "singular_short_name"]],
+            self.positions[["id", "singular_name_short"]],
             left_on="element_type",
             right_on="id",
         )
@@ -59,7 +56,6 @@ class FplApi:
                 "second_name",
                 "web_name",
                 "team",
-                "team_code",
                 "singular_name_short",
                 "now_cost",
             ]
