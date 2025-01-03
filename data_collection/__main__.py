@@ -26,7 +26,7 @@ if __name__ == "__main__":
         table_id=table_id,
         replace=True,
     )
-    Lines above to form part of airflow tasks
+    # Lines above to form part of airflow tasks
 
     fpl_player_data = {
         "Name": [],
