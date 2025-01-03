@@ -3,11 +3,27 @@ from optimiser import Optimiser
 from predictor import Predictor
 from factorengineering import FactorEngineering
 from feature_importance import FeatureImportance
+from dotenv import load_dotenv
+import os
+from pandas_gbq import read_gbq
 
 
 if __name__ == "__main__":
-    player_data = pd.read_csv("data/processed_data/TRAIN_PLAYER_DATA.csv")
-    to_predict = pd.read_csv("data/processed_data/TO_PREDICT_SEASON_2025.csv")
+    load_dotenv("env/.env")
+    google_credentials = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = google_credentials
+    project_id = os.getenv("PROJECT_ID")
+
+    dataset_id = os.getenv("OUTPUT_DATASET_ID")
+    table_id = os.getenv("TRAIN_DATA_TABLE_ID")
+
+    train_query = f"SELECT * FROM {dataset_id}.{table_id}"
+    player_data = read_gbq(train_query, project_id=project_id)
+
+    table_id = os.getenv("YEAR_2024_TABLE_ID")
+    to_predict_query = f"SELECT * FROM {dataset_id}.{table_id}"
+    to_predict = read_gbq(to_predict_query, project_id=project_id)
+
     pd_fe = FactorEngineering(player_data)
     pd_fe.format_data()
     pd_fe.add_minutes_assist()
@@ -21,9 +37,6 @@ if __name__ == "__main__":
     pd_fe.replace_inf_values()
     pd_fe.remove_incorrect_rows()
     formatted_player_data = pd_fe.player_data
-    formatted_player_data.to_csv(
-        "data/processed_data/FACTOR_ENGINEER/TRAIN_PLAYER_DATA.csv"
-    )
     pred_fe = FactorEngineering(to_predict)
     pred_fe.add_minutes_assist()
     pred_fe.add_minutes_goals()
@@ -36,11 +49,17 @@ if __name__ == "__main__":
     pred_fe.replace_inf_values()
     pred_fe.remove_incorrect_rows()
     to_predict = pred_fe.player_data
-    to_predict.to_csv("data/processed_data/FACTOR_ENGINEER/TO_PREDICT_SEASON_2025.csv")
-    predictor = Predictor(formatted_player_data)
+    predictor = Predictor(formatted_player_data)  # Error
     predictor.build_model()
+    print(to_predict.columns)
     prediction = predictor.predict(to_predict)
-    prediction.to_csv("data/processed_data/PREDICTED_SEASON_2025.csv")
+    table_id = os.getenv("PREDICTED_TABLE_ID")
+    table_ref = f"{project_id}.{dataset_id}.{table_id}"
+    formatted_player_data.to_gbq(
+        destination_table=table_ref,
+        project_id=project_id,
+        if_exists="replace",
+    )
     model_importances = predictor.model.feature_importances_
     optimiser = Optimiser(prediction)
     optimiser.remove_player("julian alvarez")
@@ -50,7 +69,7 @@ if __name__ == "__main__":
     optimiser.create_problem()
     optimiser.solve_problem()
     squad = optimiser.get_squad()
-    squad.to_csv("data/processed_data/SQUAD.csv")
+    squad.to_csv("SQUAD.csv")
     feature_names = [
         "AGE",
         "TEAM_RANK",
@@ -64,7 +83,7 @@ if __name__ == "__main__":
         "GOALS",
         "ASSISTS",
         "PENALTIES",
-        "PEANLTIES_MISSED",
+        "PENALTIES_MISSED",
         "YELLOW_CARDS",
         "RED_CARDS",
         "xG",
@@ -99,7 +118,7 @@ if __name__ == "__main__":
             "GOALS",
             "ASSISTS",
             "PENALTIES",
-            "PEANLTIES_MISSED",
+            "PENALTIES_MISSED",
             "YELLOW_CARDS",
             "RED_CARDS",
             "xG",

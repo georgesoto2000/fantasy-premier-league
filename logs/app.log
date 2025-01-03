@@ -139,3 +139,177 @@
 2024-12-19 16:09 - INFO - Scraping started
 2024-12-19 16:10 - INFO - 648 rows scrapped.
 2024-12-19 16:10 - INFO - Saved data to BQ
+2024-12-21 10:14 - WARNING - 203 rows removed
+2024-12-21 10:14 - WARNING - 203 rows removed
+2024-12-21 10:14 - WARNING - 203 rows removed
+2024-12-21 10:14 - INFO - Starting to build model
+2024-12-21 10:14 - INFO - Data encoded
+2024-12-21 10:14 - INFO - Data imputed
+2024-12-21 10:14 - INFO - Starting Grid Search
+2024-12-21 10:15 - INFO - Grid Search Complete
+2024-12-21 10:15 - INFO - Best params: {'learning_rate': 0.05, 'n_estimators': 165}
+2024-12-21 10:15 - INFO - Model Trained
+2024-12-21 10:15 - INFO - Model built
+2024-12-21 10:15 - INFO - MAE: 34.00275401852498, Average: 56.696821515892424
+2024-12-21 10:15 - INFO - Visualising Results
+2024-12-21 10:15 - INFO - Starting predictions
+2024-12-21 10:15 - INFO - Data encoded
+2024-12-21 10:22 - WARNING - 203 rows removed
+2024-12-21 10:22 - WARNING - 203 rows removed
+2024-12-21 10:22 - WARNING - 203 rows removed
+2024-12-21 10:22 - INFO - Starting to build model
+2024-12-21 10:22 - INFO - Data encoded
+2024-12-21 10:22 - INFO - Data imputed
+2024-12-21 10:22 - INFO - Starting Grid Search
+2024-12-21 10:23 - INFO - Grid Search Complete
+2024-12-21 10:23 - INFO - Best params: {'learning_rate': 0.05, 'n_estimators': 165}
+2024-12-21 10:23 - INFO - Model Trained
+2024-12-21 10:23 - INFO - Model built
+2024-12-21 10:23 - INFO - MAE: 31.491082550030615, Average: 58.92665036674816
+2024-12-21 10:23 - INFO - Visualising Results
+2024-12-21 10:23 - INFO - Starting predictions
+2024-12-21 10:23 - INFO - Data encoded
+2024-12-22 10:33 - WARNING - 203 rows removed
+2024-12-22 10:33 - WARNING - 203 rows removed
+2024-12-22 10:33 - WARNING - 203 rows removed
+2024-12-22 10:33 - INFO - Starting to build model
+2024-12-22 10:33 - INFO - Data encoded
+2024-12-22 10:34 - WARNING - 203 rows removed
+2024-12-22 10:34 - WARNING - 203 rows removed
+2024-12-22 10:34 - WARNING - 203 rows removed
+2024-12-22 10:34 - INFO - Starting to build model
+2024-12-22 10:34 - INFO - Data encoded
+2024-12-22 10:35 - WARNING - 203 rows removed
+2024-12-22 10:35 - WARNING - 203 rows removed
+2024-12-22 10:35 - WARNING - 203 rows removed
+2024-12-22 10:35 - INFO - Starting to build model
+2024-12-22 10:35 - INFO - Data encoded
+2024-12-22 10:35 - INFO - Data imputed
+2024-12-22 10:35 - INFO - Starting Grid Search
+2024-12-22 10:35 - INFO - Grid Search Complete
+2024-12-22 10:35 - INFO - Best params: {'learning_rate': 0.05, 'n_estimators': 165}
+2024-12-22 10:35 - INFO - Model Trained
+2024-12-22 10:35 - INFO - Model built
+2024-12-22 10:35 - INFO - MAE: 34.90220223639082, Average: 58.422982885085574
+2024-12-22 10:35 - INFO - Visualising Results
+2024-12-22 10:36 - INFO - Starting predictions
+2024-12-22 10:36 - INFO - Data encoded
+2024-12-22 10:36 - WARNING - 203 rows removed
+2024-12-22 10:36 - WARNING - 203 rows removed
+2024-12-22 10:36 - WARNING - 203 rows removed
+2024-12-22 10:36 - INFO - Starting to build model
+2024-12-22 10:36 - INFO - Data encoded
+2024-12-22 10:36 - INFO - Data imputed
+2024-12-22 10:36 - INFO - Starting Grid Search
+2024-12-22 10:37 - INFO - Grid Search Complete
+2024-12-22 10:37 - INFO - Best params: {'learning_rate': 0.05, 'n_estimators': 165}
+2024-12-22 10:37 - INFO - Model Trained
+2024-12-22 10:37 - INFO - Model built
+2024-12-22 10:37 - INFO - MAE: 33.803233711263736, Average: 59.69926650366748
+2024-12-22 10:37 - INFO - Visualising Results
+2024-12-22 10:37 - INFO - Starting predictions
+2024-12-22 10:37 - INFO - Data encoded
+2024-12-22 10:37 - INFO - Data imputed
+2024-12-22 10:37 - INFO - Making prediction
+2024-12-22 10:56 - WARNING - 203 rows removed
+2024-12-22 10:56 - WARNING - 203 rows removed
+2024-12-22 10:56 - WARNING - 203 rows removed
+2024-12-22 10:56 - INFO - Starting to build model
+2024-12-22 10:56 - INFO - Data encoded
+2024-12-22 10:56 - INFO - Data imputed
+2024-12-22 10:56 - INFO - Starting Grid Search
+2024-12-22 10:57 - INFO - Grid Search Complete
+2024-12-22 10:57 - INFO - Best params: {'learning_rate': 0.05, 'n_estimators': 165}
+2024-12-22 10:57 - INFO - Model Trained
+2024-12-22 10:57 - INFO - Model built
+2024-12-22 10:57 - INFO - MAE: 35.8167722192363, Average: 57.18092909535452
+2024-12-22 10:57 - INFO - Visualising Results
+2024-12-22 10:57 - INFO - Starting predictions
+2024-12-22 10:57 - INFO - Data encoded
+2024-12-22 10:57 - INFO - Data imputed
+2024-12-22 10:57 - INFO - Making prediction
+2024-12-22 10:58 - WARNING - 203 rows removed
+2024-12-22 10:58 - WARNING - 203 rows removed
+2024-12-22 10:58 - WARNING - 203 rows removed
+2024-12-22 10:58 - INFO - Starting to build model
+2024-12-22 10:58 - INFO - Data encoded
+2024-12-22 10:58 - INFO - Data imputed
+2024-12-22 10:58 - INFO - Starting Grid Search
+2024-12-22 10:59 - INFO - Grid Search Complete
+2024-12-22 10:59 - INFO - Best params: {'learning_rate': 0.05, 'n_estimators': 165}
+2024-12-22 10:59 - INFO - Model Trained
+2024-12-22 10:59 - INFO - Model built
+2024-12-22 10:59 - INFO - MAE: 34.52706574445642, Average: 56.80929095354523
+2024-12-22 10:59 - INFO - Visualising Results
+2024-12-22 10:59 - INFO - Starting predictions
+2024-12-22 10:59 - INFO - Data encoded
+2024-12-22 10:59 - INFO - Data imputed
+2024-12-22 10:59 - INFO - Making prediction
+2024-12-22 11:04 - WARNING - 203 rows removed
+2024-12-22 11:04 - WARNING - 0 rows removed
+2024-12-22 11:04 - WARNING - 0 rows removed
+2024-12-22 11:04 - INFO - Starting to build model
+2024-12-22 11:04 - INFO - Data encoded
+2024-12-22 11:04 - INFO - Data imputed
+2024-12-22 11:04 - INFO - Starting Grid Search
+2024-12-22 11:04 - INFO - Grid Search Complete
+2024-12-22 11:04 - INFO - Best params: {'learning_rate': 0.05, 'n_estimators': 165}
+2024-12-22 11:04 - INFO - Model Trained
+2024-12-22 11:04 - INFO - Model built
+2024-12-22 11:04 - INFO - MAE: 34.49653245659041, Average: 60.49388753056235
+2024-12-22 11:04 - INFO - Visualising Results
+2024-12-22 11:04 - INFO - Starting predictions
+2024-12-22 11:04 - INFO - Data encoded
+2024-12-22 11:04 - INFO - Data imputed
+2024-12-22 11:04 - INFO - Making prediction
+2024-12-22 11:04 - INFO - Prediction finished
+2024-12-22 11:04 - INFO - JULIAN ALVAREZ removed
+2024-12-22 11:05 - WARNING - 203 rows removed
+2024-12-22 11:05 - WARNING - 0 rows removed
+2024-12-22 11:05 - WARNING - 0 rows removed
+2024-12-22 11:05 - INFO - Starting to build model
+2024-12-22 11:05 - INFO - Data encoded
+2024-12-22 11:05 - INFO - Data imputed
+2024-12-22 11:05 - INFO - Starting Grid Search
+2024-12-22 11:05 - INFO - Grid Search Complete
+2024-12-22 11:05 - INFO - Best params: {'learning_rate': 0.05, 'n_estimators': 165}
+2024-12-22 11:05 - INFO - Model Trained
+2024-12-22 11:05 - INFO - Model built
+2024-12-22 11:05 - INFO - MAE: 32.7863547123303, Average: 61.62102689486552
+2024-12-22 11:05 - INFO - Visualising Results
+2024-12-22 11:05 - INFO - Starting predictions
+2024-12-22 11:05 - INFO - Data encoded
+2024-12-22 11:05 - INFO - Data imputed
+2024-12-22 11:05 - INFO - Making prediction
+2024-12-22 11:05 - INFO - Prediction finished
+2024-12-22 11:05 - INFO - JULIAN ALVAREZ removed
+2024-12-22 11:05 - INFO - Position and RK encoded
+2024-12-22 11:05 - INFO - Constraint columns added
+2024-12-22 11:05 - INFO - Optimisation problem created
+2024-12-22 11:05 - INFO - Problem solved
+2024-12-22 11:06 - WARNING - 203 rows removed
+2024-12-22 11:06 - WARNING - 0 rows removed
+2024-12-22 11:06 - WARNING - 0 rows removed
+2024-12-22 11:06 - INFO - Starting to build model
+2024-12-22 11:06 - INFO - Data encoded
+2024-12-22 11:06 - INFO - Data imputed
+2024-12-22 11:06 - INFO - Starting Grid Search
+2024-12-22 11:06 - INFO - Grid Search Complete
+2024-12-22 11:06 - INFO - Best params: {'learning_rate': 0.05, 'n_estimators': 165}
+2024-12-22 11:06 - INFO - Model Trained
+2024-12-22 11:06 - INFO - Model built
+2024-12-22 11:06 - INFO - MAE: 33.90880694926639, Average: 57.530562347188265
+2024-12-22 11:06 - INFO - Visualising Results
+2024-12-22 11:06 - INFO - Starting predictions
+2024-12-22 11:06 - INFO - Data encoded
+2024-12-22 11:06 - INFO - Data imputed
+2024-12-22 11:06 - INFO - Making prediction
+2024-12-22 11:06 - INFO - Prediction finished
+2024-12-22 11:07 - INFO - JULIAN ALVAREZ removed
+2024-12-22 11:07 - INFO - Position and RK encoded
+2024-12-22 11:07 - INFO - Constraint columns added
+2024-12-22 11:07 - INFO - Optimisation problem created
+2024-12-22 11:07 - INFO - Problem solved
+2024-12-22 11:07 - INFO - Squad created
+2024-12-22 11:07 - INFO - Data encoded
+2024-12-22 11:07 - INFO - Data imputed
