@@ -54,7 +54,7 @@ class Optimiser:
         self.season_data_encoded
         """
         self.season_data_encoded = pd.get_dummies(
-            self.season_data, columns=["POSITION", "RK"]
+            self.season_data, columns=["POSITION", "TEAM_RANK"]
         )
         self.log.info("Position and RK encoded")
 
@@ -195,7 +195,9 @@ class Optimiser:
         squad = (
             self.season_data.loc[selected_rows]
             .sort_values(by="POSITION")
-            .reset_index()[["NAME", "RK", "POSITION", "COST", "Predicted_Points"]]
+            .reset_index()[
+                ["NAME", "TEAM_RANK", "POSITION", "COST", "Predicted_Points"]
+            ]
         )
         self.log.info("Squad created")
         return squad

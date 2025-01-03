@@ -133,7 +133,7 @@ class Predictor:
                 "GOALS",
                 "ASSISTS",
                 "PENALTIES",
-                "PEANLTIES_MISSED",
+                "PENALTIES_MISSED",
                 "YELLOW_CARDS",
                 "RED_CARDS",
                 "xG",
@@ -230,7 +230,7 @@ class Predictor:
         encoded_data = encoded_data[
             [
                 "AGE",
-                "RK",
+                "TEAM_RANK",
                 "POSITION_GK",
                 "POSITION_DF",
                 "POSITION_MF",
@@ -266,7 +266,7 @@ class Predictor:
         prediction = self.model.predict(imputed_player_data)
         to_predict_data["Predicted_Points"] = prediction
         predicted_data = to_predict_data[
-            ["NAME", "RK", "POSITION", "COST", "Predicted_Points"]
+            ["NAME", "TEAM_RANK", "POSITION", "COST", "Predicted_Points"]
         ]
         self.log.info("Prediction finished")
         return predicted_data
@@ -274,7 +274,7 @@ class Predictor:
     def save_model(self) -> None:
         """Saves model to 'models/season_model.sav'"""
         filename = "models/season_model.sav"
-        self.log.info(f"Saving model to {filename}")
+        self.log.info("Saving model to %s", filename)
         pickle.dump(self.model, open(filename, "wb"))
 
     def load_model(self, filename: str) -> None:
