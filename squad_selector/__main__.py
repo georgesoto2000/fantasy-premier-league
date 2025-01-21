@@ -1,12 +1,10 @@
-import pandas as pd
-from optimiser import Optimiser
-from predictor import Predictor
-from factorengineering import FactorEngineering
-from feature_importance import FeatureImportance
-from dotenv import load_dotenv
 import os
-from pandas_gbq import read_gbq
 
+from dotenv import load_dotenv
+from feature_importance import FeatureImportance
+from optimiser import Optimiser
+from pandas_gbq import read_gbq
+from predictor import Predictor
 
 if __name__ == "__main__":
     load_dotenv("env/.env")
@@ -29,7 +27,7 @@ if __name__ == "__main__":
     prediction = predictor.predict(predict)
     table_id = os.getenv("PREDICTED_TABLE_ID")
     table_ref = f"{project_id}.{dataset_id}.{table_id}"
-    formatted_player_data.to_gbq(
+    prediction.to_gbq(
         destination_table=table_ref,
         project_id=project_id,
         if_exists="replace",
@@ -77,7 +75,7 @@ if __name__ == "__main__":
         "xa_diff",
         "NEXT_SEASON_POINTS",
     ]
-    encoded_data = predictor.encode_data(formatted_player_data)
+    encoded_data = predictor.encode_data(train_data)
     encoded_data = encoded_data[
         [
             "AGE",
