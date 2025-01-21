@@ -18,41 +18,15 @@ if __name__ == "__main__":
     table_id = os.getenv("TRAIN_DATA_TABLE_ID")
 
     train_query = f"SELECT * FROM {dataset_id}.{table_id}"
-    player_data = read_gbq(train_query, project_id=project_id)
+    train_data = read_gbq(train_query, project_id=project_id)
 
     table_id = os.getenv("YEAR_2024_TABLE_ID")
     to_predict_query = f"SELECT * FROM {dataset_id}.{table_id}"
-    to_predict = read_gbq(to_predict_query, project_id=project_id)
+    predict = read_gbq(to_predict_query, project_id=project_id)
 
-    pd_fe = FactorEngineering(player_data)
-    pd_fe.format_data()
-    pd_fe.add_minutes_assist()
-    pd_fe.add_minutes_goals()
-    pd_fe.add_minutes_per_game()
-    pd_fe.add_minutes_points()
-    pd_fe.add_minutes_xg()
-    pd_fe.add_minutes_xa()
-    pd_fe.add_xg_difference()
-    pd_fe.add_xa_difference()
-    pd_fe.replace_inf_values()
-    pd_fe.remove_incorrect_rows()
-    formatted_player_data = pd_fe.player_data
-    pred_fe = FactorEngineering(to_predict)
-    pred_fe.add_minutes_assist()
-    pred_fe.add_minutes_goals()
-    pred_fe.add_minutes_per_game()
-    pred_fe.add_minutes_points()
-    pred_fe.add_minutes_xg()
-    pred_fe.add_minutes_xa()
-    pred_fe.add_xg_difference()
-    pred_fe.add_xa_difference()
-    pred_fe.replace_inf_values()
-    pred_fe.remove_incorrect_rows()
-    to_predict = pred_fe.player_data
-    predictor = Predictor(formatted_player_data)  # Error
+    predictor = Predictor(train_data)  # Error
     predictor.build_model()
-    print(to_predict.columns)
-    prediction = predictor.predict(to_predict)
+    prediction = predictor.predict(predict)
     table_id = os.getenv("PREDICTED_TABLE_ID")
     table_ref = f"{project_id}.{dataset_id}.{table_id}"
     formatted_player_data.to_gbq(
