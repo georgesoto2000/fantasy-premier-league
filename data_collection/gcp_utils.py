@@ -23,4 +23,5 @@ def upload_dataframe_to_bigquery(
         destination_table=table_ref,
         project_id=project_id,
         if_exists=if_exists,
+        location="EU"
     )
