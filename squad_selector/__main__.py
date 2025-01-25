@@ -18,7 +18,7 @@ if __name__ == "__main__":
     train_query = f"SELECT * FROM {dataset_id}.{table_id}"
     train_data = read_gbq(train_query, project_id=project_id)
 
-    table_id = os.getenv("YEAR_2024_TABLE_ID")
+    table_id = os.getenv("TO_PREDICT")
     to_predict_query = f"SELECT * FROM {dataset_id}.{table_id}"
     predict = read_gbq(to_predict_query, project_id=project_id)
 

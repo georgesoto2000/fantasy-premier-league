@@ -149,8 +149,8 @@ class Predictor:
                 "MINUTES_PER_POINT",
                 "MINUTES_PER_XG",
                 "MINUTES_PER_XA",
-                "xg_diff",
-                "xa_diff",
+                "XG_DIFF",
+                "XA_DIFF",
                 "NEXT_SEASON_POINTS",
             ]
         ]
