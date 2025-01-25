@@ -315,3 +315,60 @@
 2024-12-22 11:07 - INFO - Data imputed
 2025-01-25 18:06 - INFO - Starting to build model
 2025-01-25 18:06 - INFO - Data encoded
+2025-01-25 18:22 - INFO - Starting to build model
+2025-01-25 18:22 - INFO - Data encoded
+2025-01-25 18:22 - INFO - Data imputed
+2025-01-25 18:22 - INFO - Starting Grid Search
+2025-01-25 18:22 - INFO - Grid Search Complete
+2025-01-25 18:22 - INFO - Best params: {'learning_rate': 0.1, 'n_estimators': 205}
+2025-01-25 18:22 - INFO - Model Trained
+2025-01-25 18:22 - INFO - Model built
+2025-01-25 18:22 - INFO - MAE: 18.784862376463128, Average: 70.51778656126483
+2025-01-25 18:22 - INFO - Visualising Results
+2025-01-25 18:23 - INFO - Starting predictions
+2025-01-25 18:23 - INFO - Data encoded
+2025-01-25 18:23 - INFO - Starting to build model
+2025-01-25 18:23 - INFO - Data encoded
+2025-01-25 18:23 - INFO - Data imputed
+2025-01-25 18:23 - INFO - Starting Grid Search
+2025-01-25 18:24 - INFO - Grid Search Complete
+2025-01-25 18:24 - INFO - Best params: {'learning_rate': 0.1, 'n_estimators': 205}
+2025-01-25 18:24 - INFO - Model Trained
+2025-01-25 18:24 - INFO - Model built
+2025-01-25 18:24 - INFO - MAE: 18.91245341473103, Average: 64.35177865612648
+2025-01-25 18:24 - INFO - Visualising Results
+2025-01-25 18:24 - INFO - Starting predictions
+2025-01-25 18:24 - INFO - Data encoded
+2025-01-25 18:24 - INFO - Data imputed
+2025-01-25 18:24 - INFO - Making prediction
+2025-01-25 18:24 - INFO - Prediction finished
+2025-01-25 18:24 - INFO - JULIAN ALVAREZ removed
+2025-01-25 18:24 - INFO - Position and RK encoded
+2025-01-25 18:24 - INFO - Constraint columns added
+2025-01-25 18:24 - INFO - Optimisation problem created
+2025-01-25 18:24 - INFO - Problem solved
+2025-01-25 18:24 - INFO - Squad created
+2025-01-25 18:24 - INFO - Data encoded
+2025-01-25 18:26 - INFO - Starting to build model
+2025-01-25 18:26 - INFO - Data encoded
+2025-01-25 18:26 - INFO - Data imputed
+2025-01-25 18:26 - INFO - Starting Grid Search
+2025-01-25 18:26 - INFO - Grid Search Complete
+2025-01-25 18:26 - INFO - Best params: {'learning_rate': 0.1, 'n_estimators': 205}
+2025-01-25 18:26 - INFO - Model Trained
+2025-01-25 18:26 - INFO - Model built
+2025-01-25 18:26 - INFO - MAE: 18.723605001634482, Average: 70.61660079051383
+2025-01-25 18:26 - INFO - Visualising Results
+2025-01-25 18:26 - INFO - Starting predictions
+2025-01-25 18:26 - INFO - Data encoded
+2025-01-25 18:26 - INFO - Data imputed
+2025-01-25 18:26 - INFO - Making prediction
+2025-01-25 18:26 - INFO - Prediction finished
+2025-01-25 18:26 - INFO - JULIAN ALVAREZ removed
+2025-01-25 18:26 - INFO - Position and RK encoded
+2025-01-25 18:26 - INFO - Constraint columns added
+2025-01-25 18:26 - INFO - Optimisation problem created
+2025-01-25 18:26 - INFO - Problem solved
+2025-01-25 18:26 - INFO - Squad created
+2025-01-25 18:26 - INFO - Data encoded
+2025-01-25 18:26 - INFO - Data imputed
