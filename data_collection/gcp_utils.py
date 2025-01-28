@@ -18,9 +18,9 @@ def upload_dataframe_to_bigquery(
     else:
         if_exists = "append"
     table_ref = f"{project_id}.{dataset_id}.{table_id}"
-    print(table_ref)
     df.to_gbq(
         destination_table=table_ref,
         project_id=project_id,
         if_exists=if_exists,
+        location="EU",
     )
