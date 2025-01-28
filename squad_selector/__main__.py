@@ -44,7 +44,7 @@ if __name__ == "__main__":
     squad = optimiser.get_squad()
     squad.to_csv("SQUAD.csv")
     feature_names = [
-        "AGE",
+            "AGE",
             "TEAM_RANK",
             "POSITION_GK",
             "POSITION_DF",
