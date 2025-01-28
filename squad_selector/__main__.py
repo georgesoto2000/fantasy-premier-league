@@ -35,6 +35,7 @@ if __name__ == "__main__":
     model_importances = predictor.model.feature_importances_
     optimiser = Optimiser(prediction)
     optimiser.remove_player("julian alvarez")
+    optimiser.remove_player("conor gallagher")
     optimiser.season_data.reset_index(inplace=True)
     optimiser.encode_data()
     optimiser.add_constraint_cols()
